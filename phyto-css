@@ -1,14 +1,25 @@
 /* ==== INHALTSVERZEICHNIS ====
  * Mobile Anpassungen
- * 	§max-width:799
- * 	§max-height:800
- * 	§max-height: 576
+ * 	max-width:799px
+ *	min-height:768px
+ *	min-height:800px
+ *	min-height:900px
+ *	min-height:1050px
+ *	min-height:1080px
+ *	max-height: 576px
+ * 	max-height:800px
+ * 	
  * Farbschemata
  * Produktübersicht auf der Startseite mit den (+) und dem Hover-Effekt
  * Themenraster auf den Produktseiten, über das man die Themenwelten aufrufen kann
  * 
 TBC
 ============================= */
+
+
+
+
+/* Vertikale Zentrierung funktioniert nicht, Padding abhängig von der Höhe des Bildschirms */
 @media screen and (min-height:768px){
 	.paddingausgleich{
 		padding-top:8vh;
@@ -44,6 +55,31 @@ TBC
 		box-sizing:border-box;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
