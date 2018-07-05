@@ -1,0 +1,65 @@
+/* Logo Desktop */
+
+/* ===== Acurmin ===== */
+.page-id-3261 #logo{
+   content:url("/wp-content/uploads/logo-acurmin-Bio-curcuma-phytholistic-mit-text.png");
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 #logo{
+   content:url("/wp-content/uploads/logo-gingerin-ingwer-phytholistic-mit-text.png");
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 #logo{
+   content:url("/wp-content/uploads/logo-vitamin-b-bio-guave-zitronenschale-basilikum-phytholistic-mit-text.png");
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 #logo{
+   content:url("/wp-content/uploads/logo-folsaeure-zitronenschale-phytholistic.png");
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 #logo{
+   content:url("/wp-content/uploads/logo-phytholistic-amla-beere-vitamin-c-mit-text.png");
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 #logo{
+   content:url("/wp-content/uploads/logo-vitamin-d3-flechte-phytholistic-mit-text.png");
+}
+  
+/* Logo Mobil */
+@media screen and (max-width:980px){
+
+/* ===== Acurmin ===== */
+  .page-id-3261 #logo{
+    content:url("/wp-content/uploads/logo-acurmin-Bio-curcuma-phytholistic.png");
+	}
+  
+  /* ===== Gingerin ===== */
+  .page-id-4013 #logo{
+    content:url("/wp-content/uploads/logo-gingerin-ingwer-phytholistic.png");
+	}
+  
+  /* ===== Vitamin B ===== */
+.page-id-3593 #logo{
+    content:url("/wp-content/uploads/logo-vitamin-b-bio-guave-zitronenschale-basilikum-phytholistic.png");
+	}
+  
+/* ===== Folsäure ===== */
+  .page-id-3637 #logo{
+    content:url("/wp-content/uploads/logo-folsaeure-zitronenschale-phytholistic.png");
+	}
+  
+  /* ===== Vitamin C ===== */
+  .page-id-68 #logo{
+    content:url("/wp-content/uploads/logo-phytholistic-amla-beere-vitamin-c.png");
+	}
+  
+   /* ===== Vitamin D3 ===== */
+  .page-id-3788 #logo{
+    content:url("/wp-content/uploads/logo-vitamin-d3-flechte-phytholistic.png");
+	}
+}
