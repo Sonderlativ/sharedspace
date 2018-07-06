@@ -1,0 +1,75 @@
+/* Ordered List, Colored Numbers */
+/* Bezieht sich auf die Liste im SEO-Bereich der Produktseite */
+.vitc_ol ol, .vitd3_ol ol, .vitb_ol ol, .calc_ol ol, .jod_ol ol, .mag_ol ol,.zin_ol ol,.sel_ol ol,.fol_ol ol,.gin_ol ol,.acu_ol ol, .eis_ol ol {
+	list-style-type: none !important;
+	counter-reset: li;}
+
+	.vitc_ol li, .vitd3_ol li, .vitb_ol li, .calc_ol li, .jod_ol li,.mag_ol li,.zin_ol li,.sel_ol li,.fol_ol li,.gin_ol li,.acu_ol li, .eis_ol li {
+		counter-increment: li;
+	}
+
+.vitc_ol li::before, .vitd3_ol li::before, .vitb_ol li::before, .calc_ol li::before,.jod_ol li::before,.mag_ol li::before,.zin_ol li::before,.sel_ol li::before,.fol_ol li::before,.gin_ol li::before,.acu_ol li::before, .eis_ol li::before {
+	content: counter(li);
+	color: white !important;
+	font-weight:bold;
+	border-radius:50% !important;
+  display:block;
+	height:40px;
+	width:40px!important;
+	line-height:40px;
+	text-align:center;
+	margin-left:-3em !important;
+	position:relative;
+	top:1.4em;
+	font-size:20px;
+}
+
+.vitc_ol li::before{
+		background:#c3d600;
+	}
+
+.vitd3_ol li::before{
+		background:#a3d55f;
+	}
+
+.vitb_ol li::before{
+		background:#ff828a;
+}
+
+.calc_ol li::before{
+		background:#d1555a;
+}
+
+.jod_ol li::before{
+		background:#19988b;
+}
+
+.mag_ol li::before{
+		background:#4a8b2c;
+}
+
+.zin_ol li::before{
+		background:#f29492;
+}
+
+.sel_ol li::before{
+		background:#f6b436;
+}
+
+.fol_ol li::before{
+		background:#ffd200;
+}
+
+.gin_ol li::before{
+		background:#bd965c;
+}
+
+.acu_ol li::before{
+		background:#f28b00;
+}
+
+.eis_ol li::before{
+		background:#72a951;
+}
+
+/* ==== OL: Colored Numbers Ende ==== */
