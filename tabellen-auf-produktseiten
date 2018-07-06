@@ -1,0 +1,87 @@
+/* Produktinfos Tabelle */
+/* Bezieht sich auf die Tabelle im SEO-Bereich der Produktseite, muss im Zuge des Aufbaus weiterer Produktseiten hinsichtlich weiterer Farben auf jeden Fall überarbeitet werden */
+.prtab{
+	margin:20px 0px !important;
+}
+.prtab_zelle{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:50%
+}
+
+.prtab_zelle_25{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:25%
+}
+
+.prtab_zelle_33{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:33.3%
+}
+
+.prtab_dark{
+	color:white;
+}
+
+.vitc_prtab_light{
+color:#c3d600;
+background:#f4f6da;
+}
+.vitd3_prtab_light{
+color:#a3d55f;
+background:#d4e3a7;
+	background:#ecf7c3 !important;
+}
+.vitb_prtab_light{
+color:#ff828a;
+background:#f2a79e;
+}
+.calc_prtab_light{
+color: #d1555a;
+background:#ef9c9d;
+}
+.jod_prtab_light{
+color:#19988b;
+background:#98c0a1;
+background:#c3e5c6 !important;
+}
+.mag_prtab_light{
+color:#4a8b2c;
+background:#a3c15b;
+background:#d0e590 !important;
+}
+.zin_prtab_light{
+color:#f29492;
+background:#f8bcb6;
+}
+.sel_prtab_light{
+color:#f6b436;
+background:#fbcf22;
+background:#f9e69f !important;
+}
+.fol_prtab_light{
+color:#fff;
+background:#fff1ad;
+	/* Kein Farbcode aus Styleguide */
+}
+.gin_prtab_light{
+color:#bd965c;
+background:#ecd172;
+}
+.acu_prtab_light{
+color:#f28b00;
+background:#f9b111;
+}
+.eis_prtab_light{
+color:#72a951;
+background:#b2c757;
+}
+/* ==== Produktinfos Tab. Ende ==== */
