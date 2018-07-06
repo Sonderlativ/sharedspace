@@ -1,0 +1,150 @@
+/* ===== Start Overview ===== */
+#completes-overview{
+	height:16em;
+}
+
+#start-overview{
+	max-height:15vh !important;
+	min-height:15vh
+}
+
+#completes-overview h3#overview{
+	position:relative;
+	top:12em;
+}
+
+h3#overview,h3#overview_mirrored{
+	color:#333 !important;
+	font-weight:bold !important;
+	letter-spacing:1px !important;
+}
+h3#overview:before,h3#overview_mirrored:after{
+	content:'+';
+	background:#b5c405;
+	border-radius:50% !important;
+	margin:0.3em;
+	color:white;
+	font-size:36px;
+	line-height:36px;
+	width:36px;
+	height:36px;
+	font-weight:lighter;
+	text-align:center;
+	box-sizing:border-box;
+	display:inline-block;
+}
+
+.hov_jod h3{
+	position:relative;
+	right:-5em;
+}
+.hov_calc h3{
+	position:relative;
+	left:-5em;
+}
+.hov_eis h3{
+	position:relative;
+	right:-6em;
+	top:5em;
+}
+.hov_fol h3{
+	position:relative;
+	right:-8em;
+	top:3em;
+}
+.hov_zin h3{
+	position:relative;
+	left:-2em;
+	top:3em;
+}
+.hov_vitd3 h3{
+	position:relative;
+	left:-4em;
+	top:3em;
+}
+.hov_sel h3{
+	position:relative;
+	left:-4em;
+	top:3em;
+}
+.over_vis{
+	position:relative;
+}
+.over_hid{
+	position:absolute;
+	background:white;
+	text-align:center;
+	box-shadow:0px 0px 10px #b4b4b4;
+	max-width:17em !important;
+	box-sizing:border-box;
+	padding:2em;
+}
+.hov_gin_child,.hov_acu_child,.hov_eis_child,.hov_fol_child,.hov_jod_child,.hov_zin_child,.hov_vitb_child,.hov_mag_child,.hov_sel_child,.hov_vitd3_child,.hov_vitc_child,.hov_calc_child{
+	display:none;	
+	z-index:10;
+}
+.hov_gin:hover .hov_gin_child,.hov_acu:hover .hov_acu_child,.hov_eis:hover .hov_eis_child,.hov_fol:hover .hov_fol_child,.hov_jod:hover .hov_jod_child,.hov_zin:hover .hov_zin_child,.hov_vitb:hover .hov_vitb_child,.hov_mag:hover .hov_mag_child,.hov_sel:hover .hov_sel_child,.hov_vitd3:hover .hov_vitd3_child,.hov_vitc:hover .hov_vitc_child,.hov_calc:hover .hov_calc_child{
+	display:block;
+}
+.hov_gin_child{
+	top:-5em;
+	right:-5em;
+}
+.hov_acu_child{
+	top:-5em;
+	left:-5em;
+}
+.hov_eis_child{
+	top:-5em;
+	right:-5em;
+}
+.hov_fol_child{
+	top:-5em;
+}
+.hov_jod_child{
+	top:-5em;
+}
+.hov_zin_child{
+	top:-7em;
+	right:-3em;
+}
+.hov_vitb_child{
+	top:-7em;
+}
+.hov_mag_child{
+	top:-8em;
+}
+.hov_sel_child{
+	top:-5em;
+	left:-5em;
+}
+.hov_vitd3_child{
+	top:-5em;
+}
+.hov_vitc_child{
+	top:-5em;
+}
+.hov_calc_child{
+	top:-10em;
+	left:-8em;
+}
+/* ===== Overview Ende ===== */
+
+/* ===== Start Overview ===== */
+/* Mobile Anpassung der Produktdarstellung auf der Startseite mit den (+) und dem Hover-Effekt */
+	#start-overview{
+	max-height:15vh !important;
+}
+	
+#completes-overview h3#overview{
+	top:5em !important;
+}
+	
+.hov_calc h3,.hov_jod h3,.hov_eis h3,.hov_fol h3,.hov_zin h3,.hov_vitd3 h3,.hov_sel h3{
+	left:0em !important;
+	right:0em !important;
+	top:0em !important;
+}
+
+
+/* ===== Overview Ende ===== */
