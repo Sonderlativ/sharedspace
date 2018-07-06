@@ -196,13 +196,7 @@ p{
 
 
 
-/* ===== Themenwelten ===== */
-#colored-border{
-	border-width: 15px;
-	border-image: linear-gradient(to right, #ede54c 50%, #6a8a2c 50%, #6a8a2c 75%, #92ab2f 75%) 5;
-}
 
-/* ===== Themenwelten ENDE ===== */
 
 #grafik_vitc_natur{
 	width:50%;
@@ -238,33 +232,6 @@ p{
 	padding:16px;
 	box-sizing:border-box;
 }
-
-
-/* Call 2 Action Buttons */
-.half{
-	width:50%;
-	float:left;
-	margin-bottom:4px;
-}
-
-.cta{
-	text-transform:uppercase;
-	color:white;
-	text-shadow:none;
-	font-weight:bold;
-	box-sizing:border-box;
-	margin:4px !important;
-	padding:10px;	
-	text-align:center;
-	cursor:pointer;
-}
-/* ==== C2A-Buttons Ende ==== */
-
-
-
-
-
-
 
 
 /* Center Content Vertically */
@@ -326,79 +293,7 @@ content:url("/wp-content/uploads/logo-folsaeure-zitronenschale-phytholistic.png"
 	box-sizing:border-box;
 }
 
-h1, .et_pb_slide_content h1{
-	font-family: 'Source Sans Pro';
-	font-size:45px !important;
-	text-shadow:none;
-	color:#333 !important;
-	margin:15px 0px;
-	font-weight:390;
-}
 
-h2, .et_pb_slide_content h2{
-	font-family: 'Source Sans Pro';
-	font-size:38px !important;
-	text-shadow:none;
-	color: #333 !important;
-	margin:15px 0px;
-	line-height:1.4em;
-	font-weight:390;
-}
-
-h3, .et_pb_slide_content h3{
-	font-family: 'Montserrat Semibold', sans-serif;
-	font-size:14px !important;
-	letter-spacing: 3px;
-	text-transform:uppercase;
-	text-shadow:none;
-}
-
-p, .et_pb_slide_content p{
-	text-shadow:none !important;
-}
-
-.bullets{
-	list-style-type: none !important; 
-	counter-reset: li;
-}
-
-.bullets li {
-	font-family: 'Source Sans Pro';
-	font-size:15px;
-	font-weight:600 !important;
-	text-shadow:none !important;
-	list-style:none !important;
-	line-height:1.7em;
-	margin:2em !important;
-}
-
-.bullets li::before{
-	content: counter(li);
-	content:''; 
-	display:block; 
-	height:1.7em !important; 
-	width:1.7em !important; 
-	background-size:contain; 
-	background-repeat:no-repeat;
-	position:relative;
-	float:left;
-	margin:-16px;
-	left:-0.8em;
-	top:1.2em;
-}
-
-button {
-	color:white;
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:12px;
-	border:none;
-	padding:15px;
-	min-width:60%;
-	max-width:90%;
-	box-sizing:border-box;
-	cursor:pointer;
-}
 
 ul.et_pb_side_nav.et-visible{
 	display:none;
@@ -595,19 +490,7 @@ ul.bullets li{
 }
 /* START: Anpassungen von Tim */
 
-/* Kreis mit gepunkteten Linien */
-#kreis {
-	width: 2em !important;
-  height: 2em !important;
-	line-height:2em !important;
-	font-size:56px !important;
-	font-weight:bold;
-	font-style:italic;
-  border-radius: 50%;
-	border: 2px dotted #b3b3b3 !important;
-	box-sizing:border-box;
-	text-align:center !important;
-}
+
 
 /* Ein Blattförmiges Symbol für Aufzählungen */
 .leaf { 
@@ -629,152 +512,11 @@ ul.bullets li{
 }
 
 
-/* START Anpassungen für das Formular */
-input.text, input.title, input[type=text], input[type=tel], input[type=email], select, textarea {
-  margin: 0;
-  padding: 10px;
-	width: 100%;
-}
 
-input.text:hover, input.title:hover, input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, select:hover, textarea:hover {
-  border-color: #92AB2F;
-}
 
-input[type=checkbox] {
-	-webkit-appearance: none;
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	padding: 9px;
-	border-radius: 3px;
-	display: inline-block;
-	position: relative;
-	/* float: left; */
-	left: -10px;
-	top: 10px;
-}
-
-.wpcf7-submit {
-	float: right;
-}
-
-/* ENDE Anpassungen für das Formular */
-
-/* START Slide-Out Menü */
-.sidenav {
-/*    height: 495px;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #F4F3F3;
-    overflow-x: hidden;
-    transition: 0.8s;
-    overflow: hidden;
-     padding-top: 60px; */
-    /* margin-top: 10px; */
-	
-	  height: 495px;
-    width: 0;
-    position: fixed;
-    z-index: 9;
-    top: 0;
-    margin-left: 225px;
-    background-color: #F4F3F3;
-    overflow-x: hidden;
-    transition: 0.8s;
-    overflow: hidden;
-	
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 22px;
-    color: #818181;
-    display: block;
-    transition: 0.2s;
-}
-
-.sidenav a:hover {
-    color: #92AB2F;
-    display: box;
-    /* padding: 8px 8px 8px 64px; */
-    /* outline-style: solid; */
-    border-style: solid !important;
-		border-color: #92AB2F	!important;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-/* ENDE Slide-Out Menü */
 
 /* ENDE: Anpassungen von Tim */
 
-/* Icons von Tim */
-/* Icons unter Packshot darstellen */
-.icon-zeile {
-	/*text-align: center !important;
-	margin: 0 auto !important;
-	position: relative !important;
-    display: table !important;*/
-	display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-	margin:0 auto !important;
-}
-@media screen and (max-width:981px){
-	.icon-zeile {
-		width:100%;
-	}
-}
-@media screen and (max-width:500px){
-	.icon-zeile-padding{padding-top:60px !important;}
-}
-.icon-zeile img {
-	max-width: 60px !important;
-	max-height: 60px !important;
-	height: auto;
-	display: flex;
-}
-@media screen and (max-width:1025px){
-	.icon-zeile img {
-		max-width: 60px !important;
-	max-height: 60px !important;
-	}
-}
-/* Icons unter dem 1. Packshot auf den Produktseiten Rechtsbündig machen */
-#packshot-icons {
-	margin: unset !important;
-	float: right !important;
-}
-/* Einige Icons sind im Layout kleiner als andere */
-.icon-small img {
-	max-width: 66px;
-}
-.icon-withtext img {
-    margin-left: 1em;
-    margin-right: 1em;
-}
-/* Wie .item, aber für Elemente in Icon-Zeile & ohne responsiveness */
-.icon-withtext {
-	text-align: center;
-	/* display: block; */
-	background-color: transparent;
-	border: 0.19em solid transparent;
-	float: left;
-}
-/* Textbreite beschränken um Textumbrüche wie in Layout-Entwurf zu erhalten
-	Zusätzlich Anpassung an Abständen und Schriftart */
-.icon-withtext p {
-	max-width: 7em;
-    padding-bottom: 0.5em;
-    font-weight: 600;
-    line-height: 17px;
-}
 
 @media screen and (max-width:500px){
 	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
