@@ -1,0 +1,13 @@
+/* Kreis mit gepunkteten Linien */
+#kreis {
+	width: 2em !important;
+  height: 2em !important;
+	line-height:2em !important;
+	font-size:56px !important;
+	font-weight:bold;
+	font-style:italic;
+  border-radius: 50%;
+	border: 2px dotted #b3b3b3 !important;
+	box-sizing:border-box;
+	text-align:center !important;
+}
