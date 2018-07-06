@@ -40,6 +40,12 @@
 .eis_h3{
 	color: #73aa50 !important;
 }
+.omega_h3 { 
+	color: #0081B8 !important;
+}
+.pearlz_h3 {
+	color: #4CC0DF !important;
+}
 
 /* Hintergründe */
 .vitc_bg{
@@ -77,6 +83,12 @@
 }
 .eis_bg{
 	background: #73aa50 !important;
+}
+.omega_bg {
+	background: #0081B8 !important;
+}
+.pearlz_bg {
+	background: #4CC0DF !important;
 }
 
 /* Bullet-Grafiken */
