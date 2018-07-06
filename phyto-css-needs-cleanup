@@ -54,19 +54,8 @@
 }
 
 
-/* Auf einigen Zeilen will ich keine Abstände haben, daher als fix: .no-row-padding */
-.no-row-padding.et_pb_row {
-    padding: 0.1em !important;
-}
 
 
-button a{
-	color:white !important;
-}
-
-p{
-	line-height:1.7em;
-}
 .img-resize-80 img{
 	height:80px !important;
 	width:auto;
