@@ -29,3 +29,11 @@ p, .et_pb_slide_content p{
 	text-shadow:none !important;
 	line-height:1.7em;
 }
+
+/* ====== RESPONSITIVITY ====== */
+
+@media screen and (max-width:1024px){
+	.et_pb_text_inner{
+		margin-bottom:1.7em;
+	}
+}
