@@ -1,0 +1,4 @@
+/* Auf einigen Zeilen will ich keine Abstände haben, daher als fix: .no-row-padding */
+.no-row-padding.et_pb_row {
+    padding: 0.1em !important;
+}
