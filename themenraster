@@ -1,0 +1,76 @@
+/* Themenraster */
+.weitere-themen{
+	width:100% !important;
+}
+
+.thema{
+	box-sizing:border-box;
+	width:100%;
+	padding:1.5em;
+	height:5em;
+	transition:height 3s ease-in-out;
+}
+
+.thema p{
+	font-weight:normal;
+	text-transform:none;
+}
+
+.thema button{
+	background:white;
+	cursor:pointer;
+}
+
+.thema-kachel{
+	transition-duration:1s !important;
+	max-height:24.6em;
+	min-height:24.6em;
+	overflow:hidden;
+	padding-top:20em;
+}
+.thema-kachel:hover, .thema-kachel:active{
+	padding-top:0em !important;
+}
+
+.thema-kachel:hover .thema, .thema-kachel:active .thema{
+	height:24.6em !important;
+	transition: height 0.5s ease-in-out;
+}
+/* ==== Themenraster Ende ==== */
+
+@media screen and (max-width:799px){
+/* Themenraster */
+/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
+.thema{
+	height:5.2em !important;
+	}
+
+.thema-kachel{
+	padding-top:19.8em !important;
+	width:50%;
+	float:left;
+}
+}
+/* ==== Themenraster Ende ==== */
+
+@media screen and (max-width:500px){
+/* Themenraster */
+	/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
+.thema{
+	height:5.2em !important;
+}
+
+.thema-kachel{
+	transition-duration:1s !important;
+	max-height:20em !important;
+	min-height:20em !important;
+	overflow:hidden;
+	padding-top:15.2em !important;
+	width:100%;
+}
+
+.thema-kachel:hover .thema, .thema-kachel:active .thema{
+	height:20em !important;
+}
+}
+/* ==== Themenraster Ende ==== */
