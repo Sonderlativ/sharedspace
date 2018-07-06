@@ -35,6 +35,13 @@
 	overflow:hidden;
 	padding-top:20em;
 }
+
+.thema-kachel-6{
+	max-height:24.6em;
+	min-height:24.6em;
+	overflow:hidden;
+}
+
 .thema-kachel:hover, .thema-kachel:active{
 	padding-top:0em !important;
 }
