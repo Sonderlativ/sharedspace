@@ -139,38 +139,7 @@ p{
 .et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
     height: auto !important;
 }
-		/* Themenraster */
-/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
-.thema{
-	height:5.2em !important;
-	}
-
-.thema-kachel{
-	padding-top:19.8em !important;
-	width:50%;
-	float:left;
-}
-
-/* ==== Themenraster Ende ==== */
-
-/* ===== Start Overview ===== */
-/* Mobile Anpassung der Produktdarstellung auf der Startseite mit den (+) und dem Hover-Effekt */
-	#start-overview{
-	max-height:15vh !important;
-}
-	
-#completes-overview h3#overview{
-	top:5em !important;
-}
-	
-.hov_calc h3,.hov_jod h3,.hov_eis h3,.hov_fol h3,.hov_zin h3,.hov_vitd3 h3,.hov_sel h3{
-	left:0em !important;
-	right:0em !important;
-	top:0em !important;
-}
-
-
-/* ===== Overview Ende ===== */
+		
 
 	/* Auf dem Tablet ist eine bestimmte Grafik zu groß, hier wird sie in ihrer Größe eingeschränkt, damit sie den Rahmen nicht sprengt */
 	#grafik_vitc_natur{
@@ -179,25 +148,7 @@ p{
 }
 
 @media screen and (max-width:500px){
-		/* Themenraster */
-	/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
-.thema{
-	height:5.2em !important;
-}
-
-.thema-kachel{
-	transition-duration:1s !important;
-	max-height:20em !important;
-	min-height:20em !important;
-	overflow:hidden;
-	padding-top:15.2em !important;
-	width:100%;
-}
-
-.thema-kachel:hover .thema, .thema-kachel:active .thema{
-	height:20em !important;
-}
-/* ==== Themenraster Ende ==== */
+		
 	.half-div{
 	width:100% !important;
 	padding:0 !important;
@@ -208,10 +159,7 @@ p{
 		margin-bottom:40px;
 	}
 	
-	/* Auf mobilen Endgeräten mit zu kleinem Bildschirm wird die Ankerleiste nicht angezeigt, stattdessen wird die TOC angezeigt */
-	.ankerleiste{
-		display:none;
-	}
+	
 
 }
 
@@ -244,137 +192,7 @@ p{
 
 
 
-/* ===== Start Overview ===== */
-#completes-overview{
-	height:16em;
-}
 
-#start-overview{
-	max-height:15vh !important;
-	min-height:15vh
-}
-
-#completes-overview h3#overview{
-	position:relative;
-	top:12em;
-}
-
-h3#overview,h3#overview_mirrored{
-	color:#333 !important;
-	font-weight:bold !important;
-	letter-spacing:1px !important;
-}
-h3#overview:before,h3#overview_mirrored:after{
-	content:'+';
-	background:#b5c405;
-	border-radius:50% !important;
-	margin:0.3em;
-	color:white;
-	font-size:36px;
-	line-height:36px;
-	width:36px;
-	height:36px;
-	font-weight:lighter;
-	text-align:center;
-	box-sizing:border-box;
-	display:inline-block;
-}
-
-.hov_jod h3{
-	position:relative;
-	right:-5em;
-}
-.hov_calc h3{
-	position:relative;
-	left:-5em;
-}
-.hov_eis h3{
-	position:relative;
-	right:-6em;
-	top:5em;
-}
-.hov_fol h3{
-	position:relative;
-	right:-8em;
-	top:3em;
-}
-.hov_zin h3{
-	position:relative;
-	left:-2em;
-	top:3em;
-}
-.hov_vitd3 h3{
-	position:relative;
-	left:-4em;
-	top:3em;
-}
-.hov_sel h3{
-	position:relative;
-	left:-4em;
-	top:3em;
-}
-.over_vis{
-	position:relative;
-}
-.over_hid{
-	position:absolute;
-	background:white;
-	text-align:center;
-	box-shadow:0px 0px 10px #b4b4b4;
-	max-width:17em !important;
-	box-sizing:border-box;
-	padding:2em;
-}
-.hov_gin_child,.hov_acu_child,.hov_eis_child,.hov_fol_child,.hov_jod_child,.hov_zin_child,.hov_vitb_child,.hov_mag_child,.hov_sel_child,.hov_vitd3_child,.hov_vitc_child,.hov_calc_child{
-	display:none;	
-	z-index:10;
-}
-.hov_gin:hover .hov_gin_child,.hov_acu:hover .hov_acu_child,.hov_eis:hover .hov_eis_child,.hov_fol:hover .hov_fol_child,.hov_jod:hover .hov_jod_child,.hov_zin:hover .hov_zin_child,.hov_vitb:hover .hov_vitb_child,.hov_mag:hover .hov_mag_child,.hov_sel:hover .hov_sel_child,.hov_vitd3:hover .hov_vitd3_child,.hov_vitc:hover .hov_vitc_child,.hov_calc:hover .hov_calc_child{
-	display:block;
-}
-.hov_gin_child{
-	top:-5em;
-	right:-5em;
-}
-.hov_acu_child{
-	top:-5em;
-	left:-5em;
-}
-.hov_eis_child{
-	top:-5em;
-	right:-5em;
-}
-.hov_fol_child{
-	top:-5em;
-}
-.hov_jod_child{
-	top:-5em;
-}
-.hov_zin_child{
-	top:-7em;
-	right:-3em;
-}
-.hov_vitb_child{
-	top:-7em;
-}
-.hov_mag_child{
-	top:-8em;
-}
-.hov_sel_child{
-	top:-5em;
-	left:-5em;
-}
-.hov_vitd3_child{
-	top:-5em;
-}
-.hov_vitc_child{
-	top:-5em;
-}
-.hov_calc_child{
-	top:-10em;
-	left:-8em;
-}
-/* ===== Overview Ende ===== */
 
 
 
@@ -442,52 +260,7 @@ h3#overview:before,h3#overview_mirrored:after{
 }
 /* ==== C2A-Buttons Ende ==== */
 
-/* Ankerleiste */
-/* Gemeint ist damit die Linkleiste unter der mitscrollenden Box auf den Produktseiten*/
-.ankerleiste{
-	position:fixed;
-	right:0px;
-	margin-top:4em;
-	box-sizing:border-box;
-	padding:1em;
-	text-align:justify;
-	color:white;
-overflow:hidden !important;
-	white-space: nowrap;
-	width:1em;
-	transition:width 0.5s ease-in-out;
-}
 
-/*.ankerleiste ul{
-list-style: none;
-}
-
-.ankerleiste ul li:before{
-content:	"• ";
-	color:white;
-      margin-right: 5px;
-      font-size: 20px;
-      font-weight: bold;
-}*/
-
-.ankerleiste a{
-	color:white;
-	cursor:pointer;
-}
-
-.ankerleiste a:hover{
-	font-weight:600;
-}
-
-/* Die Ankerleiste ist im Standard am rechten Bildschirmrand als schmaler Streifen zu sehen, fährt man mit der Maus darüber, soll sie ausfahren und die Links werden klickbar für den Nutzer */
-.ankerleiste:hover{
-	transition:width 0.5s ease-in-out;
-	width:21.25%;
-}
-
-
-
-/* ==== Ankerleiste Ende ==== */
 
 /* Ordered List, Colored Numbers */
 /* Bezieht sich auf die Liste im SEO-Bereich der Produktseite */
@@ -653,45 +426,6 @@ background:#b2c757;
 }
 /* ==== Produktinfos Tab. Ende ==== */
 
-/* Themenraster */
-.weitere-themen{
-	width:100% !important;
-}
-
-.thema{
-	box-sizing:border-box;
-	width:100%;
-	padding:1.5em;
-	height:5em;
-	transition:height 3s ease-in-out;
-}
-
-.thema p{
-	font-weight:normal;
-	text-transform:none;
-}
-
-.thema button{
-	background:white;
-	cursor:pointer;
-}
-
-.thema-kachel{
-	transition-duration:1s !important;
-	max-height:24.6em;
-	min-height:24.6em;
-	overflow:hidden;
-	padding-top:20em;
-}
-.thema-kachel:hover, .thema-kachel:active{
-	padding-top:0em !important;
-}
-
-.thema-kachel:hover .thema, .thema-kachel:active .thema{
-	height:24.6em !important;
-	transition: height 0.5s ease-in-out;
-}
-/* ==== Themenraster Ende ==== */
 
 /* Center Content Vertically */
 .ds-vertical-align { 
