@@ -1,0 +1,50 @@
+/* Ankerleiste */
+/* Gemeint ist damit die Linkleiste unter der mitscrollenden Box auf den Produktseiten*/
+.ankerleiste{
+	position:fixed;
+	right:0px;
+	margin-top:4em;
+	box-sizing:border-box;
+	padding:1em;
+	text-align:justify;
+	color:white;
+overflow:hidden !important;
+	white-space: nowrap;
+	width:1em;
+	transition:width 0.5s ease-in-out;
+}
+
+/*.ankerleiste ul{
+list-style: none;
+}
+
+.ankerleiste ul li:before{
+content:	"• ";
+	color:white;
+      margin-right: 5px;
+      font-size: 20px;
+      font-weight: bold;
+}*/
+
+.ankerleiste a{
+	color:white;
+	cursor:pointer;
+}
+
+.ankerleiste a:hover{
+	font-weight:600;
+}
+
+/* Die Ankerleiste ist im Standard am rechten Bildschirmrand als schmaler Streifen zu sehen, fährt man mit der Maus darüber, soll sie ausfahren und die Links werden klickbar für den Nutzer */
+.ankerleiste:hover{
+	transition:width 0.5s ease-in-out;
+	width:21.25%;
+}
+/* ==== Ankerleiste Ende ==== */
+
+@media screen and (max-width:500px){
+/* Auf mobilen Endgeräten mit zu kleinem Bildschirm wird die Ankerleiste nicht angezeigt, stattdessen wird die TOC angezeigt */
+	.ankerleiste{
+		display:none;
+	}
+  }
