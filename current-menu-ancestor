@@ -1,0 +1,4 @@
+/* Obwohl diese Farbe nirgends definiert und hinterlegt ist, wirklich NIRGENDS(!) färbt Divi Menü-Links blau. Fick dich, Divi. */
+#top-menu li.current-menu-ancestor>a{
+	color:rgba(0,0,0,0.6);
+}
