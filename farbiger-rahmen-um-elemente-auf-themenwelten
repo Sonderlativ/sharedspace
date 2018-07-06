@@ -1,0 +1,7 @@
+/* ===== Themenwelten ===== */
+#colored-border{
+	border-width: 15px;
+	border-image: linear-gradient(to right, #ede54c 50%, #6a8a2c 50%, #6a8a2c 75%, #92ab2f 75%) 5;
+}
+
+/* ===== Themenwelten ENDE ===== */
