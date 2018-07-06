@@ -1,0 +1,4 @@
+/* Teilweise gibt es in Texten Quellenverweise, über diese Klasse erhalten sie die selben Eigenschaften wie die Quellenangaben am Ende der Seite */
+.quellenangabe{
+	font-size:12px;
+}
