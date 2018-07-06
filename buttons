@@ -11,6 +11,10 @@ button {
 	cursor:pointer;
 }
 
+button a{
+	color:white !important;
+}
+
 /* Call 2 Action Buttons */
 .half{
 	width:50%;
