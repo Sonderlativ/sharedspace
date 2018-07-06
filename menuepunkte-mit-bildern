@@ -15,7 +15,7 @@
 
 /* Die Links der Menüpunkte sollen zentriert sein */
 
-.menu-item-3914 a, .menu-item-3902 a, .menu-item-3915 a, .menu-item-3916 a, .menu-item-3900 a, .menu-item-3899 a, .menu-item-3905 a, .menu-item-3907 a, .menu-item-3909 a, .menu-item-3898 a, .menu-item-4015 a{
+.menu-item-3914 a, .menu-item-3902 a, .menu-item-3915 a, .menu-item-3916 a, .menu-item-3900 a, .menu-item-3899 a, .menu-item-3905 a, .menu-item-3907 a, .menu-item-3909 a, .menu-item-3898 a, .menu-item-4015 a, .menu-item-4018 a{
 	text-align:center;
 }
 
@@ -45,13 +45,24 @@
 }
 }
 
-/* Vitamin B */
-.menu-item-3914 a::before{	content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+/* Acurmin */
+.menu-item-3898 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
 }
 
+/* Gingerin */
+.menu-item-4015 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Vitamin B */
+.menu-item-3914 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
 
 /* Folsäure */
-.menu-item-3902 a::before{	content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+.menu-item-3902 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
 }
 
 /* Vitamin C */
@@ -86,6 +97,11 @@ content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png
 
 /* Selen */
 .menu-item-3909 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Zink */
+.menu-item-4018 a::before{
 content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
 }
 	
