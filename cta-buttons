@@ -1,0 +1,19 @@
+/* Call 2 Action Buttons */
+.half{
+	width:50%;
+	float:left;
+	margin-bottom:4px;
+}
+
+.cta{
+	text-transform:uppercase;
+	color:white;
+	text-shadow:none;
+	font-weight:bold;
+	box-sizing:border-box;
+	margin:4px !important;
+	padding:10px;	
+	text-align:center;
+	cursor:pointer;
+}
+/* ==== C2A-Buttons Ende ==== */
