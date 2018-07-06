@@ -1,0 +1,96 @@
+@media screen and (min-width:981px){
+/* Menüpunkte mit Bildern */
+/* Menüpunkte sollen gekachelt werden, deshalb setze ich hier die Breite des Submenüs (urspr. 240px) hoch */
+.nav li ul{
+	width:460px;
+}
+/* Damit die Menüpunkte richtig nebeneinander gekachelt angezeigt werden, werden die ungeraden Links (der 1., der 3., der 5. etc.) nach links gefloatet, die geraden Links werden nach rechts gefloatet */
+.menu-item-3914, .menu-item-3915, .menu-item-3900, .menu-item-3905, .menu-item-3909, .menu-item-3898 {
+	float:left;
+}
+
+.menu-item-3902, .menu-item-3916, .menu-item-3899, .menu-item-3907, .menu-item-4018, .menu-item-4015 {
+	float:right;
+}
+
+/* Die Links der Menüpunkte sollen zentriert sein */
+
+.menu-item-3914 a, .menu-item-3902 a, .menu-item-3915 a, .menu-item-3916 a, .menu-item-3900 a, .menu-item-3899 a, .menu-item-3905 a, .menu-item-3907 a, .menu-item-3909 a, .menu-item-3898 a, .menu-item-4015 a{
+	text-align:center;
+}
+
+/* Auf Netbooks müssen manche Menüpunkte weiter nach oben rutschen */
+@media screen and (max-height:800px){
+	.menu-item-9 ul.sub-menu{
+	top:-2vh !important;
+}
+	.menu-item-10 ul.sub-menu{
+	top:-25vh !important;
+}
+	.menu-item-2246 ul.sub-menu{
+	top:-33vh !important;
+}
+}
+
+/* Auf größeren Monitoren müssen manche Menüpunkte weiter nach oben rutschen, aber anders als bei Netbooks */
+@media screen and (min-height:800px){
+	.menu-item-9 ul.sub-menu{
+	top:-2vh !important;
+}
+	.menu-item-10 ul.sub-menu{
+	top:-10vh !important;
+}
+	.menu-item-2246 ul.sub-menu{
+	top:-15vh !important;
+}
+}
+
+/* Vitamin B */
+.menu-item-3914 a::before{	content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+
+/* Folsäure */
+.menu-item-3902 a::before{	content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Vitamin C */
+.menu-item-3915 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Vitamin D */
+.menu-item-3916 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Eisen + C */
+.menu-item-3900 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Calcium */
+.menu-item-3899 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Jod */
+.menu-item-3905 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Magnesium */
+.menu-item-3907 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Selen */
+.menu-item-3909 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+	
+/* Die Menüpunkte für Themenwelten nehmen aktuell nicht die volle Breite der Submenue-Box ein. Das wird mit nachfolgendem Code geändert. */
+	.menu-item-3892 a, .menu-item-3893 a, .menu-item-3894 a {
+		width:100% !important;
+	}
+}
