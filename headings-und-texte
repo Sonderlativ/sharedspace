@@ -27,4 +27,5 @@ h3, .et_pb_slide_content h3{
 
 p, .et_pb_slide_content p{
 	text-shadow:none !important;
+	line-height:1.7em;
 }
