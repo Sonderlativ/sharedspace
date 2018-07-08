@@ -1,0 +1,61 @@
+/* ========== Logo Desktop  ========== */
+
+/* ===== Acurmin ===== */
+.page-id-3261 #logo{
+   content:url("/wp-content/uploads/logo-acurmin-Bio-curcuma-phytholistic-mit-text.png");
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 #logo{
+   content:url("/wp-content/uploads/logo-gingerin-ingwer-phytholistic-mit-text.png");
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 #logo{
+   content:url("/wp-content/uploads/logo-vitamin-b-bio-guave-zitronenschale-basilikum-phytholistic-mit-text.png");
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 #logo{
+   content:url("/wp-content/uploads/logo-folsaeure-zitronenschale-phytholistic-mit-text.png");
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 #logo{
+   content:url("/wp-content/uploads/logo-phytholistic-amla-beere-vitamin-c-mit-text.png");
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 #logo{
+   content:url("/wp-content/uploads/logo-vitamin-d3-flechte-phytholistic-mit-text.png");
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 #logo{
+   content:url("/wp-content/uploads/Logo-eisen-Bio-curryblatt-amlabeere-phytholistic-mit-text.png");
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 #logo{
+   content:url("/wp-content/uploads/logo-calcium-bio-rotalge-phytholistic-mit-text.png");
+}
+
+/* ===== Jod ===== */
+.page-id-3513 #logo{
+   content:url("/wp-content/uploads/logo-jod-bio-braunalgen-phytholistic-mit-text.png");
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 #logo{
+   content:url("/wp-content/uploads/logo-magnesium-bio-meerlattich-phytholistic-mit-text.png");
+}
+
+/* ===== Selen ===== */
+.page-id-3553 #logo{
+   content:url("/wp-content/uploads/logo-selen-bio-senfkoerner-phytholistic-mit-text.png");
+}
+
+/* ===== Zink ===== */
+.page-id-4016 #logo{
+   content:url("/wp-content/uploads/logo-Zink-Bio-guavenblaetter-phytholistic-mit-text.jpg");
+}
