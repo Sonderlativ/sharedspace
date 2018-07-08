@@ -106,7 +106,7 @@ content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png
 }
 	
 /* Die Menüpunkte für Themenwelten nehmen aktuell nicht die volle Breite der Submenue-Box ein. Das wird mit nachfolgendem Code geändert. */
-	.menu-item-3892 a, .menu-item-3893 a, .menu-item-3894 a {
+	.menu-item-3892 a, .menu-item-3893 a, .menu-item-3894 a, .menu-item-4597 a, .menu-item-4598 a {
 		width:100% !important;
 	}
 }
