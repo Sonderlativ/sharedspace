@@ -1,84 +1,91 @@
 /* ========== Navigation Background  ========== */
 
+/* ===== Default/Fallback ===== */
+.et_vertical_nav.et_vertical_fixed #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-vitamin-c-bio-amlabeere-logo-navigation.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
 /* ===== Acurmin ===== */
-.page-id-3261 #main-header{
+.page-id-3261 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-acurmin-bio-kurkuma-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Gingerin ===== */
-.page-id-4013 #main-header{
+.page-id-4013 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-gingerin-bio-ingwer-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Vitamin B ===== */
-.page-id-3593 #main-header{
+.page-id-3593 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-vitamin-b-bio-guavenblatt-zitronenschale-basilikum-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Folsäure ===== */
-.page-id-3637 #main-header{
+.page-id-3637 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-folsaeure-bio-zitronenschale-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Vitamin C ===== */
-.page-id-68 #main-header{
+.page-id-68 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-vitamin-c-bio-amlabeere-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Vitamin D3 ===== */
-.page-id-3788 #main-header{
+.page-id-3788 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-vitamin-d3-flechte-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Eisen + C ===== */
-.page-id-3373 #main-header{
+.page-id-3373 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-eisen-bio-curryblatt-amlabeere-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Calcium ===== */
-.page-id-3345 #main-header{
+.page-id-3345 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-calcium-bio-rotalge-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Jod ===== */
-.page-id-3513 #main-header{
+.page-id-3513 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-jod-bio-braunalge-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Magnesium ===== */
-.page-id-3721 #main-header{
+.page-id-3721 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-magnesium-bio-meerlattich-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Selen ===== */
-.page-id-3553 #main-header{
+.page-id-3553 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-selen-bio-senfkoerner-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
 }
 
 /* ===== Zink ===== */
-.page-id-4016 #main-header{
+.page-id-4016 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
    background: url(/wp-content/uploads/phytholistic-zink-bio-guavenblatt-logo-navigation.png);
    background-repeat: no-repeat;
    background-position: bottom;
