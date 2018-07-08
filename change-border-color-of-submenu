@@ -1,4 +1,4 @@
-/* ========== Navigation Background  ========== */
+/* ========== Submenu Border Color  ========== */
 
 @media (min-width: 981px){
 
@@ -67,3 +67,5 @@
    border-color: #f49491 !important;
 }
 }
+
+/* ========== END  ========== */
