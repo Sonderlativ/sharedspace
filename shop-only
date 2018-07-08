@@ -1,0 +1,7 @@
+/* ===== Produkt nur im Shop verfügbar ===== */
+
+.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
+  background-color: #f6f6f6 !important;
+}
+
+/* ===== Ende ===== */
