@@ -25,6 +25,8 @@
 * xxxx * Menüpunkte m. Bildern
 * xxxx * SONDERWÜNSCHE
 * xxxx * Ankerleiste
+* xxxx * Gepunkteter Kreis
+* xxxx * Farbiger Rahmen
 * xxxx * DIVI-BUGS
 * xxxx * Menü-Links
 * xxxx * No Row Padding
@@ -990,6 +992,28 @@ content:	"• ";
 		display:none;
 	}
   }
+
+/* Gepunkteter Kreis */
+/* Kreis mit gepunkteten Linien */
+#kreis {
+	width: 2em !important;
+  height: 2em !important;
+	line-height:2em !important;
+	font-size:56px !important;
+	font-weight:bold;
+	font-style:italic;
+  border-radius: 50%;
+	border: 2px dotted #b3b3b3 !important;
+	box-sizing:border-box;
+	text-align:center !important;
+}
+
+/* Farbiger Rahmen um Elemente auf Themenwelten */
+#colored-border{
+	border-width: 15px;
+	border-image: linear-gradient(to right, #ede54c 50%, #6a8a2c 50%, #6a8a2c 75%, #92ab2f 75%) 5;
+}
+
 
 /* ====== SONDERWÜNSCHE ENDE ====== */
 
