@@ -12,6 +12,7 @@
 * xxxx * H3
 * xxxx * p-Tags
 * xxxx * Quellenangaben
+* xxxx * Buttons
 * xxxx * Margin (Tablet)
 * xxxx * COLOR CHANGES
 * xxxx * Footer
@@ -356,6 +357,43 @@ p, .et_pb_slide_content p{
 /* Teilweise gibt es in Texten Quellenverweise, über diese Klasse erhalten sie die selben Eigenschaften wie die Quellenangaben am Ende der Seite */
 .quellenangabe{
 	font-size:12px;
+}
+
+button {
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:12px;
+	border:none;
+	padding:15px;
+	min-width:60%;
+	max-width:90%;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+
+button a{
+	color:white !important;
+}
+
+/* Spezielle Button-Klassen für Produktseiten */
+/* Call 2 Action Buttons */
+.half{
+	width:50%;
+	float:left;
+	margin-bottom:4px;
+}
+
+.cta{
+	text-transform:uppercase;
+	color:white;
+	text-shadow:none;
+	font-weight:bold;
+	box-sizing:border-box;
+	margin:4px !important;
+	padding:10px;	
+	text-align:center;
+	cursor:pointer;
 }
 
 /* RESPONSITIVITY */
