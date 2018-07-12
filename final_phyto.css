@@ -42,6 +42,7 @@
 * xxxx * Vertikale Zentrierung
 * xxxx * Clear
 * xxxx * Positionswap
+* xxxx * Remove Margin on Mobile
 
 ============================= */
 
@@ -1365,6 +1366,13 @@ float: left;
 div#positionswap .et_pb_slide_image {
 right: 0;
 margin-right: 0;
+}
+
+/* Entfernt Abstand in mobiler Ansicht */
+@media (max-width: 980px){
+	.et_pb_column{
+		margin-bottom:0px;
+	}
 }
 
 /* ====== DIVI BUGS ENDE ====== */
