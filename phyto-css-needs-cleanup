@@ -18,20 +18,6 @@
 
 /* ===== OBSOLET ?! ===== */
 
-
-@media (max-width: 980px){
-	.et_pb_column{
-		margin-bottom:0px;
-	}
-}
-
-
-@media screen and (max-width:500px){
-.entry-content table tr td{
-	padding:6px 6px;
-}
-}
-
 @media screen and (min-height:768px){
 	.paddingausgleich{
 		padding-top:8vh;
