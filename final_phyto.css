@@ -17,6 +17,7 @@
 * xxxx * Verfügbarkeit
 * xxxx * Bullets
 * xxxx * Formular
+* xxxx * Preis auf Produktseiten
 * xxxx * Margin (Tablet)
 * xxxx * COLOR CHANGES
 * xxxx * Footer
@@ -478,6 +479,15 @@ input[type=checkbox] {
 
 .wpcf7-submit {
 	float: right;
+}
+
+/* Preis auf Produktseiten */
+.pricetag{
+	font-family: 'Source Sans Pro';
+	font-size:38px;
+	text-shadow:none;
+	color:#333 !important;
+	margin-bottom:0.5em;
 }
 
 /* RESPONSITIVITY */
