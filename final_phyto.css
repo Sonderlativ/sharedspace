@@ -34,6 +34,7 @@
 * xxxx * DIVI-BUGS
 * xxxx * Menü-Links
 * xxxx * No Row Padding
+* xxxx * Produktseite Start
 
 ============================= */
 
@@ -1276,6 +1277,25 @@ h3#overview:before,h3#overview_mirrored:after{
 /* Auf einigen Zeilen will ich keine Abstände haben, daher als fix: .no-row-padding */
 .no-row-padding.et_pb_row {
     padding: 0.1em !important;
+}
+
+/* Produktseite Start: Mache Flexboxen, damit Preis und Siegel direkt über den Buttons positioniert werden können */
+/* Sektion */
+.ganz-natuerlich-reihe{
+	display:flex;
+}
+
+/* Modul */
+.text-preis{
+	display: flex;
+height: 100%;
+}
+
+/* Text positionieren*/
+.text-preis .et_pb_text_inner{
+	display:flex;
+	flex-direction:column !important;
+	justify-content: space-between;
 }
 
 /* ====== DIVI BUGS ENDE ====== */
