@@ -13,6 +13,8 @@
 * xxxx * p-Tags
 * xxxx * Quellenangaben
 * xxxx * Buttons
+* xxxx * CTA
+* xxxx * Verfügbarkeit
 * xxxx * Bullets
 * xxxx * Formular
 * xxxx * Margin (Tablet)
@@ -404,6 +406,13 @@ button a{
 	padding:10px;	
 	text-align:center;
 	cursor:pointer;
+}
+
+/* Verfügbarkeit von Produkten */
+/* Produkt nur im Shop verfügbar */
+
+.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
+  background-color: #f6f6f6 !important;
 }
 
 /* Bullets */
