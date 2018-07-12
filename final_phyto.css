@@ -7,6 +7,12 @@
 * xxxx * Ordered List
 * xxxx * Tabellen
 * xxxx * HEADINGS & TEXTE
+* xxxx * H1
+* xxxx * H2
+* xxxx * H3
+* xxxx * p-Tags
+* xxxx * Quellenangaben
+* xxxx * Margin (Tablet)
 * xxxx * COLOR CHANGES
 * xxxx * Footer
 * xxxx * Submenu Border
@@ -345,6 +351,11 @@ h3, .et_pb_slide_content h3{
 p, .et_pb_slide_content p{
 	text-shadow:none !important;
 	line-height:1.7em;
+}
+
+/* Teilweise gibt es in Texten Quellenverweise, über diese Klasse erhalten sie die selben Eigenschaften wie die Quellenangaben am Ende der Seite */
+.quellenangabe{
+	font-size:12px;
 }
 
 /* RESPONSITIVITY */
