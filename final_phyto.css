@@ -4,6 +4,8 @@
 * xxxx * Überschriften
 * xxxx * Hintergründe
 * xxxx * Bullet-Grafiken
+* xxxx * Ordered List
+* xxxx * Tabellen
 * xxxx * HEADINGS & TEXTE
 * xxxx * COLOR CHANGES
 * xxxx * Footer
@@ -143,6 +145,169 @@
 }
 .eis_bullets li::before{
 	background-image:url(/wp-content/uploads/icon-eisen-Bio-curryblatt-amlabeere-phytholistic-blatt.png);
+}
+
+/* Ordered List */
+/* Ordered List, Colored Numbers */
+/* Bezieht sich auf die Liste im SEO-Bereich der Produktseite */
+.vitc_ol ol, .vitd3_ol ol, .vitb_ol ol, .calc_ol ol, .jod_ol ol, .mag_ol ol,.zin_ol ol,.sel_ol ol,.fol_ol ol,.gin_ol ol,.acu_ol ol, .eis_ol ol {
+	list-style-type: none !important;
+	counter-reset: li;}
+
+	.vitc_ol li, .vitd3_ol li, .vitb_ol li, .calc_ol li, .jod_ol li,.mag_ol li,.zin_ol li,.sel_ol li,.fol_ol li,.gin_ol li,.acu_ol li, .eis_ol li {
+		counter-increment: li;
+	}
+
+.vitc_ol li::before, .vitd3_ol li::before, .vitb_ol li::before, .calc_ol li::before,.jod_ol li::before,.mag_ol li::before,.zin_ol li::before,.sel_ol li::before,.fol_ol li::before,.gin_ol li::before,.acu_ol li::before, .eis_ol li::before {
+	content: counter(li);
+	color: white !important;
+	font-weight:bold;
+	border-radius:50% !important;
+  display:block;
+	height:40px;
+	width:40px!important;
+	line-height:40px;
+	text-align:center;
+	margin-left:-3em !important;
+	position:relative;
+	top:1.4em;
+	font-size:20px;
+}
+
+.vitc_ol li::before{
+		background:#c3d600;
+	}
+
+.vitd3_ol li::before{
+		background:#a3d55f;
+	}
+
+.vitb_ol li::before{
+		background:#ff828a;
+}
+
+.calc_ol li::before{
+		background:#d1555a;
+}
+
+.jod_ol li::before{
+		background:#19988b;
+}
+
+.mag_ol li::before{
+		background:#4a8b2c;
+}
+
+.zin_ol li::before{
+		background:#f29492;
+}
+
+.sel_ol li::before{
+		background:#f6b436;
+}
+
+.fol_ol li::before{
+		background:#ffd200;
+}
+
+.gin_ol li::before{
+		background:#bd965c;
+}
+
+.acu_ol li::before{
+		background:#f28b00;
+}
+
+.eis_ol li::before{
+		background:#72a951;
+}
+
+/* Tabellen */
+/* Produktinfos Tabelle */
+/* Bezieht sich auf die Tabelle im SEO-Bereich der Produktseite, muss im Zuge des Aufbaus weiterer Produktseiten hinsichtlich weiterer Farben auf jeden Fall überarbeitet werden */
+.prtab{
+	margin:20px 0px !important;
+}
+.prtab_zelle{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:50%
+}
+
+.prtab_zelle_25{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:25%
+}
+
+.prtab_zelle_33{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:33.3%
+}
+
+.prtab_dark{
+	color:white;
+}
+
+.vitc_prtab_light{
+color:#c3d600;
+background:#f4f6da;
+}
+.vitd3_prtab_light{
+color:#a3d55f;
+background:#d4e3a7;
+	background:#ecf7c3 !important;
+}
+.vitb_prtab_light{
+color:#ff828a;
+background:#f2a79e;
+}
+.calc_prtab_light{
+color: #d1555a;
+background:#ef9c9d;
+}
+.jod_prtab_light{
+color:#19988b;
+background:#98c0a1;
+background:#c3e5c6 !important;
+}
+.mag_prtab_light{
+color:#4a8b2c;
+background:#a3c15b;
+background:#d0e590 !important;
+}
+.zin_prtab_light{
+color:#f29492;
+background:#f8bcb6;
+}
+.sel_prtab_light{
+color:#f6b436;
+background:#fbcf22;
+background:#f9e69f !important;
+}
+.fol_prtab_light{
+color:#fff;
+background:#fff1ad;
+	/* Kein Farbcode aus Styleguide */
+}
+.gin_prtab_light{
+color:#bd965c;
+background:#ecd172;
+}
+.acu_prtab_light{
+color:#f28b00;
+background:#f9b111;
+}
+.eis_prtab_light{
+color:#72a951;
+background:#b2c757;
 }
 
 /* ====== FARBSCHEMATA ENDE ====== */
