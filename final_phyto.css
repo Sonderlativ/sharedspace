@@ -33,6 +33,7 @@
 * xxxx * Themenraster
 * xxxx * Produktanordnung Kreis mit Hover
 * xxxx * Produktseite Preis & Siegel über Buttons
+* xxxx * Links in Navigation zentrieren & margin
 * xxxx * DIVI-BUGS
 * xxxx * Menü-Links
 * xxxx * No Row Padding
@@ -40,6 +41,7 @@
 * xxxx * #sticker Background
 * xxxx * Vertikale Zentrierung
 * xxxx * Clear
+* xxxx * Positionswap
 
 ============================= */
 
@@ -1300,6 +1302,14 @@ height: 100%;
 	justify-content: space-between;
 }
 
+/* Links in Navigation */
+.et_vertical_nav #main-header #et-top-navigation{
+	text-align:center;
+}
+
+.et_vertical_nav #main-header #top-menu>li>a{
+	margin-bottom:20px;
+}
 
 /* ====== SONDERWÜNSCHE ENDE ====== */
 
@@ -1338,6 +1348,16 @@ height: 100%;
 /* Clear */
 .clear{
 	clear:both;
+}
+
+/* Positionswap: Vertauscht Position von Bildern und Text auf Slidern */
+/* Slider Image on right, text on left */
+div#positionswap .et_pb_slide_description {
+float: left;
+}
+div#positionswap .et_pb_slide_image {
+right: 0;
+margin-right: 0;
 }
 
 /* ====== DIVI BUGS ENDE ====== */
