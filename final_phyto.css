@@ -1082,6 +1082,11 @@ content:	"• ";
 	transition: height 0.5s ease-in-out;
 }
 
+.thema_heading{
+	text-transform:uppercase !important;
+	font-weight:600 !important;
+}
+
 @media screen and (max-width:799px){
 /* Themenraster */
 /*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
