@@ -23,6 +23,10 @@
 * xxxx * Logo Desktop
 * xxxx * Logo Responsive
 * xxxx * Menüpunkte m. Bildern
+* xxxx * SONDERWÜNSCHE
+* xxxx * DIVI-BUGS
+* xxxx * Menü-Links
+* xxxx * No Row Padding
 
 ============================= */
 
@@ -933,4 +937,24 @@ content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png
 }
 
 /* ====== COLOR CHANGES ENDE ====== */
+
+/* ====== SONDERWÜNSCHE ====== */
+
+/* ====== SONDERWÜNSCHE ENDE ====== */
+
+/* ====== DIVI BUGS ====== */
+
+/* Menü-Links */
+/* Obwohl diese Farbe nirgends definiert und hinterlegt ist, wirklich NIRGENDS(!) färbt Divi Menü-Links blau. */
+#top-menu li.current-menu-ancestor>a, #top-menu li.current-menu-item>a{
+	color:rgba(0,0,0,0.6);
+}
+
+/* No Row Padding */
+/* Auf einigen Zeilen will ich keine Abstände haben, daher als fix: .no-row-padding */
+.no-row-padding.et_pb_row {
+    padding: 0.1em !important;
+}
+
+/* ====== DIVI BUGS ENDE ====== */
 
