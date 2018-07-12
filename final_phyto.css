@@ -35,6 +35,8 @@
 * xxxx * Menü-Links
 * xxxx * No Row Padding
 * xxxx * Produktseite Start
+* xxxx * Footer Min-Height
+* xxxx * #sticker Background
 
 ============================= */
 
@@ -1296,6 +1298,18 @@ height: 100%;
 	display:flex;
 	flex-direction:column !important;
 	justify-content: space-between;
+}
+
+/* Footer-Modul braucht min-height für richtige Anzeige */
+.footer{
+	min-height:2vh !important;
+	z-index: 0 !important;
+}
+
+/* #sticker braucht Hintergrundfarbe */
+#sticker{
+	background:white;
+	z-index:99;
 }
 
 /* ====== DIVI BUGS ENDE ====== */
