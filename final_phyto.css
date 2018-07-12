@@ -257,6 +257,7 @@
 .prtab{
 	margin:20px 0px !important;
 }
+
 .prtab_zelle{
 	box-sizing:border-box;
 	border:2px solid #fff !important;
@@ -337,6 +338,12 @@ background:#f9b111;
 .eis_prtab_light{
 color:#72a951;
 background:#b2c757;
+}
+
+@media screen and (max-width:500px){
+.entry-content table tr td{
+	padding:6px 6px;
+}
 }
 
 /* ====== FARBSCHEMATA ENDE ====== */
