@@ -13,6 +13,8 @@
 * xxxx * p-Tags
 * xxxx * Quellenangaben
 * xxxx * Buttons
+* xxxx * Bullets
+* xxxx * Formular
 * xxxx * Margin (Tablet)
 * xxxx * COLOR CHANGES
 * xxxx * Footer
@@ -394,6 +396,67 @@ button a{
 	padding:10px;	
 	text-align:center;
 	cursor:pointer;
+}
+
+/* Bullets */
+/* Bullet-Grafiken sind zu finden bei den Farbschemata */
+
+.bullets{
+	list-style-type: none !important; 
+	counter-reset: li;
+}
+
+.bullets li {
+	font-family: 'Source Sans Pro';
+	font-size:15px;
+	font-weight:600 !important;
+	text-shadow:none !important;
+	list-style:none !important;
+	line-height:1.7em;
+	margin:2em !important;
+}
+
+.bullets li::before{
+	content: counter(li);
+	content:''; 
+	display:block; 
+	height:1.7em !important; 
+	width:1.7em !important; 
+	background-size:contain; 
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin:-16px;
+	left:-0.8em;
+	top:1.2em;
+}
+
+/* Formular */
+input.text, input.title, input[type=text], input[type=tel], input[type=email], select, textarea {
+  margin: 0;
+  padding: 10px;
+	width: 100%;
+}
+
+input.text:hover, input.title:hover, input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, select:hover, textarea:hover {
+  border-color: #92AB2F;
+}
+
+input[type=checkbox] {
+	-webkit-appearance: none;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	/* float: left; */
+	left: -10px;
+	top: 10px;
+}
+
+.wpcf7-submit {
+	float: right;
 }
 
 /* RESPONSITIVITY */
