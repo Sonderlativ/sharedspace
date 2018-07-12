@@ -4,7 +4,7 @@
 * xxxx * Überschriften
 * xxxx * Hintergründe
 * xxxx * Bullet-Grafiken
-
+* xxxx * HEADINGS & TEXTE
 ============================= */
 
 /* ====== FARBSCHEMATA ====== */
@@ -137,4 +137,50 @@
 .eis_bullets li::before{
 	background-image:url(/wp-content/uploads/icon-eisen-Bio-curryblatt-amlabeere-phytholistic-blatt.png);
 }
+
 /* ====== FARBSCHEMATA ENDE ====== */
+
+/* ====== HEADINGS & TEXTE ====== */
+
+h1, .et_pb_slide_content h1{
+	font-family: 'Source Sans Pro';
+	font-size:45px !important;
+	text-shadow:none;
+	color:#333 !important;
+	margin:15px 0px;
+	font-weight:390;
+}
+
+h2, .et_pb_slide_content h2{
+	font-family: 'Source Sans Pro';
+	font-size:38px !important;
+	text-shadow:none;
+	color: #333 !important;
+	margin:15px 0px;
+	line-height:1.4em;
+	font-weight:390;
+}
+
+h3, .et_pb_slide_content h3{
+	font-family: 'Montserrat Semibold', sans-serif;
+	font-size:14px !important;
+	letter-spacing: 3px;
+	text-transform:uppercase;
+	text-shadow:none;
+}
+
+p, .et_pb_slide_content p{
+	text-shadow:none !important;
+	line-height:1.7em;
+}
+
+/* ====== RESPONSITIVITY ====== */
+
+@media screen and (max-width:1024px){
+	.et_pb_text_inner{
+		margin-bottom:1.7em;
+	}
+}
+
+/* ====== HEADINGS & TEXTE ENDE ====== */
+
