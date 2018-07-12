@@ -1,33 +1,3 @@
-
-.ganz-natuerlich-reihe{
-	display:flex;
-}
-
-.text-preis{
-	display: flex;
-height: 100%;
-}
-
-.text-preis .et_pb_text_inner{
-	display:flex;
-	flex-direction:column !important;
-	justify-content: space-between;
-}
-
-.footer{
-	min-height:2vh !important;
-	z-index: 0 !important;
-}
-
-
-
-#sticker{
-	background:white;
-	z-index:99;
-}
-
-
-
 @media (max-width: 980px){
 	.et_pb_column{
 		margin-bottom:0px;
