@@ -38,6 +38,7 @@
 * xxxx * No Row Padding
 * xxxx * Footer Min-Height
 * xxxx * #sticker Background
+* xxxx * vertically center content
 
 ============================= */
 
@@ -1280,7 +1281,7 @@ h3#overview:before,h3#overview_mirrored:after{
 }
 
 /* Produktseite Start: Mache Flexboxen, damit Preis und Siegel direkt über den Buttons positioniert werden können */
-/* Sektion */
+/* Reihe */
 .ganz-natuerlich-reihe{
 	display:flex;
 }
@@ -1325,6 +1326,12 @@ height: 100%;
 #sticker{
 	background:white;
 	z-index:99;
+}
+
+/* Vertikale Zentrierung */
+/* Sektion */
+.vcenter{
+	display:flex;
 }
 
 /* ====== DIVI BUGS ENDE ====== */
