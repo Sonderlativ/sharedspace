@@ -26,15 +26,6 @@ height: 100%;
 	z-index:99;
 }
 
-/* ===== Produkt nur im Shop verfügbar ===== */
-
-.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke, .fol_bg.amazon, .fol_bg.apotheke, .sel_bg.amazon, .sel_bg.apotheke, .vitd_bg.amazon, .vitd_bg.apotheke, .vitc_bg.amazon, .vitc_bg.apotheke, .zin_bg.amazon, .zin_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
-  background-color: #909090 !important;
-	cursor: default;
-}
-
-/* ===== Ende ===== */
-
 
 
 @media (max-width: 980px){
@@ -43,9 +34,6 @@ height: 100%;
 	}
 }
 
-.quellenangabe{
-	font-size:12px;
-}
 
 @media screen and (max-width:500px){
 .entry-content table tr td{
@@ -96,16 +84,6 @@ height: 100%;
 	}
 }
 
-
-/* Auf einigen Zeilen will ich keine Abstände haben, daher als fix: .no-row-padding */
-.no-row-padding.et_pb_row {
-    padding: 0.1em !important;
-}
-
-/* Obwohl diese Farbe nirgends definiert und hinterlegt ist, wirklich NIRGENDS(!) färbt Divi Menü-Links blau. Fick dich, Divi. */
-#top-menu li.current-menu-ancestor>a, #top-menu li.current-menu-item>a{
-	color:rgba(0,0,0,0.6);
-}
 
 button a{
 	color:white !important;
@@ -294,264 +272,6 @@ p{
 /* ====== MOBILE ENDE ====== */
 
 
-@media screen and (min-width:981px){
-/* Menüpunkte mit Bildern */
-/* Menüpunkte sollen gekachelt werden, deshalb setze ich hier die Breite des Submenüs (urspr. 240px) hoch */
-.nav li ul{
-	width:460px;
-}
-/* Damit die Menüpunkte richtig nebeneinander gekachelt angezeigt werden, werden die ungeraden Links (der 1., der 3., der 5. etc.) nach links gefloatet, die geraden Links werden nach rechts gefloatet */
-.menu-item-3914, .menu-item-3915, .menu-item-3900, .menu-item-3905, .menu-item-3909, .menu-item-3898 {
-	float:left;
-}
-
-.menu-item-3902, .menu-item-3916, .menu-item-3899, .menu-item-3907, .menu-item-4018, .menu-item-4015 {
-	float:right;
-}
-
-/* Die Links der Menüpunkte sollen zentriert sein */
-
-.menu-item-3914 a, .menu-item-3902 a, .menu-item-3915 a, .menu-item-3916 a, .menu-item-3900 a, .menu-item-3899 a, .menu-item-3905 a, .menu-item-3907 a, .menu-item-3909 a, .menu-item-3898 a, .menu-item-4015 a, .menu-item-4018 a{
-	text-align:center;
-}
-
-/* Auf Netbooks müssen manche Menüpunkte weiter nach oben rutschen */
-@media screen and (max-height:800px){
-	.menu-item-9 ul.sub-menu{
-	top:-2vh !important;
-}
-	.menu-item-10 ul.sub-menu{
-	top:-25vh !important;
-}
-	.menu-item-2246 ul.sub-menu{
-	top:-33vh !important;
-}
-}
-
-/* Auf größeren Monitoren müssen manche Menüpunkte weiter nach oben rutschen, aber anders als bei Netbooks */
-@media screen and (min-height:800px){
-	.menu-item-9 ul.sub-menu{
-	top:-2vh !important;
-}
-	.menu-item-10 ul.sub-menu{
-	top:-10vh !important;
-}
-	.menu-item-2246 ul.sub-menu{
-	top:-15vh !important;
-}
-}
-
-/* Acurmin */
-.menu-item-3898 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Gingerin */
-.menu-item-4015 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Vitamin B */
-.menu-item-3914 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Folsäure */
-.menu-item-3902 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Vitamin C */
-.menu-item-3915 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Vitamin D */
-.menu-item-3916 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Eisen + C */
-.menu-item-3900 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Calcium */
-.menu-item-3899 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Jod */
-.menu-item-3905 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Magnesium */
-.menu-item-3907 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Selen */
-.menu-item-3909 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-
-/* Zink */
-.menu-item-4018 a::before{
-content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
-}
-	
-/* Die Menüpunkte für Themenwelten nehmen aktuell nicht die volle Breite der Submenue-Box ein. Das wird mit nachfolgendem Code geändert. */
-	.menu-item-3892 a, .menu-item-3893 a, .menu-item-3894 a, .menu-item-4597 a, .menu-item-4598 a {
-		width:100% !important;
-	}
-}
-
-
-
-/* ====== FARBSCHEMATA ENDE ====== */
-
-/* ===== Start Overview ===== */
-#completes-overview{
-	height:16em;
-}
-
-#start-overview{
-	max-height:15vh !important;
-	min-height:15vh
-}
-
-#completes-overview h3#overview{
-	position:relative;
-	top:12em;
-}
-
-h3#overview,h3#overview_mirrored{
-	color:#333 !important;
-	font-weight:bold !important;
-	letter-spacing:1px !important;
-}
-h3#overview:before,h3#overview_mirrored:after{
-	content:'+';
-	background:#b5c405;
-	border-radius:50% !important;
-	margin:0.3em;
-	color:white;
-	font-size:36px;
-	line-height:36px;
-	width:36px;
-	height:36px;
-	font-weight:lighter;
-	text-align:center;
-	box-sizing:border-box;
-	display:inline-block;
-}
-
-.hov_jod h3{
-	position:relative;
-	right:-5em;
-}
-.hov_calc h3{
-	position:relative;
-	left:-5em;
-}
-.hov_eis h3{
-	position:relative;
-	right:-6em;
-	top:5em;
-}
-.hov_fol h3{
-	position:relative;
-	right:-8em;
-	top:3em;
-}
-.hov_zin h3{
-	position:relative;
-	left:-2em;
-	top:3em;
-}
-.hov_vitd3 h3{
-	position:relative;
-	left:-4em;
-	top:3em;
-}
-.hov_sel h3{
-	position:relative;
-	left:-4em;
-	top:3em;
-}
-.over_vis{
-	position:relative;
-}
-.over_hid{
-	position:absolute;
-	background:white;
-	text-align:center;
-	box-shadow:0px 0px 10px #b4b4b4;
-	max-width:17em !important;
-	box-sizing:border-box;
-	padding:2em;
-}
-.hov_gin_child,.hov_acu_child,.hov_eis_child,.hov_fol_child,.hov_jod_child,.hov_zin_child,.hov_vitb_child,.hov_mag_child,.hov_sel_child,.hov_vitd3_child,.hov_vitc_child,.hov_calc_child{
-	display:none;	
-	z-index:10;
-}
-.hov_gin:hover .hov_gin_child,.hov_acu:hover .hov_acu_child,.hov_eis:hover .hov_eis_child,.hov_fol:hover .hov_fol_child,.hov_jod:hover .hov_jod_child,.hov_zin:hover .hov_zin_child,.hov_vitb:hover .hov_vitb_child,.hov_mag:hover .hov_mag_child,.hov_sel:hover .hov_sel_child,.hov_vitd3:hover .hov_vitd3_child,.hov_vitc:hover .hov_vitc_child,.hov_calc:hover .hov_calc_child{
-	display:block;
-}
-.hov_gin_child{
-	top:-5em;
-	right:-5em;
-}
-.hov_acu_child{
-	top:-5em;
-	left:-5em;
-}
-.hov_eis_child{
-	top:-5em;
-	right:-5em;
-}
-.hov_fol_child{
-	top:-5em;
-}
-.hov_jod_child{
-	top:-5em;
-}
-.hov_zin_child{
-	top:-7em;
-	right:-3em;
-}
-.hov_vitb_child{
-	top:-7em;
-}
-.hov_mag_child{
-	top:-8em;
-}
-.hov_sel_child{
-	top:-5em;
-	left:-5em;
-}
-.hov_vitd3_child{
-	top:-5em;
-}
-.hov_vitc_child{
-	top:-5em;
-}
-.hov_calc_child{
-	top:-10em;
-	left:-8em;
-}
-/* ===== Overview Ende ===== */
-
-
-
-/* ===== Themenwelten ===== */
-#colored-border{
-	border-width: 15px;
-	border-image: linear-gradient(to right, #ede54c 50%, #6a8a2c 50%, #6a8a2c 75%, #92ab2f 75%) 5;
-}
-
-/* ===== Themenwelten ENDE ===== */
 
 #grafik_vitc_natur{
 	width:50%;
@@ -589,129 +309,13 @@ h3#overview:before,h3#overview_mirrored:after{
 }
 
 
-/* Call 2 Action Buttons */
-.half{
-	width:50%;
-	float:left;
-	margin-bottom:4px;
-}
-
-.cta{
-	text-transform:uppercase;
-	color:white;
-	text-shadow:none;
-	font-weight:bold;
-	box-sizing:border-box;
-	margin:4px !important;
-	padding:10px;	
-	text-align:center;
-	cursor:pointer;
-}
-/* ==== C2A-Buttons Ende ==== */
-
-/* Ankerleiste */
-/* Gemeint ist damit die Linkleiste unter der mitscrollenden Box auf den Produktseiten*/
-.ankerleiste{
-	position:fixed;
-	right:0px;
-	margin-top:4em;
-	box-sizing:border-box;
-	padding:1em;
-	text-align:justify;
-	color:white;
-overflow:hidden !important;
-	white-space: nowrap;
-	width:1em;
-	transition:width 0.5s ease-in-out;
-}
-
-/*.ankerleiste ul{
-list-style: none;
-}
-
-.ankerleiste ul li:before{
-content:	"• ";
-	color:white;
-      margin-right: 5px;
-      font-size: 20px;
-      font-weight: bold;
-}*/
-
-.ankerleiste a{
-	color:white;
-	cursor:pointer;
-}
-
-.ankerleiste a:hover{
-	font-weight:600;
-}
-
-/* Die Ankerleiste ist im Standard am rechten Bildschirmrand als schmaler Streifen zu sehen, fährt man mit der Maus darüber, soll sie ausfahren und die Links werden klickbar für den Nutzer */
-.ankerleiste:hover{
-	transition:width 0.5s ease-in-out;
-	width:21.25%;
-}
-
-
-
-/* ==== Ankerleiste Ende ==== */
 
 
 
 
-/* Themenraster */
-.weitere-themen{
-	width:100% !important;
-}
 
-.thema{
-	box-sizing:border-box;
-	width:100%;
-	padding:1.5em;
-	height:5em;
-	transition:height 3s ease-in-out;
-}
 
-.thema-6{
-	box-sizing:border-box;
-	width:100%;
-	padding:1.5em;
-	height:24.6em;
-}
 
-.thema p, .thema-6 p{
-	font-weight:normal;
-	text-transform:none;
-}
-
-.thema button{
-	background:white;
-	cursor:pointer;
-}
-
-.thema-kachel{
-	transition-duration:1s !important;
-	max-height:24.6em;
-	min-height:24.6em;
-	overflow:hidden;
-	padding-top:20em;
-}
-
-.thema-kachel-6{
-	max-height:24.6em;
-	min-height:24.6em;
-	overflow:hidden;
-}
-
-.thema-kachel:hover, .thema-kachel:active{
-	padding-top:0em !important;
-}
-
-.thema-kachel:hover .thema, .thema-kachel:active .thema{
-	height:24.6em !important;
-	transition: height 0.5s ease-in-out;
-}
-/* ==== Themenraster Ende ==== */
 
 /* Center Content Vertically */
 .ds-vertical-align { 
@@ -798,49 +402,6 @@ h3, .et_pb_slide_content h3{
 
 p, .et_pb_slide_content p{
 	text-shadow:none !important;
-}
-
-.bullets{
-	list-style-type: none !important; 
-	counter-reset: li;
-}
-
-.bullets li {
-	font-family: 'Source Sans Pro';
-	font-size:15px;
-	font-weight:600 !important;
-	text-shadow:none !important;
-	list-style:none !important;
-	line-height:1.7em;
-	margin:2em !important;
-}
-
-.bullets li::before{
-	content: counter(li);
-	content:''; 
-	display:block; 
-	height:1.7em !important; 
-	width:1.7em !important; 
-	background-size:contain; 
-	background-repeat:no-repeat;
-	position:relative;
-	float:left;
-	margin:-16px;
-	left:-0.8em;
-	top:1.2em;
-}
-
-button {
-	color:white;
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:12px;
-	border:none;
-	padding:15px;
-	min-width:20%;
-	max-width:90%;
-	box-sizing:border-box;
-	cursor:pointer;
 }
 
 ul.et_pb_side_nav.et-visible{
@@ -1036,71 +597,6 @@ box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
 ul.bullets li{
 	text-align:left !important;
 }
-/* START: Anpassungen von Tim */
-
-/* Kreis mit gepunkteten Linien */
-#kreis {
-	width: 2em !important;
-  height: 2em !important;
-	line-height:2em !important;
-	font-size:56px !important;
-	font-weight:bold;
-	font-style:italic;
-  border-radius: 50%;
-	border: 2px dotted #b3b3b3 !important;
-	box-sizing:border-box;
-	text-align:center !important;
-}
-
-/* Ein Blattförmiges Symbol für Aufzählungen */
-.leaf { 
-  width: 20px; height: 30px;
-  -moz-border-radius: 20px 0px;
-  -webkit-border-radius: 20px 0px;
-  border-radius: 20px 0px;
-}
-
-/* Klasse zum Zentrieren */
-.zentriert{
-	text-align: center !important;
-	margin-left: auto;
-  margin-right: auto;
-}
-
-.block{
-	display:block !important
-}
-
-
-/* START Anpassungen für das Formular */
-input.text, input.title, input[type=text], input[type=tel], input[type=email], select, textarea {
-  margin: 0;
-  padding: 10px;
-	width: 100%;
-}
-
-input.text:hover, input.title:hover, input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, select:hover, textarea:hover {
-  border-color: #92AB2F;
-}
-
-input[type=checkbox] {
-	-webkit-appearance: none;
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	padding: 9px;
-	border-radius: 3px;
-	display: inline-block;
-	position: relative;
-	/* float: left; */
-	left: -10px;
-	top: 10px;
-}
-
-.wpcf7-submit {
-	float: right;
-}
-
-/* ENDE Anpassungen für das Formular */
 
 /* START Slide-Out Menü */
 .sidenav {
