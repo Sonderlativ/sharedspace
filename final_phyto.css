@@ -39,6 +39,7 @@
 * xxxx * Footer Min-Height
 * xxxx * #sticker Background
 * xxxx * Vertikale Zentrierung
+* xxxx * Clear
 
 ============================= */
 
@@ -1332,6 +1333,11 @@ height: 100%;
 /* Sektion */
 .vcenter{
 	display:flex;
+}
+
+/* Clear */
+.clear{
+	clear:both;
 }
 
 /* ====== DIVI BUGS ENDE ====== */
