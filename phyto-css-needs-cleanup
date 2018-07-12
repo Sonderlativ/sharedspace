@@ -1,3 +1,24 @@
+/* ===== OBSOLET ?! ===== */
+
+.produkt-button{
+	max-height:1.3em;
+	position:relative;
+	bottom:-5px;
+	margin-right:6px;
+}
+
+.img-resize-80 img{
+	height:80px !important;
+	width:auto;
+}
+
+#grafik_vitc_natur{
+	width:50%;
+}
+
+/* ===== OBSOLET ?! ===== */
+
+
 @media (max-width: 980px){
 	.et_pb_column{
 		margin-bottom:0px;
@@ -53,23 +74,6 @@
 		margin-bottom:1.7em;
 	}
 }
-
-.img-resize-80 img{
-	height:80px !important;
-	width:auto;
-}
-
-
-.produkt-button{
-	max-height:1.3em;
-	position:relative;
-	bottom:-5px;
-	margin-right:6px;
-}
-
-
-
-
 
 /* ====== MOBILE ANPASSUNGEN ====== */
 
@@ -223,9 +227,7 @@
 
 
 
-#grafik_vitc_natur{
-	width:50%;
-}
+
 
 .swiper-container {
       width: 100%;
@@ -383,9 +385,6 @@ margin-bottom:auto;
 	height:auto;
 }
 
-.clear{
-	clear:both;
-}
 
 
 /* .icon-zeile img{
