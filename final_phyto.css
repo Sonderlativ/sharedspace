@@ -56,6 +56,7 @@
 * 1750 * Elemente sollen 100vh einnehmen
 * 1779 * === MOBILE ANPASSUNGEN
 * 1781 * #sticker-Box auf kleinen Displays
+* xxxx * Grafik zu groß, warte auf Korrektur
 
 ============================= */
 
@@ -1811,6 +1812,10 @@ margin-right: 0;
 	.produkt img{
 		max-height:15vh;
 	}
+}
+
+#grafik_vitc_natur{
+	width:50%;
 }
 
 /* ====== MOBILE ANPASSUNGEN ENDE ====== */
