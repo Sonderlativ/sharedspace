@@ -1,28 +1,27 @@
 /* ==== INHALTSVERZEICHNIS ====
 
-* xxxx * === FARBSCHEMATA
-* xxxx * Überschriften
-* xxxx * Hintergründe
-* xxxx * Bullet-Grafiken
-* xxxx * Ordered List
-* xxxx * Tabellen
-* xxxx * === HEADINGS & TEXTE
-* xxxx * H1
-* xxxx * H2
-* xxxx * H3
-* xxxx * Überschrift im Fließtext
-* xxxx * p-Tags
-* xxxx * Quellenangaben
-* xxxx * Text ist eingeschoben
-* xxxx * Buttons
-* xxxx * CTA
-* xxxx * Verfügbarkeit
-* xxxx * Bullets
-* xxxx * Formular
-* xxxx * Preis auf Produktseiten
-* xxxx * Margin (Tablet)
-* xxxx * Half-Divs zur Content-Darstellung
-* xxxx * Korrektur von Abständen & Höhen von Texten
+* 0062 * === FARBSCHEMATA
+* 0063 * Überschriften
+* 0111 * Hintergründe
+* 0155 * Bullet-Grafiken
+* 0193 * Ordered List
+* 0268 * Tabellen
+* 0373 * === HEADINGS & TEXTE
+* 0375 * H1
+* 0384 * H2
+* 0394 * H3
+* 0444 * Überschrift im Fließtext
+* 0451 * p-Tags
+* 0456 * Quellenangaben
+* 0461 * Text ist eingerückt
+* 0467 * Buttons
+* 0484 * CTA
+* 0504 * Verfügbarkeit
+* 0511 * Bullets
+* 0548 * Formular
+* 0576 * Preis auf Produktseiten
+* 0592 * Half-Divs zur Content-Darstellung
+* 0621 * Korrektur von Abständen & Höhen von Texten
 * xxxx * === COLOR CHANGES
 * xxxx * Footer
 * xxxx * Submenu Border
@@ -588,14 +587,6 @@ input[type=checkbox] {
 	height:auto;
 	margin:0px 10px;
 	float:right;
-}
-
-/* Margin auf Tablet > Duplikat? */
-
-@media screen and (max-width:1024px){
-	.et_pb_text_inner{
-		margin-bottom:1.7em;
-	}
 }
 
 /* Divs zur Darstellung von Content u.a. "Natürlich vs. Synthetisch" */
