@@ -1,12 +1,897 @@
-/* ====== MOBILE ANPASSUNGEN ====== */
+/* ==== INHALTSVERZEICHNIS ====
+ * Mobile Anpassungen
+ * 	§max-width:799
+ * 	§max-height:800
+ * 	§max-height: 576
+ * Farbschemata
+ * Produktübersicht auf der Startseite mit den (+) und dem Hover-Effekt
+ * Themenraster auf den Produktseiten, über das man die Themenwelten aufrufen kann
+ * 
+TBC
+============================= */
+@media screen and (max-height:800px) and (max-width:1370px){
+	.natsyn .et_pb_image_wrap img{
+	margin-bottom: 1.7em !important;
+}
+}
+
+.ganz-natuerlich-reihe{
+	display:flex;
+}
+
+.text-preis{
+	display: flex;
+height: 100%;
+}
+
+.text-preis .et_pb_text_inner{
+	display:flex;
+	flex-direction:column !important;
+	justify-content: space-between;
+}
+
+.footer{
+	min-height:2vh !important;
+	z-index: 0 !important;
+}
+
+
+
+#sticker{
+	background:white;
+	z-index:99;
+}
+
+/* ===== Produkt nur im Shop verfügbar ===== */
+
+.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke, .fol_bg.amazon, .fol_bg.apotheke, .sel_bg.amazon, .sel_bg.apotheke, .vitd_bg.amazon, .vitd_bg.apotheke, .vitc_bg.amazon, .vitc_bg.apotheke, .zin_bg.amazon, .zin_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
+  background-color: #909090 !important;
+	cursor: default;
+}
+
+/* ===== Ende ===== */
+
+
+
+/* Test */
+/* Logo Desktop */
+
+/* ===== Acurmin ===== */
+.page-id-3261 #logo{
+   content:url("/wp-content/uploads/logo-acurmin-Bio-curcuma-phytholistic-mit-text.png");
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 #logo{
+   content:url("/wp-content/uploads/logo-gingerin-ingwer-phytholistic-mit-text.png");
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 #logo{
+   content:url("/wp-content/uploads/logo-vitamin-b-bio-guave-zitronenschale-basilikum-phytholistic-mit-text.png");
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 #logo{
+   content:url("/wp-content/uploads/logo-folsaeure-zitronenschale-phytholistic-mit-text.png");
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 #logo{
+   content:url("/wp-content/uploads/logo-phytholistic-amla-beere-vitamin-c-mit-text.png");
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 #logo{
+   content:url("/wp-content/uploads/logo-vitamin-d3-flechte-phytholistic-mit-text.png");
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 #logo{
+   content:url("/wp-content/uploads/Logo-eisen-Bio-curryblatt-amlabeere-phytholistic-mit-text.png");
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 #logo{
+   content:url("/wp-content/uploads/logo-calcium-bio-rotalge-phytholistic-mit-text.png");
+}
+
+/* ===== Jod ===== */
+.page-id-3513 #logo{
+   content:url("/wp-content/uploads/logo-jod-bio-braunalgen-phytholistic-mit-text.png");
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 #logo{
+   content:url("/wp-content/uploads/logo-magnesium-bio-meerlattich-phytholistic-mit-text.png");
+}
+
+/* ===== Selen ===== */
+.page-id-3553 #logo{
+   content:url("/wp-content/uploads/logo-selen-bio-senfkoerner-phytholistic-mit-text.png");
+}
+
+/* ===== Zink ===== */
+.page-id-4016 #logo{
+   content:url("/wp-content/uploads/logo-Zink-Bio-guavenblaetter-phytholistic-mit-text.jpg");
+}
+  
+/* Logo Mobil */
+@media screen and (max-width:980px){
+
+/* ===== Acurmin ===== */
+	.page-id-3261 #logo{
+    	content:url("/wp-content/uploads/logo-acurmin-Bio-curcuma-phytholistic.png");
+	}
+  
+/* ===== Gingerin ===== */
+	.page-id-4013 #logo{
+		content:url("/wp-content/uploads/logo-gingerin-ingwer-phytholistic.png");
+	}
+  
+/* ===== Vitamin B ===== */
+	.page-id-3593 #logo{
+    	content:url("/wp-content/uploads/logo-vitamin-b-bio-guave-zitronenschale-basilikum-phytholistic.png");
+	}
+  
+/* ===== Folsäure ===== */
+	.page-id-3637 #logo{
+    	content:url("/wp-content/uploads/logo-folsaeure-zitronenschale-phytholistic.png");
+	}
+  
+/* ===== Vitamin C ===== */
+	.page-id-68 #logo{
+    	content:url("/wp-content/uploads/logo-phytholistic-amla-beere-vitamin-c.png");
+	}
+  
+/* ===== Vitamin D3 ===== */
+	.page-id-3788 #logo{
+    	content:url("/wp-content/uploads/logo-vitamin-d3-flechte-phytholistic.png");
+	}
+	
+/* ===== Eisen + C ===== */
+	.page-id-3373 #logo{
+    	content:url("/wp-content/uploads/logo-eisen-Bio-curryblatt-amlabeere-phytholistic.png");
+	}
+
+/* ===== Calcium ===== */
+	.page-id-3345 #logo{
+    	content:url("/wp-content/uploads/logo-calcium-bio-rotalge-phytholistic.png");
+	}
+	
+/* ===== Jod ===== */
+	.page-id-3513 #logo{
+    	content:url("/wp-content/uploads/logo-jod-bio-braunalgen-phytholistic.png");
+	}
+
+/* ===== Magnesium ===== */
+	.page-id-3721 #logo{
+    	content:url("/wp-content/uploads/logo-magnesium-bio-meerlattich-phytholistic.png");
+	}
+
+/* ===== Selen ===== */
+	.page-id-3553 #logo{
+    	content:url("/wp-content/uploads/logo-selen-bio-senfkoerner-phytholistic.png");
+	}
+
+/* ===== Zink ===== */
+	.page-id-4016 #logo{
+    	content:url("/wp-content/uploads/logo-Zink-Bio-guavenblaetter-phytholistic.jpg");
+	}
+}
+
+/* ========== Footer Color ========== */
+
+/* ===== Acurmin ===== */
+.page-id-3261 #main-footer{
+   background-color:#f28b00;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 #main-footer{
+   background-color:#bd965c;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 #main-footer{
+   background-color:#f0827c;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 #main-footer{
+   background-color:#ffd200;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 #main-footer{
+   background-color:#b5c405;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 #main-footer{
+   background-color:#a3ca62;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 #main-footer{
+   background-color:#73aa50;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 #main-footer{
+   background-color:#d1555a;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 #main-footer{
+   background-color:#1f988a;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 #main-footer{
+   background-color:#4a8c2c;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 #main-footer{
+   background-color:#f7b435;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 #main-footer{
+   background-color:#f49491;
+}
+/* Test Ende */
+
+
+
+
+@media (max-width: 980px){
+	.et_pb_column{
+		margin-bottom:0px;
+	}
+}
+
+.quellenangabe{
+	font-size:12px;
+}
 
 @media screen and (max-width:500px){
+.entry-content table tr td{
+	padding:6px 6px;
+}
+}
+
+@media screen and (min-height:768px){
+	.paddingausgleich{
+		padding-top:8vh;
+		box-sizing:border-box;
+	}
+	.et_fullscreen_slider .et_pb_slides,
+.et_fullscreen_slider .et_pb_slide,
+.et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
+    height: 100vh !important;
+}
+}
+@media screen and (min-height:800px){
+	.paddingausgleich{
+		padding-top:10vh;
+		box-sizing:border-box;
+	}
+}
+@media screen and (min-height:900px){
+	.paddingausgleich{
+		padding-top:13vh;
+		box-sizing:border-box;
+	}
+}
+@media screen and (min-height:1050px){
+	.paddingausgleich{
+		padding-top:17vh;
+		box-sizing:border-box;
+	}
+}
+@media screen and (min-height:1080px){
+	.paddingausgleich{
+		padding-top:15vh;
+		box-sizing:border-box;
+	}
+}
+
+
+@media screen and (max-width:1024px){
+	.et_pb_text_inner{
+		margin-bottom:1.7em;
+	}
+}
+
+
+/* Auf einigen Zeilen will ich keine Abstände haben, daher als fix: .no-row-padding */
+.no-row-padding.et_pb_row {
+    padding: 0.1em !important;
+}
+
+/* Obwohl diese Farbe nirgends definiert und hinterlegt ist, wirklich NIRGENDS(!) färbt Divi Menü-Links blau. Fick dich, Divi. */
+#top-menu li.current-menu-ancestor>a, #top-menu li.current-menu-item>a{
+	color:rgba(0,0,0,0.6);
+}
+
+button a{
+	color:white !important;
+}
+
+p{
+	line-height:1.7em;
+}
+.img-resize-80 img{
+	height:80px !important;
+	width:auto;
+}
+
+.vcenter{
+	display:flex;
+}
+
+.produkt-button{
+	max-height:1.3em;
+	position:relative;
+	bottom:-5px;
+	margin-right:6px;
+}
+
+.pricetag{
+	font-family: 'Source Sans Pro';
+	font-size:38px;
+	text-shadow:none;
+	color:#333 !important;
+	margin-bottom:0.5em;
+}
+
+.thema_heading{
+	text-transform:uppercase !important;
+	font-weight:600 !important;
+}
+
+/* ====== MOBILE ANPASSUNGEN ====== */
+
+@media screen and (max-width:799px){
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich doppelte Auswahl der H1 */
+	h1, .et_pb_slide_content h1{
+	font-family: 'Source Sans Pro';
+	font-size:36px !important;
+	text-shadow:none;
+	/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+	color:#333 !important;
+}
+	
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
+	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
+	font-family: 'Source Sans Pro';
+	font-size:28px !important;
+	text-shadow:none;
+		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+	color:#333 !important;
+}
+
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H3 */
+	h3, .et_pb_slide_content h3{
+	font-family: 'Montserrat Semibold', sans-serif;
+	font-size:13px !important;
+	letter-spacing: 1px !important;
+	text-transform:uppercase;
+	text-shadow:none;
+		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+}
+		/* In der mobilen Ansicht soll im Menü kein Logo eingeblendet werden */
+	/*.logo_container{
+		display:none;
+	}*/
+.et_vertical_nav.et_vertical_fixed #page-container #main-header{	background:none !important;
+	padding-top:1em;
+}
+	
+	/* In der mobilen Version passt der Inhalt der einzelnen Elemente oft nicht mehr auf 100vh, deswegen wird hier betont, dass sich die Größe des Elementes an den Inhalt anpassen soll */
+.et_fullscreen_slider .et_pb_slides,
+.et_fullscreen_slider .et_pb_slide,
+.et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
+    height: auto !important;
+}
+		/* Themenraster */
+/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
+.thema{
+	height:5.2em !important;
+	}
+
+.thema-kachel{
+	padding-top:19.8em !important;
+	width:50%;
+	float:left;
+}
+
+/* ==== Themenraster Ende ==== */
+
+/* ===== Start Overview ===== */
+/* Mobile Anpassung der Produktdarstellung auf der Startseite mit den (+) und dem Hover-Effekt */
+	#start-overview{
+	max-height:15vh !important;
+}
+	
+#completes-overview h3#overview{
+	top:5em !important;
+}
+	
+.hov_calc h3,.hov_jod h3,.hov_eis h3,.hov_fol h3,.hov_zin h3,.hov_vitd3 h3,.hov_sel h3{
+	left:0em !important;
+	right:0em !important;
+	top:0em !important;
+}
+
+
+/* ===== Overview Ende ===== */
+
+	/* Auf dem Tablet ist eine bestimmte Grafik zu groß, hier wird sie in ihrer Größe eingeschränkt, damit sie den Rahmen nicht sprengt */
+	#grafik_vitc_natur{
+		width:90% !important;
+	}
+}
+
+@media screen and (max-width:500px){
+		/* Themenraster */
+	/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
+.thema{
+	height:5.2em !important;
+}
+
+.thema-kachel{
+	transition-duration:1s !important;
+	max-height:20em !important;
+	min-height:20em !important;
+	overflow:hidden;
+	padding-top:15.2em !important;
+	width:100%;
+}
+
+.thema-kachel:hover .thema, .thema-kachel:active .thema{
+	height:20em !important;
+}
+/* ==== Themenraster Ende ==== */
+	.half-div{
+	width:100% !important;
+	padding:0 !important;
+	margin-bottom:-40px !important;
+}
+	
 	.ein-blick{
 		margin-bottom:40px;
+	}
+	
+	/* Auf mobilen Endgeräten mit zu kleinem Bildschirm wird die Ankerleiste nicht angezeigt, stattdessen wird die TOC angezeigt */
+	.ankerleiste{
+		display:none;
+	}
+
+}
+
+@media screen and (max-height:800px){
+	.produkt{
+		max-height:36vh !important;
+	}
+	.produkt .produkt_descr, .produkt h2, .produkt h3{
+		display:none;
+	}/* ursprünglich war hier noch h2 und h3 mit dabei*/
+	.et_pb_row{
+		padding:0em;
+		box-sizing:border-box;
+	}
+}
+
+
+@media screen and (max-height:576px){
+	/* Stellt sicher, dass die mitscrollende Box auf den Produktseiten auf kleinen Netbooks nicht die Darstellung sprengt und die Ankerleiste noch sichtbar ist */
+	.produkt{
+		max-height:25vh !important;
+	}
+	.produkt img{
+		max-height:15vh;
 	}
 }
 
 /* ====== MOBILE ENDE ====== */
+
+
+/* ====== FARBSCHEMATA ====== */
+/* Überschriften */
+
+.tipps_h3{
+	font-weight:bold;
+}
+.vitc_h3{
+	color: #b5c405 !important;
+}
+.vitd3_h3{
+	color: #a3ca62 !important;
+}
+.vitb_h3{
+	color: #f0827c !important;
+}
+.calc_h3{
+	color: #d1555a !important;
+}
+.jod_h3{
+	color: #1f988a !important;
+}
+.mag_h3{
+	color: #4a8c2c !important;
+}
+.zin_h3{
+	color: #f49491 !important;
+}
+.sel_h3{
+	color: #f7b435 !important;
+}
+.fol_h3{
+	color: #ffd200 !important;
+}
+.gin_h3{
+	color: #bd965c !important;
+}
+.acu_h3{
+	color: #f28b00 !important;
+}
+.eis_h3{
+	color: #73aa50 !important;
+}
+.omega_h3 { 
+	color: #0081B8 !important;
+}
+.pearlz_h3 {
+	color: #4CC0DF !important;
+}
+
+/* Hintergründe */
+.vitc_bg{
+	background: #b5c405 !important;
+}
+.vitd3_bg{
+	background: #a3ca62 !important;
+}
+.vitb_bg{
+	background: #f0827c !important;
+}
+.calc_bg{
+	background: #d1555a !important;
+}
+.jod_bg{
+	background: #1f988a !important;
+}
+.mag_bg{
+	background: #4a8c2c !important;
+}
+.zin_bg{
+	background: #f49491 !important;
+}
+.sel_bg{
+	background: #f7b435 !important;
+}
+.fol_bg{
+	background: #ffd200 !important;
+}
+.gin_bg{
+	background: #bd965c !important;
+}
+.acu_bg{
+	background: #f28b00 !important;
+}
+.eis_bg{
+	background: #73aa50 !important;
+}
+.omega_bg {
+	background: #0081B8 !important;
+}
+.pearlz_bg {
+	background: #4CC0DF !important;
+}
+
+/* Bullet-Grafiken */
+.vitc_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-phytholistic-amla-beere-vitamin-c-leaf.png);
+}
+.vitd3_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-vitamin-d3-flechte-phytholistic-blatt.png);
+}
+.vitb_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-vitamin-b-bio-guave-zitronenschale-basilikum-phytholistic-blatt.png);
+}
+.calc_bullets li::before{
+	background-image:url(/wp-content/uploads/Icon-calcium-bio-rotalge-phytholistic-blatt.png);
+}
+.jod_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-jod-bio-braunalgen-phytholistic-blatt.png);
+}
+.mag_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-magnesium-bio-meerlattich-phytholistic-blatt.png);
+}
+.zin_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-Zink-Bio-guavenblaetter-phytholistic-blatt.png);
+}
+.sel_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-selen-bio-senfkoerner-phytholistic-blatt.png);
+}
+.fol_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-folsaeure-zitronenschale-phytholistic-blatt.png);
+}
+.gin_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-gingerin-ingwer-phytholistic-blatt.png);
+}
+.acu_bullets li::before{
+	background-image:url(/wp-content/uploads/Icon-acurmin-Bio-curcuma-phytholistic-blatt.png);
+}
+.eis_bullets li::before{
+	background-image:url(/wp-content/uploads/icon-eisen-Bio-curryblatt-amlabeere-phytholistic-blatt.png);
+}
+
+@media screen and (min-width:981px){
+/* Menüpunkte mit Bildern */
+/* Menüpunkte sollen gekachelt werden, deshalb setze ich hier die Breite des Submenüs (urspr. 240px) hoch */
+.nav li ul{
+	width:460px;
+}
+/* Damit die Menüpunkte richtig nebeneinander gekachelt angezeigt werden, werden die ungeraden Links (der 1., der 3., der 5. etc.) nach links gefloatet, die geraden Links werden nach rechts gefloatet */
+.menu-item-3914, .menu-item-3915, .menu-item-3900, .menu-item-3905, .menu-item-3909, .menu-item-3898 {
+	float:left;
+}
+
+.menu-item-3902, .menu-item-3916, .menu-item-3899, .menu-item-3907, .menu-item-4018, .menu-item-4015 {
+	float:right;
+}
+
+/* Die Links der Menüpunkte sollen zentriert sein */
+
+.menu-item-3914 a, .menu-item-3902 a, .menu-item-3915 a, .menu-item-3916 a, .menu-item-3900 a, .menu-item-3899 a, .menu-item-3905 a, .menu-item-3907 a, .menu-item-3909 a, .menu-item-3898 a, .menu-item-4015 a, .menu-item-4018 a{
+	text-align:center;
+}
+
+/* Auf Netbooks müssen manche Menüpunkte weiter nach oben rutschen */
+@media screen and (max-height:800px){
+	.menu-item-9 ul.sub-menu{
+	top:-2vh !important;
+}
+	.menu-item-10 ul.sub-menu{
+	top:-25vh !important;
+}
+	.menu-item-2246 ul.sub-menu{
+	top:-33vh !important;
+}
+}
+
+/* Auf größeren Monitoren müssen manche Menüpunkte weiter nach oben rutschen, aber anders als bei Netbooks */
+@media screen and (min-height:800px){
+	.menu-item-9 ul.sub-menu{
+	top:-2vh !important;
+}
+	.menu-item-10 ul.sub-menu{
+	top:-10vh !important;
+}
+	.menu-item-2246 ul.sub-menu{
+	top:-15vh !important;
+}
+}
+
+/* Acurmin */
+.menu-item-3898 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Gingerin */
+.menu-item-4015 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Vitamin B */
+.menu-item-3914 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Folsäure */
+.menu-item-3902 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Vitamin C */
+.menu-item-3915 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Vitamin D */
+.menu-item-3916 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Eisen + C */
+.menu-item-3900 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Calcium */
+.menu-item-3899 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Jod */
+.menu-item-3905 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Magnesium */
+.menu-item-3907 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Selen */
+.menu-item-3909 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+
+/* Zink */
+.menu-item-4018 a::before{
+content:url(http://phyto.cellavent.de/wp-content/uploads/menue-verpackung-vb.png);
+}
+	
+/* Die Menüpunkte für Themenwelten nehmen aktuell nicht die volle Breite der Submenue-Box ein. Das wird mit nachfolgendem Code geändert. */
+	.menu-item-3892 a, .menu-item-3893 a, .menu-item-3894 a, .menu-item-4597 a, .menu-item-4598 a {
+		width:100% !important;
+	}
+}
+
+
+
+/* ====== FARBSCHEMATA ENDE ====== */
+
+/* ===== Start Overview ===== */
+#completes-overview{
+	height:16em;
+}
+
+#start-overview{
+	max-height:15vh !important;
+	min-height:15vh
+}
+
+#completes-overview h3#overview{
+	position:relative;
+	top:12em;
+}
+
+h3#overview,h3#overview_mirrored{
+	color:#333 !important;
+	font-weight:bold !important;
+	letter-spacing:1px !important;
+}
+h3#overview:before,h3#overview_mirrored:after{
+	content:'+';
+	background:#b5c405;
+	border-radius:50% !important;
+	margin:0.3em;
+	color:white;
+	font-size:36px;
+	line-height:36px;
+	width:36px;
+	height:36px;
+	font-weight:lighter;
+	text-align:center;
+	box-sizing:border-box;
+	display:inline-block;
+}
+
+.hov_jod h3{
+	position:relative;
+	right:-5em;
+}
+.hov_calc h3{
+	position:relative;
+	left:-5em;
+}
+.hov_eis h3{
+	position:relative;
+	right:-6em;
+	top:5em;
+}
+.hov_fol h3{
+	position:relative;
+	right:-8em;
+	top:3em;
+}
+.hov_zin h3{
+	position:relative;
+	left:-2em;
+	top:3em;
+}
+.hov_vitd3 h3{
+	position:relative;
+	left:-4em;
+	top:3em;
+}
+.hov_sel h3{
+	position:relative;
+	left:-4em;
+	top:3em;
+}
+.over_vis{
+	position:relative;
+}
+.over_hid{
+	position:absolute;
+	background:white;
+	text-align:center;
+	box-shadow:0px 0px 10px #b4b4b4;
+	max-width:17em !important;
+	box-sizing:border-box;
+	padding:2em;
+}
+.hov_gin_child,.hov_acu_child,.hov_eis_child,.hov_fol_child,.hov_jod_child,.hov_zin_child,.hov_vitb_child,.hov_mag_child,.hov_sel_child,.hov_vitd3_child,.hov_vitc_child,.hov_calc_child{
+	display:none;	
+	z-index:10;
+}
+.hov_gin:hover .hov_gin_child,.hov_acu:hover .hov_acu_child,.hov_eis:hover .hov_eis_child,.hov_fol:hover .hov_fol_child,.hov_jod:hover .hov_jod_child,.hov_zin:hover .hov_zin_child,.hov_vitb:hover .hov_vitb_child,.hov_mag:hover .hov_mag_child,.hov_sel:hover .hov_sel_child,.hov_vitd3:hover .hov_vitd3_child,.hov_vitc:hover .hov_vitc_child,.hov_calc:hover .hov_calc_child{
+	display:block;
+}
+.hov_gin_child{
+	top:-5em;
+	right:-5em;
+}
+.hov_acu_child{
+	top:-5em;
+	left:-5em;
+}
+.hov_eis_child{
+	top:-5em;
+	right:-5em;
+}
+.hov_fol_child{
+	top:-5em;
+}
+.hov_jod_child{
+	top:-5em;
+}
+.hov_zin_child{
+	top:-7em;
+	right:-3em;
+}
+.hov_vitb_child{
+	top:-7em;
+}
+.hov_mag_child{
+	top:-8em;
+}
+.hov_sel_child{
+	top:-5em;
+	left:-5em;
+}
+.hov_vitd3_child{
+	top:-5em;
+}
+.hov_vitc_child{
+	top:-5em;
+}
+.hov_calc_child{
+	top:-10em;
+	left:-8em;
+}
+/* ===== Overview Ende ===== */
+
+
+
+/* ===== Themenwelten ===== */
+#colored-border{
+	border-width: 15px;
+	border-image: linear-gradient(to right, #ede54c 50%, #6a8a2c 50%, #6a8a2c 75%, #92ab2f 75%) 5;
+}
+
+/* ===== Themenwelten ENDE ===== */
+
+#grafik_vitc_natur{
+	width:50%;
+}
 
 .swiper-container {
       width: 100%;
@@ -19,15 +904,752 @@
 			max-width:20em !important;
     }
 
+.third-div{
+	width:30%;
+	float:left;
+	margin:10px;
+}
+
+.half-div{
+	width:50%;
+	float:left;
+	padding:16px;
+	box-sizing:border-box;
+}
+
+.half-div-nofloat{
+	width:50%;
+	float:none;
+	padding:16px;
+	box-sizing:border-box;
+}
+
+
+/* Call 2 Action Buttons */
+.half{
+	width:50%;
+	float:left;
+	margin-bottom:4px;
+}
+
+.cta{
+	text-transform:uppercase;
+	color:white;
+	text-shadow:none;
+	font-weight:bold;
+	box-sizing:border-box;
+	margin:4px !important;
+	padding:10px;	
+	text-align:center;
+	cursor:pointer;
+}
+/* ==== C2A-Buttons Ende ==== */
+
+/* Ankerleiste */
+/* Gemeint ist damit die Linkleiste unter der mitscrollenden Box auf den Produktseiten*/
+.ankerleiste{
+	position:fixed;
+	right:0px;
+	margin-top:4em;
+	box-sizing:border-box;
+	padding:1em;
+	text-align:justify;
+	color:white;
+overflow:hidden !important;
+	white-space: nowrap;
+	width:1em;
+	transition:width 0.5s ease-in-out;
+}
+
+/*.ankerleiste ul{
+list-style: none;
+}
+
+.ankerleiste ul li:before{
+content:	"• ";
+	color:white;
+      margin-right: 5px;
+      font-size: 20px;
+      font-weight: bold;
+}*/
+
+.ankerleiste a{
+	color:white;
+	cursor:pointer;
+}
+
+.ankerleiste a:hover{
+	font-weight:600;
+}
+
+/* Die Ankerleiste ist im Standard am rechten Bildschirmrand als schmaler Streifen zu sehen, fährt man mit der Maus darüber, soll sie ausfahren und die Links werden klickbar für den Nutzer */
+.ankerleiste:hover{
+	transition:width 0.5s ease-in-out;
+	width:21.25%;
+}
+
+
+
+/* ==== Ankerleiste Ende ==== */
+
+/* Ordered List, Colored Numbers */
+/* Bezieht sich auf die Liste im SEO-Bereich der Produktseite */
+.vitc_ol ol, .vitd3_ol ol, .vitb_ol ol, .calc_ol ol, .jod_ol ol, .mag_ol ol,.zin_ol ol,.sel_ol ol,.fol_ol ol,.gin_ol ol,.acu_ol ol, .eis_ol ol {
+	list-style-type: none !important;
+	counter-reset: li;}
+
+	.vitc_ol li, .vitd3_ol li, .vitb_ol li, .calc_ol li, .jod_ol li,.mag_ol li,.zin_ol li,.sel_ol li,.fol_ol li,.gin_ol li,.acu_ol li, .eis_ol li {
+		counter-increment: li;
+	}
+
+.vitc_ol li::before, .vitd3_ol li::before, .vitb_ol li::before, .calc_ol li::before,.jod_ol li::before,.mag_ol li::before,.zin_ol li::before,.sel_ol li::before,.fol_ol li::before,.gin_ol li::before,.acu_ol li::before, .eis_ol li::before {
+	content: counter(li);
+	color: white !important;
+	font-weight:bold;
+	border-radius:50% !important;
+  display:block;
+	height:40px;
+	width:40px!important;
+	line-height:40px;
+	text-align:center;
+	margin-left:-3em !important;
+	position:relative;
+	top:1.4em;
+	font-size:20px;
+}
+
+.vitc_ol li::before{
+		background:#c3d600;
+	}
+
+.vitd3_ol li::before{
+		background:#a3d55f;
+	}
+
+.vitb_ol li::before{
+		background:#ff828a;
+}
+
+.calc_ol li::before{
+		background:#d1555a;
+}
+
+.jod_ol li::before{
+		background:#19988b;
+}
+
+.mag_ol li::before{
+		background:#4a8b2c;
+}
+
+.zin_ol li::before{
+		background:#f29492;
+}
+
+.sel_ol li::before{
+		background:#f6b436;
+}
+
+.fol_ol li::before{
+		background:#ffd200;
+}
+
+.gin_ol li::before{
+		background:#bd965c;
+}
+
+.acu_ol li::before{
+		background:#f28b00;
+}
+
+.eis_ol li::before{
+		background:#72a951;
+}
+
+/* ==== OL: Colored Numbers Ende ==== */
+
+/* Produktinfos Tabelle */
+/* Bezieht sich auf die Tabelle im SEO-Bereich der Produktseite, muss im Zuge des Aufbaus weiterer Produktseiten hinsichtlich weiterer Farben auf jeden Fall überarbeitet werden */
+.prtab{
+	margin:20px 0px !important;
+}
+.prtab_zelle{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:50%
+}
+
+.prtab_zelle_25{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:25%
+}
+
+.prtab_zelle_33{
+	box-sizing:border-box;
+	border:2px solid #fff !important;
+	font-weight:bold;
+	padding:12px;
+	width:33.3%
+}
+
+#ueberblick .prtab_zelle, #ueberblick .prtab_zelle_25, #ueberblick .prtab_zelle_33{
+	border:2px solid #e4e1d0 !important;
+}
+
+.prtab_dark{
+	color:white;
+}
+
+.vitc_prtab_light{
+color:#c3d600;
+background:#f4f6da;
+}
+.vitd3_prtab_light{
+color:#a3d55f;
+background:#d4e3a7;
+	background:#ecf7c3 !important;
+}
+.vitb_prtab_light{
+color:#ff828a;
+background:#f2a79e;
+background:#ffc9c4 !important;
+}
+.calc_prtab_light{
+color: #d1555a;
+background:#ef9c9d;
+}
+.jod_prtab_light{
+color:#19988b;
+background:#98c0a1;
+background:#c3e5c6 !important;
+}
+.mag_prtab_light{
+color:#4a8b2c;
+background:#a3c15b;
+background:#d0e590 !important;
+}
+.zin_prtab_light{
+color:#f29492;
+background:#f8bcb6;
+background:#f7c9c5 !important;
+}
+.sel_prtab_light{
+color:#f6b436;
+background:#fbcf22;
+background:#f9e69f !important;
+}
+.fol_prtab_light{
+color:#faca00 !important;
+background:#ffe36b;
+	/* Kein Farbcode aus Styleguide */
+}
+.gin_prtab_light{
+color:#bd965c;
+background:#ecd172;
+}
+.acu_prtab_light{
+color:#f28b00;
+background:#f9b111;
+background:#ffcc68 !important;
+}
+.eis_prtab_light{
+color:#72a951;
+background:#b2c757;
+background: #c1d365 !important;
+}
+/* ==== Produktinfos Tab. Ende ==== */
+
+/* Themenraster */
+.weitere-themen{
+	width:100% !important;
+}
+
+.thema{
+	box-sizing:border-box;
+	width:100%;
+	padding:1.5em;
+	height:5em;
+	transition:height 3s ease-in-out;
+}
+
+.thema-6{
+	box-sizing:border-box;
+	width:100%;
+	padding:1.5em;
+	height:24.6em;
+}
+
+.thema p, .thema-6 p{
+	font-weight:normal;
+	text-transform:none;
+}
+
+.thema button{
+	background:white;
+	cursor:pointer;
+}
+
+.thema-kachel{
+	transition-duration:1s !important;
+	max-height:24.6em;
+	min-height:24.6em;
+	overflow:hidden;
+	padding-top:20em;
+}
+
+.thema-kachel-6{
+	max-height:24.6em;
+	min-height:24.6em;
+	overflow:hidden;
+}
+
+.thema-kachel:hover, .thema-kachel:active{
+	padding-top:0em !important;
+}
+
+.thema-kachel:hover .thema, .thema-kachel:active .thema{
+	height:24.6em !important;
+	transition: height 0.5s ease-in-out;
+}
+/* ==== Themenraster Ende ==== */
+
+/* Center Content Vertically */
+.ds-vertical-align { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+#ds-vertical-align { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+/* Slider Image on right, text on left */
+div#positionswap .et_pb_slide_description {
+float: left;
+}
+div#positionswap .et_pb_slide_image {
+right: 0;
+margin-right: 0;
+}
+
 /* Alle Seiten */
+.et_vertical_nav #main-header #et-top-navigation{
+	text-align:center;
+}
+
+.et_vertical_nav #main-header #top-menu>li>a{
+	margin-bottom:20px;
+}
+
+/* ========== Navigation Background  ========== */
+
+/* ===== Default/Fallback ===== */
+.et_vertical_nav.et_vertical_fixed #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-vitamin-c-bio-amlabeere-logo-navigation.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+/* ===== Acurmin ===== */
+.page-id-3261 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-acurmin-bio-kurkuma-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-gingerin-bio-ingwer-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-vitamin-b-bio-guavenblatt-zitronenschale-basilikum-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-folsaeure-bio-zitronenschale-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-vitamin-c-bio-amlabeere-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-vitamin-d3-flechte-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-eisen-bio-curryblatt-amlabeere-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-calcium-bio-rotalge-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-jod-bio-braunalge-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-magnesium-bio-meerlattich-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-selen-bio-senfkoerner-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 #page-container #main-header{
+   background: url(/wp-content/uploads/phytholistic-zink-bio-guavenblatt-logo-navigation.png) !important;
+   background-repeat: no-repeat !important;
+   background-position: bottom !important;
+}
+
+/* ===== ENDE ===== */
+
+/* ========== Submenu Border Color  ========== */
+
+@media (min-width: 981px){
+
+/* ===== Default/Fallback ===== */
+.et_vertical_nav #main-header #top-menu li ul{
+   border-color: #b5c405;
+}
+
+/* ===== Acurmin ===== */
+.page-id-3261 #main-header #top-menu li ul{
+   border-color: #f28b00 !important;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 #main-header #top-menu li ul{
+   border-color: #bd965c !important;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 #main-header #top-menu li ul{
+   border-color: #f0827c !important;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 #main-header #top-menu li ul{
+   border-color: #ffd200 !important;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 #main-header #top-menu li ul{
+   border-color: #b5c405 !important;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 #main-header #top-menu li ul{
+   border-color: #a3ca62 !important;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 #main-header #top-menu li ul{
+   border-color: #73aa50 !important;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 #main-header #top-menu li ul{
+   border-color: #d1555a !important;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 #main-header #top-menu li ul{
+   border-color: #1f988a !important;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 #main-header #top-menu li ul{
+   border-color: #4a8c2c !important;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 #main-header #top-menu li ul{
+   border-color: #f7b435 !important;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 #main-header #top-menu li ul{
+   border-color: #f49491 !important;
+}
+}
+
+/* ========== END  ========== */
+
+@media screen and (max-width:980px){
+.et_vertical_nav.et_vertical_fixed #page-container #main-header{	background:none !important;
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+	#logo{
+content:url("/wp-content/uploads/logo-phytholistic-amla-beere-vitamin-c.png");
+	}
+	
+	.page-id-3637 #logo{
+content:url("/wp-content/uploads/logo-folsaeure-zitronenschale-phytholistic.png");
+	}
+}
+
+
+.et_fullscreen_slider .et_pb_slides,
+.et_fullscreen_slider .et_pb_slide,
+.et_fullscreen_slider .et_pb_container,.et_pb_section,.et_section_regular {
+    min-height: 100vh;
+    height: auto !important;
+	box-sizing:border-box;
+}
+
+h1, .et_pb_slide_content h1{
+	font-family: 'Source Sans Pro';
+	font-size:45px !important;
+	text-shadow:none;
+	color:#333 !important;
+	margin:15px 0px;
+	font-weight:390;
+}
+
+h2, .et_pb_slide_content h2{
+	font-family: 'Source Sans Pro';
+	font-size:38px !important;
+	text-shadow:none;
+	color: #333 !important;
+	margin:15px 0px;
+	line-height:1.4em;
+	font-weight:390;
+}
+
+h3, .et_pb_slide_content h3{
+	font-family: 'Montserrat Semibold', sans-serif;
+	font-size:14px !important;
+	letter-spacing: 3px;
+	text-transform:uppercase;
+	text-shadow:none;
+}
+
+p, .et_pb_slide_content p{
+	text-shadow:none !important;
+}
+
+.bullets{
+	list-style-type: none !important; 
+	counter-reset: li;
+}
+
+.bullets li {
+	font-family: 'Source Sans Pro';
+	font-size:15px;
+	font-weight:600 !important;
+	text-shadow:none !important;
+	list-style:none !important;
+	line-height:1.7em;
+	margin:2em !important;
+}
+
+.bullets li::before{
+	content: counter(li);
+	content:''; 
+	display:block; 
+	height:1.7em !important; 
+	width:1.7em !important; 
+	background-size:contain; 
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin:-16px;
+	left:-0.8em;
+	top:1.2em;
+}
+
+button {
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:12px;
+	border:none;
+	padding:15px;
+	min-width:20%;
+	max-width:90%;
+	box-sizing:border-box;
+	cursor:pointer;
+}
 
 ul.et_pb_side_nav.et-visible{
 	display:none;
 }
 
+.entry-content table, .entry-content tr td{
+	border:none;
+}
+
+.weiterethemen tr td{
+	height:auto;
+}
+
+.et_pb_equal_columns >.et_pb_column {
+margin-top:auto;
+margin-bottom:auto;
+}
+
+#vertical-align { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+
 #commitment-icon img{
 	max-width:60px;
 	height:auto;
+}
+
+.clear{
+	clear:both;
+}
+
+
+/* .icon-zeile img{
+	max-width:60px;
+	height:auto;
+}
+
+.icon-zeile div{
+		margin:0px 0px !important;
+	float:left;
+}
+
+.icon-zeile{
+	text-align:center !important;
+	display:flex !important;
+	flex-direction:row !important;
+}
+
+.icon-zeile-ohne img{
+	max-width:60px;
+	height:auto;
+	margin:8px 12px !important;
+}
+
+.icon-zeile-ohne{
+	text-align:center !important;
+}
+
+
+
+@media screen and (max-width:1919px){
+	.icon-zeile img{
+	margin:0px 30px !important;
+	}
+}
+
+@media screen and (max-width:1440px){
+	.icon-zeile img{
+	margin:0px 20px !important;
+	}
+}
+
+@media screen and (max-width:1280px){
+	.icon-zeile img{
+	margin:0px 15px !important;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.icon-zeile img{
+	margin:10px !important;
+	}
+	.icon-zeile{
+	display:block;
+	}
+	.icon-zeile div{
+		float:left;
+		margin:0px 5px !important;
+	}
+}
+
+@media screen and (max-width:450px){
+	.icon-zeile img{
+	margin:0px !important;
+	}
+	.icon-zeile div{
+		margin:0px 10px 20px 10px;
+	}
+}*/
+
+.price-bio img{
+	max-width:60px;
+	height:auto;
+	margin:0px 10px;
+	float:right;
+}
+
+/* Kacheln mit Hover */
+.upper-div{
+	z-index:20;
+	transition: all ease-in-out 0.5s;
+	position:absolute;
+}
+
+.upper-div:hover{
+	opacity:0;
+}
+
+.upper-div img{
+	max-width:100%;
+}
+
+.lower-div{
+	z-index:10;
+}
+
+#indent{
+	box-sizing:border-box;
+	padding-left:4em;
+}
+
+.intext{
+font-style:italic;
+text-transform:none;
+	letter-spacing:1px;
 }
 
 #slider_2470 .slider-bild{
@@ -79,4 +1701,251 @@ box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
 	.extrawurst{
 		padding:0 !important;
 	}
+}
+
+ul.bullets li{
+	text-align:left !important;
+}
+/* START: Anpassungen von Tim */
+
+/* Kreis mit gepunkteten Linien */
+#kreis {
+	width: 2em !important;
+  height: 2em !important;
+	line-height:2em !important;
+	font-size:56px !important;
+	font-weight:bold;
+	font-style:italic;
+  border-radius: 50%;
+	border: 2px dotted #b3b3b3 !important;
+	box-sizing:border-box;
+	text-align:center !important;
+}
+
+/* Ein Blattförmiges Symbol für Aufzählungen */
+.leaf { 
+  width: 20px; height: 30px;
+  -moz-border-radius: 20px 0px;
+  -webkit-border-radius: 20px 0px;
+  border-radius: 20px 0px;
+}
+
+/* Klasse zum Zentrieren */
+.zentriert{
+	text-align: center !important;
+	margin-left: auto;
+  margin-right: auto;
+}
+
+.block{
+	display:block !important
+}
+
+
+/* START Anpassungen für das Formular */
+input.text, input.title, input[type=text], input[type=tel], input[type=email], select, textarea {
+  margin: 0;
+  padding: 10px;
+	width: 100%;
+}
+
+input.text:hover, input.title:hover, input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, select:hover, textarea:hover {
+  border-color: #92AB2F;
+}
+
+input[type=checkbox] {
+	-webkit-appearance: none;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	/* float: left; */
+	left: -10px;
+	top: 10px;
+}
+
+.wpcf7-submit {
+	float: right;
+}
+
+/* ENDE Anpassungen für das Formular */
+
+/* START Slide-Out Menü */
+.sidenav {
+/*    height: 495px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F4F3F3;
+    overflow-x: hidden;
+    transition: 0.8s;
+    overflow: hidden;
+     padding-top: 60px; */
+    /* margin-top: 10px; */
+	
+	  height: 495px;
+    width: 0;
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    margin-left: 225px;
+    background-color: #F4F3F3;
+    overflow-x: hidden;
+    transition: 0.8s;
+    overflow: hidden;
+	
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    /*color: #818181;*/
+    display: block;
+    transition: 0.2s;
+}
+
+.sidenav a:hover {
+    /*color: #92AB2F;*/
+    display: box;
+    /* padding: 8px 8px 8px 64px; */
+    /* outline-style: solid; */
+    border-style: solid !important;
+		border-color: #92AB2F	!important;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* ENDE Slide-Out Menü */
+
+/* ENDE: Anpassungen von Tim */
+
+/* Icons von Tim */
+.icon-zeile-container .et_pb_text_inner{
+	width:100%;
+}
+/* Icons unter Packshot darstellen */
+.icon-zeile-container .icon-zeile {
+	/*text-align: center !important;
+	margin: 0 auto !important;
+	position: relative !important;
+    display: table !important;*/
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    flex-wrap: nowrap;
+	margin:0 auto !important;
+}
+
+.icon-zeile {
+	/*text-align: center !important;
+	margin: 0 auto !important;
+	position: relative !important;
+    display: table !important;*/
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+	margin:0 auto !important;
+}
+
+.icon-zeile-padding{
+	width:60% !important;
+}
+
+@media screen and (max-width:1440px){
+	.icon-zeile-padding{
+	width:70% !important;
+}
+}
+
+@media screen and (max-width:1279px) and (min-width:981px){
+	.icon-zeile-container .icon-zeile {
+		flex-wrap: wrap !important;
+		position:relative;
+		top:-30px;
+	}
+	.icon-zeile-container .icon-zeile img {
+		height:auto;
+		width:40px;
+	}
+	
+	.icon-zeile-padding{
+	width:70% !important;
+}
+}
+
+@media screen and (max-width:981px){
+	.icon-zeile {
+		width:100%;
+		flex-wrap: wrap !important;
+	}
+	
+	.icon-zeile-padding{
+	width:99% !important;
+}
+}
+@media screen and (max-width:500px){
+	.icon-zeile-padding{padding-top:60px !important;}
+}
+.icon-zeile img {
+	max-width: 60px !important;
+	max-height: 60px !important;
+	height: auto;
+	display: flex;
+}
+@media screen and (max-width:1025px){
+	.icon-zeile img {
+		max-width: 60px !important;
+	max-height: 60px !important;
+	}
+	.icon-zeile-padding{
+	width:99% !important;
+}
+}
+/* Icons unter dem 1. Packshot auf den Produktseiten Rechtsbündig machen */
+#packshot-icons {
+	margin: unset !important;
+	float: right !important;
+}
+/* Einige Icons sind im Layout kleiner als andere */
+.icon-small img {
+	max-width: 66px;
+}
+.icon-withtext img {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+/* Wie .item, aber für Elemente in Icon-Zeile & ohne responsiveness */
+.icon-withtext {
+	text-align: center;
+	/* display: block; */
+	background-color: transparent;
+	border: 0.19em solid transparent;
+	float: left;
+}
+/* Textbreite beschränken um Textumbrüche wie in Layout-Entwurf zu erhalten
+	Zusätzlich Anpassung an Abständen und Schriftart */
+.icon-withtext p {
+	max-width: 7em;
+    padding-bottom: 0.5em;
+    font-weight: 600;
+    line-height: 17px;
+}
+
+@media screen and (max-width:500px){
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
+	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
+	font-family: 'Source Sans Pro';
+	font-size:22px !important;
+	text-shadow:none;
+		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+	color:#333 !important;
+}
 }
