@@ -43,6 +43,7 @@
 * xxxx * Clear
 * xxxx * Positionswap
 * xxxx * Remove Margin on Mobile
+* xxxx * Add Margin on Tablet
 * xxxx * Margin unter Bildern height<800px
 * xxxx * Fix für vert. zent. für mehrere Rows
 * xxxx * Elemente sollen 100vh einnehmen
@@ -1424,6 +1425,13 @@ margin-right: 0;
 @media (max-width: 980px){
 	.et_pb_column{
 		margin-bottom:0px;
+	}
+}
+
+/* Bei bestimmten Auflösungen benötigen Elemente zusätzlichen Abstand, sonst sehen sie nicht gut aus */
+@media screen and (max-width:1024px){
+	.et_pb_text_inner{
+		margin-bottom:1.7em;
 	}
 }
 
