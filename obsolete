@@ -44,4 +44,70 @@
     justify-content: center;
 } 
 
+/* .icon-zeile img{
+	max-width:60px;
+	height:auto;
+}
+
+.icon-zeile div{
+		margin:0px 0px !important;
+	float:left;
+}
+
+.icon-zeile{
+	text-align:center !important;
+	display:flex !important;
+	flex-direction:row !important;
+}
+
+.icon-zeile-ohne img{
+	max-width:60px;
+	height:auto;
+	margin:8px 12px !important;
+}
+
+.icon-zeile-ohne{
+	text-align:center !important;
+}
+
+@media screen and (max-width:1919px){
+	.icon-zeile img{
+	margin:0px 30px !important;
+	}
+}
+
+@media screen and (max-width:1440px){
+	.icon-zeile img{
+	margin:0px 20px !important;
+	}
+}
+
+@media screen and (max-width:1280px){
+	.icon-zeile img{
+	margin:0px 15px !important;
+	}
+}
+
+@media screen and (max-width:1024px){
+	.icon-zeile img{
+	margin:10px !important;
+	}
+	.icon-zeile{
+	display:block;
+	}
+	.icon-zeile div{
+		float:left;
+		margin:0px 5px !important;
+	}
+}
+
+@media screen and (max-width:450px){
+	.icon-zeile img{
+	margin:0px !important;
+	}
+	.icon-zeile div{
+		margin:0px 10px 20px 10px;
+	}
+}*/
+
 /* ===== OBSOLET ?! ===== */
