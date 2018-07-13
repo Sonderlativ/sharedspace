@@ -25,11 +25,6 @@ ul.et_pb_side_nav.et-visible{
 	display:none;
 }
 
-.et_pb_equal_columns >.et_pb_column {
-margin-top:auto;
-margin-bottom:auto;
-}
-
 #commitment-icon img{
 	max-width:60px;
 	height:auto;
@@ -60,8 +55,6 @@ margin-bottom:auto;
 .icon-zeile-ohne{
 	text-align:center !important;
 }
-
-
 
 @media screen and (max-width:1919px){
 	.icon-zeile img{
