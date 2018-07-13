@@ -43,6 +43,7 @@
 * xxxx * Clear
 * xxxx * Positionswap
 * xxxx * Remove Margin on Mobile
+* xxxx * Margin unter Bildern height<800px
 
 ============================= */
 
@@ -1381,6 +1382,13 @@ margin-right: 0;
 	.et_pb_column{
 		margin-bottom:0px;
 	}
+}
+
+/* Warum entfernst du den Abstand unter Bildern, Divi? Warum?! */
+@media screen and (max-height:800px) and (max-width:1370px){
+	.natsyn .et_pb_image_wrap img{
+	margin-bottom: 1.7em !important;
+}
 }
 
 /* ====== DIVI BUGS ENDE ====== */
