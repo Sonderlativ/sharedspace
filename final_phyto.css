@@ -1113,8 +1113,16 @@ content:	"• ";
 
 /* Themenraster für die Darstellung von Themenwelten */
 /* Themenraster */
+.entry-content table, .entry-content tr td{
+	border:none;
+}
+
 .weitere-themen{
 	width:100% !important;
+}
+
+.weiterethemen tr td{
+	height:auto;
 }
 
 .thema{
@@ -1485,6 +1493,15 @@ margin-right: 0;
 }
 
 /* Elemente sollen 100vh einnehmen */
+.et_fullscreen_slider .et_pb_slides,
+.et_fullscreen_slider .et_pb_slide,
+.et_fullscreen_slider .et_pb_container,.et_pb_section,.et_section_regular {
+    min-height: 100vh;
+    height: auto !important;
+	box-sizing:border-box;
+}
+
+/* Auf Displays wie dem von Karina soll height:auto nicht greifen */
 @media screen and (min-height:768px){
 	.et_fullscreen_slider .et_pb_slides,
 	.et_fullscreen_slider .et_pb_slide,
