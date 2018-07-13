@@ -18,43 +18,6 @@
 
 /* ===== OBSOLET ?! ===== */
 
-@media screen and (min-height:768px){
-	.paddingausgleich{
-		padding-top:8vh;
-		box-sizing:border-box;
-	}
-	.et_fullscreen_slider .et_pb_slides,
-.et_fullscreen_slider .et_pb_slide,
-.et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
-    height: 100vh !important;
-}
-}
-@media screen and (min-height:800px){
-	.paddingausgleich{
-		padding-top:10vh;
-		box-sizing:border-box;
-	}
-}
-@media screen and (min-height:900px){
-	.paddingausgleich{
-		padding-top:13vh;
-		box-sizing:border-box;
-	}
-}
-@media screen and (min-height:1050px){
-	.paddingausgleich{
-		padding-top:17vh;
-		box-sizing:border-box;
-	}
-}
-@media screen and (min-height:1080px){
-	.paddingausgleich{
-		padding-top:15vh;
-		box-sizing:border-box;
-	}
-}
-
-
 @media screen and (max-width:1024px){
 	.et_pb_text_inner{
 		margin-bottom:1.7em;
@@ -65,9 +28,6 @@
 
 @media screen and (max-width:799px){
 	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich doppelte Auswahl der 
-	
-	
-	
 	*/
 	h1, .et_pb_slide_content h1{
 	font-family: 'Source Sans Pro';
