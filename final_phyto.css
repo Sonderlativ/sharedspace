@@ -1434,5 +1434,14 @@ margin-right: 0;
 }
 }
 
+@media screen and (max-width:799px){
+/* In der mobilen Version passt der Inhalt der einzelnen Elemente oft nicht mehr auf 100vh, deswegen wird hier betont, dass sich die Größe des Elementes an den Inhalt anpassen soll */
+.et_fullscreen_slider .et_pb_slides,
+.et_fullscreen_slider .et_pb_slide,
+.et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
+    height: auto !important;
+}
+}
+
 /* ====== DIVI BUGS ENDE ====== */
 
