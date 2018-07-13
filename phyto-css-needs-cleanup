@@ -20,7 +20,10 @@
 	#grafik_vitc_natur{
 		width:90% !important;
 	}
-
+	/* In der mobilen Ansicht soll im Menü kein Logo eingeblendet werden */
+	/*.logo_container{
+		display:none;
+	}*/
 /* ===== OBSOLET ?! ===== */
 
 @media screen and (max-width:1024px){
@@ -31,36 +34,7 @@
 
 /* ====== MOBILE ANPASSUNGEN ====== */
 
-@media screen and (max-width:799px){
-		/* In der mobilen Ansicht soll im Menü kein Logo eingeblendet werden */
-	/*.logo_container{
-		display:none;
-	}*/
-.et_vertical_nav.et_vertical_fixed #page-container #main-header{	background:none !important;
-	padding-top:1em;
-}
-}
-
 @media screen and (max-width:500px){
-		/* Themenraster */
-	/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
-.thema{
-	height:5.2em !important;
-}
-
-.thema-kachel{
-	transition-duration:1s !important;
-	max-height:20em !important;
-	min-height:20em !important;
-	overflow:hidden;
-	padding-top:15.2em !important;
-	width:100%;
-}
-
-.thema-kachel:hover .thema, .thema-kachel:active .thema{
-	height:20em !important;
-}
-/* ==== Themenraster Ende ==== */
 	.half-div{
 	width:100% !important;
 	padding:0 !important;
@@ -70,12 +44,6 @@
 	.ein-blick{
 		margin-bottom:40px;
 	}
-	
-	/* Auf mobilen Endgeräten mit zu kleinem Bildschirm wird die Ankerleiste nicht angezeigt, stattdessen wird die TOC angezeigt */
-	.ankerleiste{
-		display:none;
-	}
-
 }
 
 @media screen and (max-height:800px){
