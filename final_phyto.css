@@ -1288,6 +1288,7 @@ h3#overview:before,h3#overview_mirrored:after{
 
 
 /* Mobile Anpassung der Produktdarstellung auf der Startseite mit den (+) und dem Hover-Effekt */
+@media screen and (max-width:799px){
 	#start-overview{
 	max-height:15vh !important;
 }
@@ -1300,6 +1301,7 @@ h3#overview:before,h3#overview_mirrored:after{
 	left:0em !important;
 	right:0em !important;
 	top:0em !important;
+}
 }
 
 /* Produktseite Start: Mache Flexboxen, damit Preis und Siegel direkt über den Buttons positioniert werden können */
