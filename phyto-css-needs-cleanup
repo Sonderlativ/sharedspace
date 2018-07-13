@@ -16,6 +16,11 @@
 	width:50%;
 }
 
+/* Auf dem Tablet ist eine bestimmte Grafik zu groß, hier wird sie in ihrer Größe eingeschränkt, damit sie den Rahmen nicht sprengt */
+	#grafik_vitc_natur{
+		width:90% !important;
+	}
+
 /* ===== OBSOLET ?! ===== */
 
 @media screen and (max-width:1024px){
@@ -62,50 +67,6 @@
 .et_vertical_nav.et_vertical_fixed #page-container #main-header{	background:none !important;
 	padding-top:1em;
 }
-	
-	/* In der mobilen Version passt der Inhalt der einzelnen Elemente oft nicht mehr auf 100vh, deswegen wird hier betont, dass sich die Größe des Elementes an den Inhalt anpassen soll */
-.et_fullscreen_slider .et_pb_slides,
-.et_fullscreen_slider .et_pb_slide,
-.et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
-    height: auto !important;
-}
-		/* Themenraster */
-/*Stellt sicher, dass die Themenkacheln auch auf kleinen Bildschirmen noch funktionieren und nicht abgeschnitten werden */
-.thema{
-	height:5.2em !important;
-	}
-
-.thema-kachel{
-	padding-top:19.8em !important;
-	width:50%;
-	float:left;
-}
-
-/* ==== Themenraster Ende ==== */
-
-/* ===== Start Overview ===== */
-/* Mobile Anpassung der Produktdarstellung auf der Startseite mit den (+) und dem Hover-Effekt */
-	#start-overview{
-	max-height:15vh !important;
-}
-	
-#completes-overview h3#overview{
-	top:5em !important;
-}
-	
-.hov_calc h3,.hov_jod h3,.hov_eis h3,.hov_fol h3,.hov_zin h3,.hov_vitd3 h3,.hov_sel h3{
-	left:0em !important;
-	right:0em !important;
-	top:0em !important;
-}
-
-
-/* ===== Overview Ende ===== */
-
-	/* Auf dem Tablet ist eine bestimmte Grafik zu groß, hier wird sie in ihrer Größe eingeschränkt, damit sie den Rahmen nicht sprengt */
-	#grafik_vitc_natur{
-		width:90% !important;
-	}
 }
 
 @media screen and (max-width:500px){
