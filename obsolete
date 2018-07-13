@@ -4,10 +4,6 @@
 	width:auto;
 }
 
-#grafik_vitc_natur{
-	width:50%;
-}
-
 /* Auf dem Tablet ist eine bestimmte Grafik zu groß, hier wird sie in ihrer Größe eingeschränkt, damit sie den Rahmen nicht sprengt */
 	#grafik_vitc_natur{
 		width:90% !important;
