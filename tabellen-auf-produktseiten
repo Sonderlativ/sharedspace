@@ -27,6 +27,10 @@
 	width:33.3%
 }
 
+#ueberblick .prtab_zelle, #ueberblick .prtab_zelle_25, #ueberblick .prtab_zelle_33{
+	border:2px solid #e4e1d0 !important;
+}
+
 .prtab_dark{
 	color:white;
 }
