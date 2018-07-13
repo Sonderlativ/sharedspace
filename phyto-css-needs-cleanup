@@ -32,34 +32,6 @@
 /* ====== MOBILE ANPASSUNGEN ====== */
 
 @media screen and (max-width:799px){
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich doppelte Auswahl der 
-	*/
-	h1, .et_pb_slide_content h1{
-	font-family: 'Source Sans Pro';
-	font-size:36px !important;
-	text-shadow:none;
-	/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-	color:#333 !important;
-}
-	
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
-	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
-	font-family: 'Source Sans Pro';
-	font-size:28px !important;
-	text-shadow:none;
-		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-	color:#333 !important;
-}
-
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H3 */
-	h3, .et_pb_slide_content h3{
-	font-family: 'Montserrat Semibold', sans-serif;
-	font-size:13px !important;
-	letter-spacing: 1px !important;
-	text-transform:uppercase;
-	text-shadow:none;
-		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-}
 		/* In der mobilen Ansicht soll im Menü kein Logo eingeblendet werden */
 	/*.logo_container{
 		display:none;
