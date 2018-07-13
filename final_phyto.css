@@ -47,6 +47,8 @@
 * xxxx * Margin unter Bildern height<800px
 * xxxx * Fix für vert. zent. für mehrere Rows
 * xxxx * Elemente sollen 100vh einnehmen
+* xxxx * MOBILE ANPASSUNGEN
+* xxxx * #sticker-Box auf kleinen Displays
 
 ============================= */
 
@@ -780,6 +782,14 @@ input[type=checkbox] {
 }
 
 /* In der mobilen Darstellung, soll die Navigation keinen Hintergrund haben */
+@media screen and (max-width:980px){
+.et_vertical_nav.et_vertical_fixed #page-container #main-header{
+	background:none !important;
+	background-repeat:no-repeat;
+	background-position:bottom;
+}
+}
+
 @media screen and (max-width:799px){	
 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
 	background:none !important;
@@ -1494,3 +1504,31 @@ margin-right: 0;
 
 /* ====== DIVI BUGS ENDE ====== */
 
+/* ====== MOBILE ANPASSUNGEN ====== */
+
+/* Darstellung der #sticker-Box auf kleinen Displays */
+
+@media screen and (max-height:800px){
+	.produkt{
+		max-height:36vh !important;
+	}
+	.produkt .produkt_descr, .produkt h2, .produkt h3{
+		display:none;
+	}/* ursprünglich war hier noch h2 und h3 mit dabei*/
+	.et_pb_row{
+		padding:0em;
+		box-sizing:border-box;
+	}
+}
+
+@media screen and (max-height:576px){
+	/* Stellt sicher, dass die mitscrollende Box auf den Produktseiten auf kleinen Netbooks nicht die Darstellung sprengt und die Ankerleiste noch sichtbar ist */
+	.produkt{
+		max-height:25vh !important;
+	}
+	.produkt img{
+		max-height:15vh;
+	}
+}
+
+/* ====== MOBILE ANPASSUNGEN ENDE ====== */
