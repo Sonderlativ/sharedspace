@@ -49,12 +49,6 @@
 /* ====== MOBILE ANPASSUNGEN ====== */
 
 @media screen and (max-width:500px){
-	.half-div{
-	width:100% !important;
-	padding:0 !important;
-	margin-bottom:-40px !important;
-}
-	
 	.ein-blick{
 		margin-bottom:40px;
 	}
@@ -72,26 +66,6 @@
       background: #f0f0f0;
 			max-width:20em !important;
     }
-
-.third-div{
-	width:30%;
-	float:left;
-	margin:10px;
-}
-
-.half-div{
-	width:50%;
-	float:left;
-	padding:16px;
-	box-sizing:border-box;
-}
-
-.half-div-nofloat{
-	width:50%;
-	float:none;
-	padding:16px;
-	box-sizing:border-box;
-}
 
 /* Alle Seiten */
 
@@ -177,43 +151,6 @@ margin-bottom:auto;
 	}
 }*/
 
-.price-bio img{
-	max-width:60px;
-	height:auto;
-	margin:0px 10px;
-	float:right;
-}
-
-/* Kacheln mit Hover */
-.upper-div{
-	z-index:20;
-	transition: all ease-in-out 0.5s;
-	position:absolute;
-}
-
-.upper-div:hover{
-	opacity:0;
-}
-
-.upper-div img{
-	max-width:100%;
-}
-
-.lower-div{
-	z-index:10;
-}
-
-#indent{
-	box-sizing:border-box;
-	padding-left:4em;
-}
-
-.intext{
-font-style:italic;
-text-transform:none;
-	letter-spacing:1px;
-}
-
 #slider_2470 .slider-bild{
 	height:300px;
 }
@@ -263,10 +200,6 @@ box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
 	.extrawurst{
 		padding:0 !important;
 	}
-}
-
-ul.bullets li{
-	text-align:left !important;
 }
 
 /* START Slide-Out Menü */
