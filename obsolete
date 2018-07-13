@@ -162,5 +162,13 @@
 }
 /* ENDE Slide-Out Menü */
 
+#commitment-icon img{
+	max-width:60px;
+	height:auto;
+}
+
+ul.et_pb_side_nav.et-visible{
+	display:none;
+}
 
 /* ===== OBSOLET ?! ===== */
