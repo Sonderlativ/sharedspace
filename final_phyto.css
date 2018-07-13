@@ -1,5 +1,5 @@
 /* ==== INHALTSVERZEICHNIS ====
-/* Zeilenangaben stimmen nicht mehr, da editiert */
+Zeilenangaben stimmen nicht mehr, da editiert
 * 0062 * === FARBSCHEMATA
 * 0063 * Überschriften
 * 0111 * Hintergründe
@@ -505,8 +505,9 @@ button a{
 /* Verfügbarkeit von Produkten */
 /* Produkt nur im Shop verfügbar */
 
-.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
-  background-color: #f6f6f6 !important;
+.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke, .fol_bg.amazon, .fol_bg.apotheke, .sel_bg.amazon, .sel_bg.apotheke, .vitd_bg.amazon, .vitd_bg.apotheke, .vitc_bg.amazon, .vitc_bg.apotheke, .zin_bg.amazon, .zin_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
+  background-color: #909090 !important;
+	cursor: default;
 }
 
 /* Bilder vor Amazon/Apotheken/Cellavent-Buttons */
