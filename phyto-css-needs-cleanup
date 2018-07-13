@@ -24,13 +24,21 @@
 	/*.logo_container{
 		display:none;
 	}*/
-/* ===== OBSOLET ?! ===== */
 
-@media screen and (max-width:1024px){
-	.et_pb_text_inner{
-		margin-bottom:1.7em;
-	}
-}
+/* Center Content Vertically */
+.ds-vertical-align { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+#ds-vertical-align { 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+} 
+
+/* ===== OBSOLET ?! ===== */
 
 /* ====== MOBILE ANPASSUNGEN ====== */
 
@@ -72,10 +80,6 @@
 
 /* ====== MOBILE ENDE ====== */
 
-
-
-
-
 .swiper-container {
       width: 100%;
       height: 100%;
@@ -106,28 +110,6 @@
 	padding:16px;
 	box-sizing:border-box;
 }
-
-
-
-
-
-
-
-
-
-
-/* Center Content Vertically */
-.ds-vertical-align { 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-} 
-
-#ds-vertical-align { 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-} 
 
 /* Alle Seiten */
 
