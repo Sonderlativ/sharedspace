@@ -313,14 +313,3 @@ box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
     font-weight: 600;
     line-height: 17px;
 }
-
-@media screen and (max-width:500px){
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
-	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
-	font-family: 'Source Sans Pro';
-	font-size:22px !important;
-	text-shadow:none;
-		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-	color:#333 !important;
-}
-}
