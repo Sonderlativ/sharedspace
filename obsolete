@@ -171,4 +171,11 @@ ul.et_pb_side_nav.et-visible{
 	display:none;
 }
 
+@media screen and (max-width:500px){
+	.ein-blick{
+		margin-bottom:40px;
+	}
+}
+
+
 /* ===== OBSOLET ?! ===== */
