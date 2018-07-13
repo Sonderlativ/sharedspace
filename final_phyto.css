@@ -44,6 +44,8 @@
 * xxxx * Positionswap
 * xxxx * Remove Margin on Mobile
 * xxxx * Margin unter Bildern height<800px
+* xxxx * Fix für vert. zent. für mehrere Rows
+* xxxx * Elemente sollen 100vh einnehmen
 
 ============================= */
 
@@ -1388,6 +1390,47 @@ margin-right: 0;
 @media screen and (max-height:800px) and (max-width:1370px){
 	.natsyn .et_pb_image_wrap img{
 	margin-bottom: 1.7em !important;
+}
+}
+
+/* Vertikale Zentrierung funktioniert nur bei einer Reihe, der Rest muss mit Padding angegelichen werden */
+@media screen and (min-height:768px){
+	.paddingausgleich{
+		padding-top:8vh;
+		box-sizing:border-box;
+	}
+}
+@media screen and (min-height:800px){
+	.paddingausgleich{
+		padding-top:10vh;
+		box-sizing:border-box;
+	}
+}
+@media screen and (min-height:900px){
+	.paddingausgleich{
+		padding-top:13vh;
+		box-sizing:border-box;
+	}
+}
+@media screen and (min-height:1050px){
+	.paddingausgleich{
+		padding-top:17vh;
+		box-sizing:border-box;
+	}
+}
+@media screen and (min-height:1080px){
+	.paddingausgleich{
+		padding-top:15vh;
+		box-sizing:border-box;
+	}
+}
+
+/* Elemente sollen 100vh einnehmen */
+@media screen and (min-height:768px){
+	.et_fullscreen_slider .et_pb_slides,
+	.et_fullscreen_slider .et_pb_slide,
+	.et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
+   		height: 100vh !important;
 }
 }
 
