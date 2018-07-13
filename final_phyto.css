@@ -283,6 +283,10 @@
 	width:33.3%
 }
 
+#ueberblick .prtab_zelle, #ueberblick .prtab_zelle_25, #ueberblick .prtab_zelle_33{
+	border:2px solid #e4e1d0 !important;
+}
+
 .prtab_dark{
 	color:white;
 }
@@ -294,11 +298,12 @@ background:#f4f6da;
 .vitd3_prtab_light{
 color:#a3d55f;
 background:#d4e3a7;
-	background:#ecf7c3 !important;
+background:#ecf7c3 !important;
 }
 .vitb_prtab_light{
 color:#ff828a;
 background:#f2a79e;
+background:#ffc9c4 !important;
 }
 .calc_prtab_light{
 color: #d1555a;
@@ -317,6 +322,7 @@ background:#d0e590 !important;
 .zin_prtab_light{
 color:#f29492;
 background:#f8bcb6;
+background:#f7c9c5 !important;
 }
 .sel_prtab_light{
 color:#f6b436;
@@ -324,9 +330,9 @@ background:#fbcf22;
 background:#f9e69f !important;
 }
 .fol_prtab_light{
-color:#fff;
+color:#faca00;
 background:#fff1ad;
-	/* Kein Farbcode aus Styleguide */
+/* Kein Farbcode aus Styleguide */
 }
 .gin_prtab_light{
 color:#bd965c;
@@ -335,10 +341,12 @@ background:#ecd172;
 .acu_prtab_light{
 color:#f28b00;
 background:#f9b111;
+background:#ffcc68 !important;
 }
 .eis_prtab_light{
 color:#72a951;
 background:#b2c757;
+background: #c1d365 !important;
 }
 
 @media screen and (max-width:500px){
