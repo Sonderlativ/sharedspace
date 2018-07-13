@@ -1,12 +1,12 @@
 /* ==== INHALTSVERZEICHNIS ====
 
-* xxxx * FARBSCHEMATA
+* xxxx * === FARBSCHEMATA
 * xxxx * Überschriften
 * xxxx * Hintergründe
 * xxxx * Bullet-Grafiken
 * xxxx * Ordered List
 * xxxx * Tabellen
-* xxxx * HEADINGS & TEXTE
+* xxxx * === HEADINGS & TEXTE
 * xxxx * H1
 * xxxx * H2
 * xxxx * H3
@@ -22,14 +22,14 @@
 * xxxx * Preis auf Produktseiten
 * xxxx * Margin (Tablet)
 * xxxx * Half-Divs zur Content-Darstellung
-* xxxx * COLOR CHANGES
+* xxxx * === COLOR CHANGES
 * xxxx * Footer
 * xxxx * Submenu Border
 * xxxx * Navigation Background
 * xxxx * Logo Desktop
 * xxxx * Logo Responsive
 * xxxx * Menüpunkte m. Bildern
-* xxxx * SONDERWÜNSCHE
+* xxxx * === SONDERWÜNSCHE
 * xxxx * Ankerleiste
 * xxxx * Gepunkteter Kreis
 * xxxx * Farbiger Rahmen
@@ -37,12 +37,13 @@
 * xxxx * Produktanordnung Kreis mit Hover
 * xxxx * Produktseite Preis & Siegel über Buttons
 * xxxx * Links in Navigation zentrieren & margin
-* xxxx * DIVI-BUGS
+* xxxx * === DIVI-BUGS
 * xxxx * Menü-Links
 * xxxx * No Row Padding
 * xxxx * Footer Min-Height
 * xxxx * #sticker Background
 * xxxx * Vertikale Zentrierung
+* xxxx * Vertikale Zentrierung per Boardmitteln
 * xxxx * Clear
 * xxxx * Positionswap
 * xxxx * Remove Margin on Mobile
@@ -50,7 +51,7 @@
 * xxxx * Margin unter Bildern height<800px
 * xxxx * Fix für vert. zent. für mehrere Rows
 * xxxx * Elemente sollen 100vh einnehmen
-* xxxx * MOBILE ANPASSUNGEN
+* xxxx * === MOBILE ANPASSUNGEN
 * xxxx * #sticker-Box auf kleinen Displays
 
 ============================= */
@@ -1498,6 +1499,12 @@ height: 100%;
 /* Sektion */
 .vcenter{
 	display:flex;
+}
+
+/* Vertikale Zentrierung, wenn man "Spaltenhöhe anpassen" aktiviert */
+.et_pb_equal_columns >.et_pb_column {
+margin-top:auto;
+margin-bottom:auto;
 }
 
 /* Clear */
