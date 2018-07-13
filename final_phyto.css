@@ -22,6 +22,7 @@
 * xxxx * Preis auf Produktseiten
 * xxxx * Margin (Tablet)
 * xxxx * Half-Divs zur Content-Darstellung
+* xxxx * Korrektur von Abständen & Höhen von Texten
 * xxxx * === COLOR CHANGES
 * xxxx * Footer
 * xxxx * Submenu Border
@@ -38,6 +39,7 @@
 * xxxx * Produktseite Preis & Siegel über Buttons
 * xxxx * Links in Navigation zentrieren & margin
 * xxxx * Darstellung der Icons
+* xxxx * Slider für Produkte
 * xxxx * === DIVI-BUGS
 * xxxx * Menü-Links
 * xxxx * No Row Padding
@@ -623,6 +625,28 @@ input[type=checkbox] {
 	padding:0 !important;
 	margin-bottom:-40px !important;
 }
+}
+
+/* Überschriften & Texte sind nicht gleich hoch, das führt zu Darstellungsproblemen */
+.gleichmaessig{
+	min-height:13vh;
+}
+
+.h-gleichmaessig{
+	min-height:14vh;
+}
+
+.commitment{
+	min-height:10vh !important;
+}
+
+@media screen and (max-height:800px){
+	.commitment{
+	min-height:23vh !important;
+}
+	.extrawurst{
+		padding:0 !important;
+	}
 }
 
 /* ====== HEADINGS & TEXTE ENDE ====== */
@@ -1591,6 +1615,37 @@ height: 100%;
     padding-bottom: 0.5em;
     font-weight: 600;
     line-height: 17px;
+}
+
+/* Slider für Produkte */
+#slider_2470 .slider-bild{
+	height:300px;
+}
+
+#slider_2470 .slider-margin{
+	margin-top:15px;
+}
+
+#slider_2470 .owl-item{
+	opacity:0.5;
+}
+
+#slider_2470 .owl-item:hover{
+	opacity:1;
+	/*-webkit-box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);
+-moz-box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);
+box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
+	cursor:pointer;
+}
+
+#slider_2470 .owl-nav{
+	position:relative;
+	top:75%;
+	margin-top:2vh;
+}
+
+#slider_2470 .owl-nav button{
+	min-width: 48% !important;
 }
 
 /* ====== SONDERWÜNSCHE ENDE ====== */
