@@ -1,0 +1,70 @@
+/* Der Scroll-to-top-Button soll auf den Produktseiten die Farbe ändern */
+/* Da der S2T-Button aktuell die Ankerleiste überlagert, ändere ich hier den z-index*/
+.et_pb_scroll_top.et-pb-icon{
+  z-index:22;
+}
+
+/* ===== Default/Fallback ===== */
+.et_pb_scroll_top.et-pb-icon{
+   background: #b5c405;
+}
+
+/* ===== Acurmin ===== */
+.page-id-3261 .et_pb_scroll_top.et-pb-icon{
+   background: #f28b00 !important;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 .et_pb_scroll_top.et-pb-icon{
+   background: #bd965c !important;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 .et_pb_scroll_top.et-pb-icon{
+   background: #f0827c !important;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 .et_pb_scroll_top.et-pb-icon{
+   background: #ffd200 !important;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 .et_pb_scroll_top.et-pb-icon{
+   background: #b5c405 !important;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 .et_pb_scroll_top.et-pb-icon{
+   background: #a3ca62 !important;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 .et_pb_scroll_top.et-pb-icon{
+   background: #73aa50 !important;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 .et_pb_scroll_top.et-pb-icon{
+   background: #d1555a !important;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 .et_pb_scroll_top.et-pb-icon{
+   background: #1f988a !important;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 .et_pb_scroll_top.et-pb-icon{
+   background: #4a8c2c !important;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 .et_pb_scroll_top.et-pb-icon{
+   background: #f7b435 !important;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 .et_pb_scroll_top.et-pb-icon{
+   background: #f49491 !important;
+}
