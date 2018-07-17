@@ -4,6 +4,11 @@
   z-index:22;
 }
 
+/* seo ist eine Klasse, die auf die Reihe angewendet wird, innerhalb derer die Ankerleiste liegt */
+.seo .et_pb_column{
+	z-index:99 !important;
+}
+
 /* ===== Default/Fallback ===== */
 .et_pb_scroll_top.et-pb-icon{
    background: #b5c405;
