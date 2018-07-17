@@ -512,6 +512,12 @@ button a{
 	cursor: default;
 }
 
+/* Produkt nur bei Amazon verfügbar */
+.acu_bg.shop, .acu_bg.apotheke{
+  background-color: #909090 !important;
+	cursor: default;
+}
+
 /* Tooltips für ausgegraute Buttons */
 
 .apotheke.et-tooltip .et-tooltip-box:before, .shop.et-tooltip .et-tooltip-box:before {
