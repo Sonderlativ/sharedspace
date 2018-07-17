@@ -17,6 +17,7 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * 0467 * Buttons
 * 0484 * CTA
 * 0504 * Verfügbarkeit
+* xxxx * Tooltips f. Verfügbarkeit
 * 0511 * Bullets
 * 0548 * Formular
 * 0576 * Preis auf Produktseiten
@@ -509,6 +510,13 @@ button a{
 .eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke, .fol_bg.amazon, .fol_bg.apotheke, .sel_bg.amazon, .sel_bg.apotheke, .vitd_bg.amazon, .vitd_bg.apotheke, .vitc_bg.amazon, .vitc_bg.apotheke, .zin_bg.amazon, .zin_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
   background-color: #909090 !important;
 	cursor: default;
+}
+
+/* Tooltips für ausgegraute Buttons */
+
+.apotheke.et-tooltip .et-tooltip-box:before, .shop.et-tooltip .et-tooltip-box:before {
+    content: "Aktuell nur bei Amazon erhältlich.";
+   text-transform: initial;
 }
 
 /* Bilder vor Amazon/Apotheken/Cellavent-Buttons */
