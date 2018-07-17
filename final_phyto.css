@@ -1026,6 +1026,11 @@ input[type=checkbox] {
   z-index:22;
 }
 
+/* seo ist eine Klasse, die auf die Reihe angewendet wird, innerhalb derer die Ankerleiste liegt */
+.seo .et_pb_column{
+	z-index:99 !important;
+}
+
 /* ===== Default/Fallback ===== */
 .et_pb_scroll_top.et-pb-icon{
    background: #b5c405;
@@ -1223,6 +1228,7 @@ overflow:hidden !important;
 	white-space: nowrap;
 	width:1em;
 	transition:width 0.5s ease-in-out;
+	z-index:23;
 }
 
 /*.ankerleiste ul{
