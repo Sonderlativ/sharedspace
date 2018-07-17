@@ -1,0 +1,6 @@
+/* Tooltips für ausgegraute Buttons */
+
+.apotheke.et-tooltip .et-tooltip-box:before, .shop.et-tooltip .et-tooltip-box:before {
+    content: "Aktuell nur bei Amazon erhältlich.";
+   text-transform: initial;
+}
