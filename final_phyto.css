@@ -1477,8 +1477,22 @@ h3#overview:before,h3#overview_mirrored:after{
 }
 .hov_zin h3{
 	position:relative;
-	left:-2em;
+	right:-14em;
 	top:3em;
+}
+@media screen and (max-width:1441px){
+	.hov_zin h3{
+	position:relative;
+	right:-10em;
+	top:3em;
+}
+}
+@media screen and (max-width:1025px){
+	.hov_zin h3{
+	position:relative;
+	right:-8em;
+	top:3em;
+}
 }
 .hov_vitd3 h3{
 	position:relative;
