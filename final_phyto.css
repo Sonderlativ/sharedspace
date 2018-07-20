@@ -58,6 +58,7 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * 1711 * Margin unter Bildern height<800px
 * 1718 * Fix für vert. zent. für mehrere Rows
 * 1750 * Elemente sollen 100vh einnehmen
+* xxxx * Hover-Element von Gingerin
 * 1779 * === MOBILE ANPASSUNGEN
 * 1781 * #sticker-Box auf kleinen Displays
 * xxxx * Grafik zu groß, warte auf Korrektur
@@ -1981,6 +1982,17 @@ margin-right: 0;
 .et_fullscreen_slider .et_pb_container,.et_pb_section, .et_section_regular {
     height: auto !important;
 }
+}
+
+/* Das Hover-Element von Gingerin auf der Startseite wird vom Text überlagert */
+.page-id-2 .et_pb_column_7{
+	z-index:99;
+}
+.page-id-2 .et_pb_column_8{
+	z-index:90;
+}
+.page-id-2 .et_pb_column_9{
+	z-index:99;
 }
 
 /* ====== DIVI BUGS ENDE ====== */
