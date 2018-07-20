@@ -1333,7 +1333,7 @@ content:	"• ";
 }*/
 
 .ankerleiste a{
-	color:white;
+	color:white !important;
 	cursor:pointer;
 }
 
