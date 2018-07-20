@@ -1230,7 +1230,7 @@ input[type=checkbox] {
 
 /* Siegel neben Preis auf Produktseiten */
 .price-bio img{
-	max-width:60px;
+	max-width:150px;
 	height:auto;
 	margin:0px 10px;
 	float:right;
