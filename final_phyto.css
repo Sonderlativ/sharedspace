@@ -1023,6 +1023,10 @@ h3, .et_pb_slide_content h3{
 	text-shadow:none;
 }
 
+#ueberblick h3{
+	line-height:2em !important;
+}
+
 @media screen and (max-width:799px){
 	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich doppelte Auswahl der 
 	*/
