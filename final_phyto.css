@@ -33,6 +33,7 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * xxxx * Bilder vor Amazon/Apotheken/Cellavent-Buttons
 * 0592 * Half-Divs zur Content-Darstellung
 * 0621 * Korrektur von Abständen & Höhen von Texten
+* xxxx * Produktbeschreibungen Name
 * 1126 * === SONDERWÜNSCHE
 * 1128 * Ankerleiste
 * 1178 * Gepunkteter Kreis
@@ -1228,6 +1229,10 @@ input[type=checkbox] {
 	margin-bottom:0.5em;
 }
 
+.produkt .pricetag{
+	font-size:26px;
+}
+
 /* Siegel neben Preis auf Produktseiten */
 .price-bio img{
 	max-width:150px;
@@ -1285,6 +1290,13 @@ input[type=checkbox] {
 	.extrawurst{
 		padding:0 !important;
 	}
+}
+
+/* Produktbeschreibungen Name */
+.produkt_name{
+	font-size:22px;
+	font-weight:390;
+	margin-bottom:-0.5em;
 }
 
 /* ====== HEADINGS & TEXTE ENDE ====== */
@@ -1965,7 +1977,7 @@ margin-right: 0;
 	.produkt{
 		max-height:36vh !important;
 	}
-	.produkt .produkt_descr, .produkt h2, .produkt h3{
+	.produkt .produkt_descr, .produkt h2, .produkt h3, .produkt .produkt_name{
 		display:none;
 	}/* ursprünglich war hier noch h2 und h3 mit dabei*/
 	.et_pb_row{
