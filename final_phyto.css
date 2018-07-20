@@ -32,6 +32,7 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * 0946 * Logo Responsive
 * xxxx * Scroll to top Button
 * 1010 * Menüpunkte m. Bildern
+* xxxx * Change Link Color
 * 1126 * === SONDERWÜNSCHE
 * 1128 * Ankerleiste
 * 1178 * Gepunkteter Kreis
@@ -1222,6 +1223,68 @@ content:url(/wp-content/uploads/105x75-zink.png);
 	.menu-item-3892 a, .menu-item-3893 a, .menu-item-3894 a, .menu-item-4597 a, .menu-item-4598 a {
 		width:100% !important;
 	}
+}
+
+/* ========== Link Color ========== */
+/* Verändert die Farbe von Links auf Produktseiten */
+/* ===== Acurmin ===== */
+.page-id-3261 a{
+   color:#f28b00 !important;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 a{
+   color:#bd965c !important;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 a{
+   color:#f0827c !important;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 a{
+   color:#ffd200 !important;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 a{
+   color:#b5c405 !important;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 a{
+   color:#a3ca62 !important;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 a{
+   color:#73aa50 !important;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 a{
+   color:#d1555a !important;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 a{
+   color:#1f988a !important;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 a{
+   color:#4a8c2c !important;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 a{
+   color:#f7b435 !important;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 a{
+   color:#f49491 !important;
 }
 
 /* ====== COLOR CHANGES ENDE ====== */
