@@ -1975,7 +1975,7 @@ margin-right: 0;
 
 @media screen and (max-height:800px){
 	.produkt{
-		max-height:36vh !important;
+		max-height:38vh !important;
 	}
 	.produkt .produkt_descr, .produkt h2, .produkt h3, .produkt .produkt_name{
 		display:none;
