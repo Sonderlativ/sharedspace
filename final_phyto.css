@@ -6,6 +6,15 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * 0155 * Bullet-Grafiken
 * 0193 * Ordered List
 * 0268 * Tabellen
+* 0645 * === COLOR CHANGES
+* 0647 * Footer
+* 0708 * Submenu Border
+* 0777 * Navigation Background
+* 0885 * Logo Desktop
+* 0946 * Logo Responsive
+* xxxx * Scroll to top Button
+* 1010 * Menüpunkte m. Bildern
+* xxxx * Change Link Color
 * 0373 * === HEADINGS & TEXTE
 * 0375 * H1
 * 0384 * H2
@@ -24,15 +33,6 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * xxxx * Bilder vor Amazon/Apotheken/Cellavent-Buttons
 * 0592 * Half-Divs zur Content-Darstellung
 * 0621 * Korrektur von Abständen & Höhen von Texten
-* 0645 * === COLOR CHANGES
-* 0647 * Footer
-* 0708 * Submenu Border
-* 0777 * Navigation Background
-* 0885 * Logo Desktop
-* 0946 * Logo Responsive
-* xxxx * Scroll to top Button
-* 1010 * Menüpunkte m. Bildern
-* xxxx * Change Link Color
 * 1126 * === SONDERWÜNSCHE
 * 1128 * Ankerleiste
 * 1178 * Gepunkteter Kreis
@@ -373,302 +373,6 @@ background: #c1d365 !important;
 }
 
 /* ====== FARBSCHEMATA ENDE ====== */
-
-/* ====== HEADINGS & TEXTE ====== */
-
-h1, .et_pb_slide_content h1{
-	font-family: 'Source Sans Pro';
-	font-size:45px !important;
-	text-shadow:none;
-	color:#333 !important;
-	margin:15px 0px;
-	font-weight:390;
-}
-
-h2, .et_pb_slide_content h2{
-	font-family: 'Source Sans Pro';
-	font-size:38px !important;
-	text-shadow:none;
-	color: #333 !important;
-	margin:15px 0px;
-	line-height:1.4em;
-	font-weight:390;
-}
-
-h3, .et_pb_slide_content h3{
-	font-family: 'Montserrat Semibold', sans-serif;
-	font-size:14px !important;
-	letter-spacing: 3px;
-	text-transform:uppercase;
-	text-shadow:none;
-}
-
-@media screen and (max-width:799px){
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich doppelte Auswahl der 
-	*/
-	h1, .et_pb_slide_content h1{
-	font-family: 'Source Sans Pro';
-	font-size:36px !important;
-	text-shadow:none;
-	/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-	color:#333 !important;
-}
-	
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
-	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
-	font-family: 'Source Sans Pro';
-	font-size:28px !important;
-	text-shadow:none;
-		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-	color:#333 !important;
-}
-
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H3 */
-	h3, .et_pb_slide_content h3{
-	font-family: 'Montserrat Semibold', sans-serif;
-	font-size:13px !important;
-	letter-spacing: 1px !important;
-	text-transform:uppercase;
-	text-shadow:none;
-		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-}
-}
-
-@media screen and (max-width:500px){
-	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
-	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
-	font-family: 'Source Sans Pro';
-	font-size:22px !important;
-	text-shadow:none;
-		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
-	color:#333 !important;
-}
-}
-
-/* Klasse für Überschriften im Fließtext */
-.intext{
-font-style:italic;
-text-transform:none;
-letter-spacing:1px;
-}
-
-p, .et_pb_slide_content p{
-	text-shadow:none !important;
-	line-height:1.7em;
-}
-
-/* Teilweise gibt es in Texten Quellenverweise, über diese Klasse erhalten sie die selben Eigenschaften wie die Quellenangaben am Ende der Seite */
-.quellenangabe{
-	font-size:12px;
-}
-
-/* ID für eingerückten Text / Listenpunkte */
-#indent{
-	box-sizing:border-box;
-	padding-left:4em;
-}
-
-button {
-	color:white;
-	text-transform:uppercase;
-	font-weight:bold;
-	font-size:12px;
-	border:none;
-	padding:15px;
-	min-width:60%;
-	max-width:90%;
-	box-sizing:border-box;
-	cursor:pointer;
-}
-
-button a{
-	color:white !important;
-}
-
-/* Spezielle Button-Klassen für Produktseiten */
-/* Call 2 Action Buttons */
-.half{
-	width:50%;
-	float:left;
-	margin-bottom:4px;
-}
-
-.cta{
-	text-transform:uppercase;
-	color:white;
-	text-shadow:none;
-	font-weight:bold;
-	box-sizing:border-box;
-	margin:4px !important;
-	padding:10px;	
-	text-align:center;
-	cursor:pointer;
-}
-
-/* Verfügbarkeit von Produkten */
-/* Produkt nur im Shop verfügbar */
-
-.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke, .fol_bg.amazon, .fol_bg.apotheke, .sel_bg.amazon, .sel_bg.apotheke, .vitd_bg.amazon, .vitd_bg.apotheke, .vitc_bg.amazon, .vitc_bg.apotheke, .zin_bg.amazon, .zin_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
-  background-color: #909090 !important;
-	cursor: default;
-}
-
-/* Produkt nur bei Amazon verfügbar */
-.acu_bg.shop, .acu_bg.apotheke{
-  background-color: #909090 !important;
-	cursor: default;
-}
-
-/* Tooltips für ausgegraute Buttons */
-
-.apotheke.et-tooltip .et-tooltip-box:before, .shop.et-tooltip .et-tooltip-box:before {
-    content: "Aktuell nur bei Amazon erhältlich.";
-   text-transform: initial;
-}
-
-/* Bilder vor Amazon/Apotheken/Cellavent-Buttons */
-
-.produkt-button{
-	max-height:1.3em;
-	position:relative;
-	bottom:-5px;
-	margin-right:6px;
-}
-
-/* Bullets */
-/* Bullet-Grafiken sind zu finden bei den Farbschemata */
-
-.bullets{
-	list-style-type: none !important; 
-	counter-reset: li;
-}
-
-.bullets li {
-	font-family: 'Source Sans Pro';
-	font-size:15px;
-	font-weight:600 !important;
-	text-shadow:none !important;
-	list-style:none !important;
-	line-height:1.7em;
-	margin:2em !important;
-}
-
-.bullets li::before{
-	content: counter(li);
-	content:''; 
-	display:block; 
-	height:1.7em !important; 
-	width:1.7em !important; 
-	background-size:contain; 
-	background-repeat:no-repeat;
-	position:relative;
-	float:left;
-	margin:-16px;
-	left:-0.8em;
-	top:1.2em;
-}
-
-ul.bullets li{
-	text-align:left !important;
-}
-
-/* Formular */
-input.text, input.title, input[type=text], input[type=tel], input[type=email], select, textarea {
-  margin: 0;
-  padding: 10px;
-	width: 100%;
-}
-
-input.text:hover, input.title:hover, input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, select:hover, textarea:hover {
-  border-color: #92AB2F;
-}
-
-input[type=checkbox] {
-	-webkit-appearance: none;
-	background-color: #ffffff;
-	border: 1px solid #000000;
-	padding: 9px;
-	border-radius: 3px;
-	display: inline-block;
-	position: relative;
-	/* float: left; */
-	left: -10px;
-	top: 10px;
-}
-
-.wpcf7-submit {
-	float: right;
-}
-
-/* Preis auf Produktseiten */
-.pricetag{
-	font-family: 'Source Sans Pro';
-	font-size:38px;
-	text-shadow:none;
-	color:#333 !important;
-	margin-bottom:0.5em;
-}
-
-/* Siegel neben Preis auf Produktseiten */
-.price-bio img{
-	max-width:60px;
-	height:auto;
-	margin:0px 10px;
-	float:right;
-}
-
-/* Divs zur Darstellung von Content u.a. "Natürlich vs. Synthetisch" */
-.half-div{
-	width:50%;
-	float:left;
-	padding:16px;
-	box-sizing:border-box;
-}
-
-.half-div-nofloat{
-	width:50%;
-	float:none;
-	padding:16px;
-	box-sizing:border-box;
-}
-
-.third-div{
-	width:30%;
-	float:left;
-	margin:10px;
-}
-
-@media screen and (max-width:500px){
-	.half-div{
-	width:100% !important;
-	padding:0 !important;
-	margin-bottom:-40px !important;
-}
-}
-
-/* Überschriften & Texte sind nicht gleich hoch, das führt zu Darstellungsproblemen */
-.gleichmaessig{
-	min-height:13vh;
-}
-
-.h-gleichmaessig{
-	min-height:14vh;
-}
-
-.commitment{
-	min-height:10vh !important;
-}
-
-@media screen and (max-height:800px){
-	.commitment{
-	min-height:23vh !important;
-}
-	.extrawurst{
-		padding:0 !important;
-	}
-}
-
-/* ====== HEADINGS & TEXTE ENDE ====== */
 
 /* ====== COLOR CHANGES ====== */
 
@@ -1288,6 +992,302 @@ content:url(/wp-content/uploads/105x75-zink.png);
 }
 
 /* ====== COLOR CHANGES ENDE ====== */
+
+/* ====== HEADINGS & TEXTE ====== */
+
+h1, .et_pb_slide_content h1{
+	font-family: 'Source Sans Pro';
+	font-size:45px !important;
+	text-shadow:none;
+	color:#333 !important;
+	margin:15px 0px;
+	font-weight:390;
+}
+
+h2, .et_pb_slide_content h2{
+	font-family: 'Source Sans Pro';
+	font-size:38px !important;
+	text-shadow:none;
+	color: #333 !important;
+	margin:15px 0px;
+	line-height:1.4em;
+	font-weight:390;
+}
+
+h3, .et_pb_slide_content h3{
+	font-family: 'Montserrat Semibold', sans-serif;
+	font-size:14px !important;
+	letter-spacing: 3px;
+	text-transform:uppercase;
+	text-shadow:none;
+}
+
+@media screen and (max-width:799px){
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich doppelte Auswahl der 
+	*/
+	h1, .et_pb_slide_content h1{
+	font-family: 'Source Sans Pro';
+	font-size:36px !important;
+	text-shadow:none;
+	/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+	color:#333 !important;
+}
+	
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
+	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
+	font-family: 'Source Sans Pro';
+	font-size:28px !important;
+	text-shadow:none;
+		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+	color:#333 !important;
+}
+
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H3 */
+	h3, .et_pb_slide_content h3{
+	font-family: 'Montserrat Semibold', sans-serif;
+	font-size:13px !important;
+	letter-spacing: 1px !important;
+	text-transform:uppercase;
+	text-shadow:none;
+		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+}
+}
+
+@media screen and (max-width:500px){
+	/* In bestimmten Elementen wie z.B. Slides ignoriert Divi teilweise das CSS, deswegen erfolgt hier eine vermeintlich mehrfache Auswahl der H2 */
+	h2, .et_pb_slide_content h2,.et_pb_text_2 h2{
+	font-family: 'Source Sans Pro';
+	font-size:22px !important;
+	text-shadow:none;
+		/* In Slidern gibt Divi sämtlichem Text grundsätzlich einen Schatten */
+	color:#333 !important;
+}
+}
+
+/* Klasse für Überschriften im Fließtext */
+.intext{
+font-style:italic;
+text-transform:none;
+letter-spacing:1px;
+}
+
+p, .et_pb_slide_content p{
+	text-shadow:none !important;
+	line-height:1.7em;
+}
+
+/* Teilweise gibt es in Texten Quellenverweise, über diese Klasse erhalten sie die selben Eigenschaften wie die Quellenangaben am Ende der Seite */
+.quellenangabe{
+	font-size:12px;
+}
+
+/* ID für eingerückten Text / Listenpunkte */
+#indent{
+	box-sizing:border-box;
+	padding-left:4em;
+}
+
+button {
+	color:white;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-size:12px;
+	border:none;
+	padding:15px;
+	min-width:60%;
+	max-width:90%;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+
+button a{
+	color:white !important;
+}
+
+/* Spezielle Button-Klassen für Produktseiten */
+/* Call 2 Action Buttons */
+.half{
+	width:50%;
+	float:left;
+	margin-bottom:4px;
+}
+
+.cta{
+	text-transform:uppercase;
+	color:white;
+	text-shadow:none;
+	font-weight:bold;
+	box-sizing:border-box;
+	margin:4px !important;
+	padding:10px;	
+	text-align:center;
+	cursor:pointer;
+}
+
+/* Verfügbarkeit von Produkten */
+/* Produkt nur im Shop verfügbar */
+
+.eis_bg.amazon, .eis_bg.apotheke, .mag_bg.amazon, .mag_bg.apotheke, .jod_bg.amazon, .jod_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke, .fol_bg.amazon, .fol_bg.apotheke, .sel_bg.amazon, .sel_bg.apotheke, .vitd_bg.amazon, .vitd_bg.apotheke, .vitc_bg.amazon, .vitc_bg.apotheke, .zin_bg.amazon, .zin_bg.apotheke, .vitb_bg.amazon, .vitb_bg.apotheke{
+  background-color: #909090 !important;
+	cursor: default;
+}
+
+/* Produkt nur bei Amazon verfügbar */
+.acu_bg.shop, .acu_bg.apotheke{
+  background-color: #909090 !important;
+	cursor: default;
+}
+
+/* Tooltips für ausgegraute Buttons */
+
+.apotheke.et-tooltip .et-tooltip-box:before, .shop.et-tooltip .et-tooltip-box:before {
+    content: "Aktuell nur bei Amazon erhältlich.";
+   text-transform: initial;
+}
+
+/* Bilder vor Amazon/Apotheken/Cellavent-Buttons */
+
+.produkt-button{
+	max-height:1.3em;
+	position:relative;
+	bottom:-5px;
+	margin-right:6px;
+}
+
+/* Bullets */
+/* Bullet-Grafiken sind zu finden bei den Farbschemata */
+
+.bullets{
+	list-style-type: none !important; 
+	counter-reset: li;
+}
+
+.bullets li {
+	font-family: 'Source Sans Pro';
+	font-size:15px;
+	font-weight:600 !important;
+	text-shadow:none !important;
+	list-style:none !important;
+	line-height:1.7em;
+	margin:2em !important;
+}
+
+.bullets li::before{
+	content: counter(li);
+	content:''; 
+	display:block; 
+	height:1.7em !important; 
+	width:1.7em !important; 
+	background-size:contain; 
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin:-16px;
+	left:-0.8em;
+	top:1.2em;
+}
+
+ul.bullets li{
+	text-align:left !important;
+}
+
+/* Formular */
+input.text, input.title, input[type=text], input[type=tel], input[type=email], select, textarea {
+  margin: 0;
+  padding: 10px;
+	width: 100%;
+}
+
+input.text:hover, input.title:hover, input[type=text]:hover, input[type=tel]:hover, input[type=email]:hover, select:hover, textarea:hover {
+  border-color: #92AB2F;
+}
+
+input[type=checkbox] {
+	-webkit-appearance: none;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	/* float: left; */
+	left: -10px;
+	top: 10px;
+}
+
+.wpcf7-submit {
+	float: right;
+}
+
+/* Preis auf Produktseiten */
+.pricetag{
+	font-family: 'Source Sans Pro';
+	font-size:38px;
+	text-shadow:none;
+	color:#333 !important;
+	margin-bottom:0.5em;
+}
+
+/* Siegel neben Preis auf Produktseiten */
+.price-bio img{
+	max-width:60px;
+	height:auto;
+	margin:0px 10px;
+	float:right;
+}
+
+/* Divs zur Darstellung von Content u.a. "Natürlich vs. Synthetisch" */
+.half-div{
+	width:50%;
+	float:left;
+	padding:16px;
+	box-sizing:border-box;
+}
+
+.half-div-nofloat{
+	width:50%;
+	float:none;
+	padding:16px;
+	box-sizing:border-box;
+}
+
+.third-div{
+	width:30%;
+	float:left;
+	margin:10px;
+}
+
+@media screen and (max-width:500px){
+	.half-div{
+	width:100% !important;
+	padding:0 !important;
+	margin-bottom:-40px !important;
+}
+}
+
+/* Überschriften & Texte sind nicht gleich hoch, das führt zu Darstellungsproblemen */
+.gleichmaessig{
+	min-height:13vh;
+}
+
+.h-gleichmaessig{
+	min-height:14vh;
+}
+
+.commitment{
+	min-height:10vh !important;
+}
+
+@media screen and (max-height:800px){
+	.commitment{
+	min-height:23vh !important;
+}
+	.extrawurst{
+		padding:0 !important;
+	}
+}
+
+/* ====== HEADINGS & TEXTE ENDE ====== */
 
 /* ====== SONDERWÜNSCHE ====== */
 
