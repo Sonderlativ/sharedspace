@@ -9,6 +9,7 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * 0645 * === COLOR CHANGES
 * 0647 * Footer
 * 0708 * Submenu Border
+* xxxx * Change Button Color
 * 0777 * Navigation Background
 * 0885 * Logo Desktop
 * 0946 * Logo Responsive
@@ -510,67 +511,67 @@ background: #c1d365 !important;
 
 /* ========== Change Button Color  ========== */
 /* ===== Default/Fallback ===== */
-.cta, .cta_half{
+.cta-test, .cta_half-test{
    background-color: #b5c405;
 }
 
 /* ===== Acurmin ===== */
-.page-id-3261 .cta, .page-id-3261 .cta_half,{
+.page-id-3261 .cta-test, .page-id-3261 .cta_half-test{
    background-color: #f28b00;
 }
 
 /* ===== Gingerin ===== */
-.page-id-4013 .cta, .page-id-4013 .cta_half{
+.page-id-4013 .cta-test, .page-id-4013 .cta_half-test{
    background-color: #bd965c;
 }
 
 /* ===== Vitamin B ===== */
-.page-id-3593 .cta, .page-id-3593 .cta_half{
+.page-id-3593 .cta-test, .page-id-3593 .cta_half-test{
    background-color: #f0827c;
 }
 
 /* ===== Folsäure ===== */
-.page-id-3637 .cta, .page-id-3637 .cta_half{
+.page-id-3637 .cta-test, .page-id-3637 .cta_half-test{
    background-color: #ffd200;
 }
 
 /* ===== Vitamin C ===== */
-.page-id-68 .cta, .page-id-68 .cta_half{
+.page-id-68 .cta-test, .page-id-68 .cta_half-test{
    background-color: #b5c405;
 }
 
 /* ===== Vitamin D3 ===== */
-.page-id-3788 .cta, .page-id-3788 .cta_half{
+.page-id-3788 .cta-test, .page-id-3788 .cta_half-test{
    background-color: #a3ca62;
 }
 
 /* ===== Eisen + C ===== */
-.page-id-3373 .cta, .page-id-3373 .cta_half{
+.page-id-3373 .cta-test, .page-id-3373 .cta_half-test{
    background-color: #73aa50;
 }
 
 /* ===== Calcium ===== */
-.page-id-3345 .cta, .page-id-3345 .cta_half{
+.page-id-3345 .cta-test, .page-id-3345 .cta_half-test{
    background-color: #d1555a;
 }
 
 /* ===== Jod ===== */
-.page-id-3513 .cta, .page-id-3513 .cta_half{
+.page-id-3513 .cta-test, .page-id-3513 .cta_half-test{
    background-color: #1f988a;
 }
 
 /* ===== Magnesium ===== */
-.page-id-3721 .cta, .page-id-3721 .cta_half{
+.page-id-3721 .cta-test, .page-id-3721 .cta_half-test{
    background-color: #4a8c2c;
 }
 
 /* ===== Selen ===== */
-.page-id-3553 .cta, .page-id-3553 .cta_half{
+.page-id-3553 .cta-test, .page-id-3553 .cta_half-test{
    background-color: #f7b435;
 }
 
 /* ===== Zink ===== */
-.page-id-4016 .cta, .page-id-4016 .cta_half{
+.page-id-4016 .cta-test, .page-id-4016 .cta_half-test{
    background-color: #f49491;
 }
 
@@ -1208,6 +1209,28 @@ button a{
 	padding:10px;	
 	text-align:center;
 	cursor:pointer;
+}
+
+.cta-test{
+  width:97%;
+  color:#fff;
+  background:red;
+  padding: 10px;
+  display:block;
+  text-align:center;
+  clear:both;
+  margin:4px 2px;
+}
+
+.cta_half-test{
+  width:47%;
+  color:#fff;
+  background:blue;
+  padding: 10px;
+  display:block !important;
+  text-align:center;
+  float:left;
+  margin:4px 2px;
 }
 
 /* Verfügbarkeit von Produkten */
