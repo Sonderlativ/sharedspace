@@ -1,1 +1,67 @@
+/* ========== H3 Color ========== */
+/* Verändert die Farbe von H3s auf Produktseiten */
 
+/* ===== Default / Fallback ===== */
+h3{
+   color:#b5c405;
+}
+
+/* ===== Acurmin ===== */
+.page-id-3261 h3{
+   color:#f28b00;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 h3{
+   color:#bd965c;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 h3{
+   color:#f0827c;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 h3{
+   color:#ffd200;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 h3{
+   color:#b5c405;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 h3{
+   color:#a3ca62;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 h3{
+   color:#73aa50;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 h3{
+   color:#d1555a;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 h3{
+   color:#1f988a;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 h3{
+   color:#4a8c2c;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 h3{
+   color:#f7b435;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 h3{
+   color:#f49491;
+}
