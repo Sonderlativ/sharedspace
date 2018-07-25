@@ -1,0 +1,60 @@
+.cta-container{
+  display: grid; 
+  grid-template-columns: repeat(2, 50%); 
+  grid-auto-rows: 100%;
+  grid-gap: 4px;
+}
+
+.cta-test{
+  color:#fff !important;
+	text-transform:uppercase;
+	text-shadow:none;
+	font-weight:bold;
+  padding: 10px;
+  display:block;
+  text-align:center;
+}
+
+.cellavent{
+	grid-column-start: 1; 
+  grid-column-end: 2; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+}
+
+.apotheke{
+	grid-column-start: 2; 
+  grid-column-end: 3; 
+  grid-row-start: 1; 
+  grid-row-end: 2;
+}
+
+.amazon{
+  grid-column-start: 1; 
+  grid-column-end: 3; 
+  grid-row-start: 2; 
+  grid-row-end: 2; 
+}
+
+@media screen and (max-width:500px){
+	.cellavent{
+	grid-column-start: 1; 
+  grid-column-end: 3; 
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+}
+
+.apotheke{
+	grid-column-start: 1; 
+  grid-column-end: 3; 
+  grid-row-start: 2; 
+  grid-row-end: 3;
+}
+
+.amazon{
+  grid-column-start: 1; 
+  grid-column-end: 3; 
+  grid-row-start: 3; 
+  grid-row-end: 4; 
+}
+}
