@@ -508,6 +508,74 @@ background: #c1d365 !important;
 }
 }
 
+/* ========== Change Button Color  ========== */
+/* ===== Default/Fallback ===== */
+.cta, .cta_half{
+   background-color: #b5c405;
+}
+
+/* ===== Acurmin ===== */
+.page-id-3261 .cta, .page-id-3261 .cta_half,{
+   background-color: #f28b00;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 .cta, .page-id-4013 .cta_half{
+   background-color: #bd965c;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 .cta, .page-id-3593 .cta_half{
+   background-color: #f0827c;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 .cta, .page-id-3637 .cta_half{
+   background-color: #ffd200;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 .cta, .page-id-68 .cta_half{
+   background-color: #b5c405;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 .cta, .page-id-3788 .cta_half{
+   background-color: #a3ca62;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 .cta, .page-id-3373 .cta_half{
+   background-color: #73aa50;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 .cta, .page-id-3345 .cta_half{
+   background-color: #d1555a;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 .cta, .page-id-3513 .cta_half{
+   background-color: #1f988a;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 .cta, .page-id-3721 .cta_half{
+   background-color: #4a8c2c;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 .cta, .page-id-3553 .cta_half{
+   background-color: #f7b435;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 .cta, .page-id-4016 .cta_half{
+   background-color: #f49491;
+}
+
+/* ========== END  ========== */
+
 /* Navigation Background */
 /* ===== Default/Fallback ===== */
 .et_vertical_nav.et_vertical_fixed #page-container #main-header{
