@@ -580,67 +580,67 @@ background: #c1d365 !important;
 
 /* ========== Change Themenwelten Background Color  ========== */
 /* ===== Default/Fallback ===== */
-.thema{
+.thema, .thema-6{
    background-color: #b5c405;
 }
 
 /* ===== Acurmin ===== */
-.page-id-3261 .thema{
+.page-id-3261 .thema, .page-id-3261 .thema-6{
    background-color: #f28b00;
 }
 
 /* ===== Gingerin ===== */
-.page-id-4013 .thema{
+.page-id-4013 .thema, .page-id-4013 .thema-6{
    background-color: #bd965c;
 }
 
 /* ===== Vitamin B ===== */
-.page-id-3593 .thema{
+.page-id-3593 .thema, .page-id-3593 .thema-6{
    background-color: #f0827c;
 }
 
 /* ===== Folsäure ===== */
-.page-id-3637 .thema{
+.page-id-3637 .thema, .page-id-3637 .thema-6{
    background-color: #ffd200;
 }
 
 /* ===== Vitamin C ===== */
-.page-id-68 .thema{
+.page-id-68 .thema, .page-id-68 .thema-6{
    background-color: #b5c405;
 }
 
 /* ===== Vitamin D3 ===== */
-.page-id-3788 .thema{
+.page-id-3788 .thema, .page-id-3788 .thema-6{
    background-color: #a3ca62;
 }
 
 /* ===== Eisen + C ===== */
-.page-id-3373 .thema{
+.page-id-3373 .thema, .page-id-3373 .thema-6{
    background-color: #73aa50;
 }
 
 /* ===== Calcium ===== */
-.page-id-3345 .thema{
+.page-id-3345 .thema, .page-id-3345 .thema-6{
    background-color: #d1555a;
 }
 
 /* ===== Jod ===== */
-.page-id-3513 .thema{
+.page-id-3513 .thema, .page-id-3513 .thema-6{
    background-color: #1f988a;
 }
 
 /* ===== Magnesium ===== */
-.page-id-3721 .thema{
+.page-id-3721 .thema, .page-id-3721 .thema-6{
    background-color: #4a8c2c;
 }
 
 /* ===== Selen ===== */
-.page-id-3553 .thema{
+.page-id-3553 .thema, .page-id-3553 .thema-6{
    background-color: #f7b435;
 }
 
 /* ===== Zink ===== */
-.page-id-4016 .thema{
+.page-id-4016 .thema, .page-id-4016 .thema-6{
    background-color: #f49491;
 }
 
