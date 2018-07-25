@@ -1,135 +1,135 @@
 /* ========== Change Themenwelten Background Color  ========== */
 /* ===== Default/Fallback ===== */
-.thema{
+.thema, .thema-6{
    background-color: #b5c405;
 }
 
 /* ===== Acurmin ===== */
-.page-id-3261 .thema{
+.page-id-3261 .thema, .page-id-3261 .thema-6{
    background-color: #f28b00;
 }
 
 /* ===== Gingerin ===== */
-.page-id-4013 .thema{
+.page-id-4013 .thema, .page-id-4013 .thema-6{
    background-color: #bd965c;
 }
 
 /* ===== Vitamin B ===== */
-.page-id-3593 .thema{
+.page-id-3593 .thema, .page-id-3593 .thema-6{
    background-color: #f0827c;
 }
 
 /* ===== Folsäure ===== */
-.page-id-3637 .thema{
+.page-id-3637 .thema, .page-id-3637 .thema-6{
    background-color: #ffd200;
 }
 
 /* ===== Vitamin C ===== */
-.page-id-68 .thema{
+.page-id-68 .thema, .page-id-68 .thema-6{
    background-color: #b5c405;
 }
 
 /* ===== Vitamin D3 ===== */
-.page-id-3788 .thema{
+.page-id-3788 .thema, .page-id-3788 .thema-6{
    background-color: #a3ca62;
 }
 
 /* ===== Eisen + C ===== */
-.page-id-3373 .thema{
+.page-id-3373 .thema, .page-id-3373 .thema-6{
    background-color: #73aa50;
 }
 
 /* ===== Calcium ===== */
-.page-id-3345 .thema{
+.page-id-3345 .thema, .page-id-3345 .thema-6{
    background-color: #d1555a;
 }
 
 /* ===== Jod ===== */
-.page-id-3513 .thema{
+.page-id-3513 .thema, .page-id-3513 .thema-6{
    background-color: #1f988a;
 }
 
 /* ===== Magnesium ===== */
-.page-id-3721 .thema{
+.page-id-3721 .thema, .page-id-3721 .thema-6{
    background-color: #4a8c2c;
 }
 
 /* ===== Selen ===== */
-.page-id-3553 .thema{
+.page-id-3553 .thema, .page-id-3553 .thema-6{
    background-color: #f7b435;
 }
 
 /* ===== Zink ===== */
-.page-id-4016 .thema{
+.page-id-4016 .thema, .page-id-4016 .thema-6{
    background-color: #f49491;
 }
 
 /* ========== END  ========== */
 
-/* ========== Change Themenwelten Background Color  ========== */
+/* ========== Change Themenwelten Link Color  ========== */
 /* ===== Default/Fallback ===== */
-.thema{
-   background-color: #b5c405;
+.thema .cta-test, .thema-6 .cta-test{
+   color: #b5c405 !important;
 }
 
 /* ===== Acurmin ===== */
-.page-id-3261 .thema{
-   background-color: #f28b00;
+.page-id-3261 .thema .cta-test, .page-id-3261 .thema-6 .cta-test{
+   color: #f28b00 !important;
 }
 
 /* ===== Gingerin ===== */
-.page-id-4013 .thema{
-   background-color: #bd965c;
+.page-id-4013 .thema .cta-test, .page-id-4013 .thema-6 .cta-test{
+   color: #bd965c !important;
 }
 
 /* ===== Vitamin B ===== */
-.page-id-3593 .thema{
-   background-color: #f0827c;
+.page-id-3593 .thema .cta-test, .page-id-3593 .thema-6 .cta-test{
+   color: #f0827c !important;
 }
 
 /* ===== Folsäure ===== */
-.page-id-3637 .thema{
-   background-color: #ffd200;
+.page-id-3637 .thema .cta-test, .page-id-3637 .thema-6 .cta-test{
+   color: #ffd200 !important;
 }
 
 /* ===== Vitamin C ===== */
-.page-id-68 .thema{
-   background-color: #b5c405;
+.page-id-68 .thema .cta-test, .page-id-68 .thema-6 .cta-test{
+   color: #b5c405 !important;
 }
 
 /* ===== Vitamin D3 ===== */
-.page-id-3788 .thema{
-   background-color: #a3ca62;
+.page-id-3788 .thema .cta-test, .page-id-3788 .thema-6 .cta-test{
+   color: #a3ca62 !important;
 }
 
 /* ===== Eisen + C ===== */
-.page-id-3373 .thema{
-   background-color: #73aa50;
+.page-id-3373 .thema .cta-test, .page-id-3373 .thema-6 .cta-test{
+   color: #73aa50 !important;
 }
 
 /* ===== Calcium ===== */
-.page-id-3345 .thema{
-   background-color: #d1555a;
+.page-id-3345 .thema .cta-test, .page-id-3345 .thema-6 .cta-test{
+   color: #d1555a !important;
 }
 
 /* ===== Jod ===== */
-.page-id-3513 .thema{
-   background-color: #1f988a;
+.page-id-3513 .thema .cta-test, .page-id-3513 .thema-6 .cta-test{
+   color: #1f988a !important;
 }
 
 /* ===== Magnesium ===== */
-.page-id-3721 .thema{
-   background-color: #4a8c2c;
+.page-id-3721 .thema .cta-test, .page-id-3721 .thema-6 .cta-test{
+   color: #4a8c2c !important;
 }
 
 /* ===== Selen ===== */
-.page-id-3553 .thema{
-   background-color: #f7b435;
+.page-id-3553 .thema .cta-test, .page-id-3553 .thema-6 .cta-test{
+   color: #f7b435 !important;
 }
 
 /* ===== Zink ===== */
-.page-id-4016 .thema{
-   background-color: #f49491;
+.page-id-4016 .thema .cta-test, .page-id-4016 .thema-6 .cta-test{
+   color: #f49491 !important;
 }
 
 /* ========== END  ========== */
