@@ -1,1 +1,68 @@
+/* ========== Change Bullet Icon  ========== */
 
+/* ===== Default/Fallback ===== */
+.bullets li::before{
+	background-image:url(/wp-content/uploads/icon-phytholistic-amla-beere-vitamin-c-leaf.png);
+}
+
+/* ===== Acurmin ===== */
+.page-id-3261 .bullets li::before{
+   background-image:url(/wp-content/uploads/Icon-acurmin-Bio-curcuma-phytholistic-blatt.png);
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-gingerin-ingwer-phytholistic-blatt.png);
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-vitamin-b-bio-guave-zitronenschale-basilikum-phytholistic-blatt.png);
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-folsaeure-zitronenschale-phytholistic-blatt.png);
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-phytholistic-amla-beere-vitamin-c-leaf.png);
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-vitamin-d3-flechte-phytholistic-blatt.png);
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-eisen-Bio-curryblatt-amlabeere-phytholistic-blatt.png);
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 .bullets li::before{
+   background-image:url(/wp-content/uploads/Icon-calcium-bio-rotalge-phytholistic-blatt.png);
+}
+
+/* ===== Jod ===== */
+.page-id-3513 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-jod-bio-braunalgen-phytholistic-blatt.png);
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-magnesium-bio-meerlattich-phytholistic-blatt.png);
+}
+
+/* ===== Selen ===== */
+.page-id-3553 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-selen-bio-senfkoerner-phytholistic-blatt.png);
+}
+
+/* ===== Zink ===== */
+.page-id-4016 .bullets li::before{
+   background-image:url(/wp-content/uploads/icon-Zink-Bio-guavenblaetter-phytholistic-blatt.png);
+}
+
+/* ========== END  ========== */
