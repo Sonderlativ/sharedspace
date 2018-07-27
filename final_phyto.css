@@ -716,6 +716,74 @@ h3{
 
 /* ========== END  ========== */
 
+/* ========== Change Themenwelten Link Color  ========== */
+/* ===== Default/Fallback ===== */
+.thema .cta-test, .thema-6 .cta-test{
+   color: #b5c405 !important;
+}
+
+/* ===== Acurmin ===== */
+.page-id-3261 .thema .cta-test, .page-id-3261 .thema-6 .cta-test{
+   color: #f28b00 !important;
+}
+
+/* ===== Gingerin ===== */
+.page-id-4013 .thema .cta-test, .page-id-4013 .thema-6 .cta-test{
+   color: #bd965c !important;
+}
+
+/* ===== Vitamin B ===== */
+.page-id-3593 .thema .cta-test, .page-id-3593 .thema-6 .cta-test{
+   color: #f0827c !important;
+}
+
+/* ===== Folsäure ===== */
+.page-id-3637 .thema .cta-test, .page-id-3637 .thema-6 .cta-test{
+   color: #ffd200 !important;
+}
+
+/* ===== Vitamin C ===== */
+.page-id-68 .thema .cta-test, .page-id-68 .thema-6 .cta-test{
+   color: #b5c405 !important;
+}
+
+/* ===== Vitamin D3 ===== */
+.page-id-3788 .thema .cta-test, .page-id-3788 .thema-6 .cta-test{
+   color: #a3ca62 !important;
+}
+
+/* ===== Eisen + C ===== */
+.page-id-3373 .thema .cta-test, .page-id-3373 .thema-6 .cta-test{
+   color: #73aa50 !important;
+}
+
+/* ===== Calcium ===== */
+.page-id-3345 .thema .cta-test, .page-id-3345 .thema-6 .cta-test{
+   color: #d1555a !important;
+}
+
+/* ===== Jod ===== */
+.page-id-3513 .thema .cta-test, .page-id-3513 .thema-6 .cta-test{
+   color: #1f988a !important;
+}
+
+/* ===== Magnesium ===== */
+.page-id-3721 .thema .cta-test, .page-id-3721 .thema-6 .cta-test{
+   color: #4a8c2c !important;
+}
+
+/* ===== Selen ===== */
+.page-id-3553 .thema .cta-test, .page-id-3553 .thema-6 .cta-test{
+   color: #f7b435 !important;
+}
+
+/* ===== Zink ===== */
+.page-id-4016 .thema .cta-test, .page-id-4016 .thema-6 .cta-test{
+   color: #f49491 !important;
+}
+
+/* ========== END  ========== */
+
 /* ========== Change Bullet Icon  ========== */
 
 /* ===== Default/Fallback ===== */
