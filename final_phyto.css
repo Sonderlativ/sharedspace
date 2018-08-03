@@ -2064,6 +2064,7 @@ height: 100%;
 	display:flex;
 	flex-direction:column !important;
 	justify-content: space-between;
+	width:100%;
 }
 
 /* Links in Navigation */
