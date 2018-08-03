@@ -2,6 +2,35 @@
 Aus irgendeinem Grund entfernt Divi wohl gerne mal zuvor festgelegte Alignment-Einstellungen. Einfach betroffenes Modul öffnen, 
 Design-Tab öffnen und Text-Alignment auf gewünschte Ausrichtung, z.B. zentriert, stellen.
 
+### Das Segment wird scheinbar grundlos total komisch angezeigt ###
+Grundsätzlich solltest du vor Behandlung eines Anzeigefehlers erst einmal folgendes checken:
+Hat das Segment mehr als eine Reihe?
+
+Nein -> Vermutlich liegt der Fehler in den Modulen, in dem Fall ist es wohl leider ein Anwendungsfehler beim Erstellen der Inhalte.
+
+Ja, mehr als eine Reihe -> Bitte einmal die Sektion öffnen, in den Tab Erweitert wechseln und einmal prüfen, ob bei den CSS-Klassen
+auch vcenter auftaucht. Falls ja, dann ist höchstwarscheinlich das die Ursache. Einfach die Klasse rausschmeißen. Ich benutze diese
+Klasse, um Inhalte vertikal zu zentrieren, weil Divi doof ist. Leider funktioniert das aber nur, wenn der gesamte Inhalt der Sektion
+in einer Reihe ist.
+
+Mir ist teilweise aufgefallen, dass - aus irgendeinem Grund - die Klasse vcenter in Reihen auftaucht. Ich schwöre, dass
+ich sie dort nicht hinterlegt habe. Mein Tipp ist, dass Divi teilweise beim Duplizieren von Sektionen durcheinander kommt? Im
+Zweifelsfall lohnt sich bei Anzeigefehlern also trotz allem ein Blick auf die Klassen. Mir ist das bisher nur ein einziges Mal
+untergekommen, aber ich habe mich zuvor dumm und dusselig gesucht. Lieber einmal zu oft checken und sich Gram ersparen als einmal
+zu wenig.
+
+### Nebeneinander stehende Inhalte sind nicht auf selber Höhe ###
+Erneut: ich weiß nicht, wieso dieser Fehler existiert. Bitte einmal die Reihe öffnen, in der sich diese beiden Module befinden,
+Design-Tab öffnen und bei "Spaltenhöhe angleichen" Nein auswählen. Ich habe diese Option eigentlich anno dazumal standardmäßig
+auf Nein gesetzt. Karina hat trotzdem immer wieder Module in ihren Seiten, die hier Ja statt Nein ausgewählt haben.
+
+### Da ist ein komischer Abstand ###
+Teilweise erstellt Divi Reihen, die einen vordefinierten Abstand haben. Ich habe gaaaaanz am Anfang, als es zunächst hieß,
+dass ich keine Slider benutzen kann, tatsächlich einmal versucht, Inhalte über Padding vertikal zu zentrieren. Wie du weißt benutze
+ich dafür inzwischen die Klasse vcenter. Trotzdem hat Karina teilweise Reihen in ihren Segmenten, die im Design-Tab ein Padding von
+5em bis 10em zugewiesen haben. Bitte einfach einmal komplett rausschmeißen. Ich verstehe nicht, woher diese Reihen kommen, da ich in
+meinen Sektionen inzwischen durchweg auf die Klasse vcenter setze.
+
 ### Bild ist zu breit ###
 Ich lege Bilder, wenn möglich, als eigenes Bildmodul an. Ich weiß, dass du auf der WO lieber Textmodule dafür benutzt, aber mir kam es
 einfacher vor, über das Modul ein Bild zuzuweisen, statt jedes Mal zu riskieren, dass jemand nicht den relativen, sondern den absoluten
