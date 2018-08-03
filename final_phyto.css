@@ -2206,7 +2206,7 @@ height: 100%;
 }
 
 /* Slider für Produkte */
-#slider_2470 .slider-bild{
+/*#slider_2470 .slider-bild{
 	height:300px;
 }
 
@@ -2223,7 +2223,7 @@ height: 100%;
 	/*-webkit-box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);
 -moz-box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);
 box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
-	cursor:pointer;
+/*	cursor:pointer;
 }
 
 #slider_2470 .owl-nav{
@@ -2234,6 +2234,10 @@ box-shadow: 0px 0px 45px 7px rgba(0,0,0,0.24);*/
 
 #slider_2470 .owl-nav button{
 	min-width: 48% !important;
+}*/
+
+.owl-nav button{
+min-width:0% !important;
 }
 
 /* ====== SONDERWÜNSCHE ENDE ====== */
