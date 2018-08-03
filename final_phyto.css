@@ -64,6 +64,8 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * 1718 * Fix für vert. zent. für mehrere Rows
 * 1750 * Elemente sollen 100vh einnehmen
 * xxxx * Hover-Element von Gingerin
+* xxxx * Slider-Breite
+* xxxx * Slider mobil kaputt
 * 1779 * === MOBILE ANPASSUNGEN
 * 1781 * #sticker-Box auf kleinen Displays
 * xxxx * Logo-Position auf mobilen Endgeräten
@@ -2362,6 +2364,23 @@ margin-right: 0;
 }
 .page-id-2 .et_pb_column_9{
 	z-index:99;
+}
+
+/* Slider sind aus Gründen nicht 100% breit */
+.et_pb_slider .et_pb_container{
+	width:100%;
+}
+
+/* Slider sollen mobil mehr Padding haben, außerdem soll die Punktnavigation mobil weniger Abstand vom unteren Rand haben */
+
+@media (max-width:767px){
+	.et_pb_slide{
+		padding:0 13%;
+	}
+	
+	.et-pb-controllers{
+		bottom:1%;
+	}
 }
 
 /* ====== DIVI BUGS ENDE ====== */
