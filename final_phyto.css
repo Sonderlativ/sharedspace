@@ -66,6 +66,7 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * xxxx * Hover-Element von Gingerin
 * 1779 * === MOBILE ANPASSUNGEN
 * 1781 * #sticker-Box auf kleinen Displays
+* xxxx * Logo-Position auf mobilen Endgeräten
 * xxxx * Grafik zu groß, warte auf Korrektur
 
 ============================= */
@@ -2389,6 +2390,29 @@ margin-right: 0;
 	}
 	.produkt img{
 		max-height:15vh;
+	}
+}
+
+/* Logo-Grafik ist auf Handy & Tablet falsch positioniert */
+
+@media (max-width:980px){
+	#logo{
+		position:relative;
+		bottom:2%;
+		max-height:35px;
+	}
+	#et_search_icon:before{
+		font-size:25px;
+		padding-top:7px;
+	}
+	.mobile_menu_bar:before{
+		font-size:54px;
+	}
+	.et_header_style_left .mobile_menu_bar{
+		padding-bottom:0px;
+	}
+	.et_vertical_nav.et_vertical_fixed #page-container #main-header{
+		padding-top:0px;
 	}
 }
 
