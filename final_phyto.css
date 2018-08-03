@@ -1213,6 +1213,11 @@ h3{
 	top:-15vh !important;
 }
 }
+	
+/* Zur richtigen Anzeige den Abstand zwischen Menuepunkten erhöhen */
+.nav li {
+	line-height: 3em;
+}
 
 /* Acurmin */
 .menu-item-3898 a::before{
