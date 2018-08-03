@@ -1,1 +1,28 @@
+### Element weggerutscht / Zentrierung fehlt ###
+Aus irgendeinem Grund entfernt Divi wohl gerne mal zuvor festgelegte Alignment-Einstellungen. Einfach betroffenes Modul öffnen, 
+Design-Tab öffnen und Text-Alignment auf gewünschte Ausrichtung, z.B. zentriert, stellen.
 
+### Bild ist zu breit ###
+Ich lege Bilder, wenn möglich, als eigenes Bildmodul an. Ich weiß, dass du auf der WO lieber Textmodule dafür benutzt, aber mir kam es
+einfacher vor, über das Modul ein Bild zuzuweisen, statt jedes Mal zu riskieren, dass jemand nicht den relativen, sondern den absoluten
+Pfad des Bildes in das Modul kopiert.
+Wenn Karina ein Bild zu breit ist, dann stelle ich im Design-Tag des Bild-Moduls die Property Width meistens auf 65%, teilweise gibt es
+sehr vereinzelt kleinere Werte, das ist dann z.B. bei eingebundenen Logos auf der Acurmin-Seite der Fall. Wenn du zuvor eine festgelegte
+Pixelbreite hast, dann kannst du natürlich auch einfach ein neues Bild hochladen. Ich habe diese Lösung bevorzugt, da sich die gewünschte
+Bildgröße gerne einmal ändert und ich nicht jedes Mal eine neue Grafik erstellen wollte. Zudem ist es so viel einfacher das nächste
+Anliegen zu lösen:
+
+### Der Text soll aber genau so breit wie das Bild sein ###
+Grafiken, die zu breit sind, haben oft einen erklärenden Text unter sich stehen. Es wird aber quasi immer verlangt, dass der erklärende
+Text haargenau so breit ist, wie das Bild darüber. Wenn ich jetzt jedes Mal ein neues Bild in passender Größe erstellen würde, wäre das ein
+absolutes Chaos, weil ich zu viele <div>s mit speziellen Größen erstellen müsste.
+So kann ich einfach den Wert der Width-Property des Bildes für die Width-Property des Textmoduls übernehmen und wenn ich das Bild größer
+oder kleiner machen muss, sind das nur ein paar Klicks, ohne CSS/Grafik-Änderungen.
+
+### Die Überschrift / der Link / Button / das Logo hat die falsche Farbe ###
+Bei korrekter Anwendung ist das unmöglich. Ich habe im CSS per Page-ID automatisch Farbwerte, Menübildchen und Logos zugewiesen. Wenn
+dieser Fehler auftritt, dann sind noch irgendwo die Farbklassen (z.B. vitc_bg) in Benutzung. Ich habe diese Klassen drin gelassen, für den
+Fall, dass z.B. einmal auf der Eisen-Seite ein Element in Vitamin C Farben gebaut werden soll.
+!!! Karina bemängelt teilweise auf ihren Duplikatsseiten, dass sie die falschen Farben sieht. Das ist vollkommen logisch und kann in der
+Regel ignoriert werden. Ich habe natürlich nur für die im Menü verlinkten Seiten per Page-ID Farben etc. hinterlegt und nicht die zig
+Duplikate nachgehalten. Auf den Duplikatsseiten sollten die Fallback-Werte greifen, das sind die Farben & Grafiken von Vitamin C.
