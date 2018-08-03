@@ -26,3 +26,10 @@ Fall, dass z.B. einmal auf der Eisen-Seite ein Element in Vitamin C Farben gebau
 !!! Karina bemängelt teilweise auf ihren Duplikatsseiten, dass sie die falschen Farben sieht. Das ist vollkommen logisch und kann in der
 Regel ignoriert werden. Ich habe natürlich nur für die im Menü verlinkten Seiten per Page-ID Farben etc. hinterlegt und nicht die zig
 Duplikate nachgehalten. Auf den Duplikatsseiten sollten die Fallback-Werte greifen, das sind die Farben & Grafiken von Vitamin C.
+
+### Hintergrundfarbe ist falsch ###
+Grundsätzlich wird Karina dir sagen, bei welchem Element sie welchen Hintergrund haben möchte. Der Einfachheit zuliebe hier eine Referenz
+für verwendete Farbcodes:
+weiß - #fff
+grau - #f6f6f6
+braun - #dad7c2
