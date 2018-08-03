@@ -21,6 +21,8 @@ Zeilenangaben stimmen nicht mehr, da editiert
 * 1010 * Menüpunkte m. Bildern
 * xxxx * Change Link Color
 * 0373 * === HEADINGS & TEXTE
+* xxxx * sup
+* xxxx * UVP neben Preis
 * 0375 * H1
 * 0384 * H2
 * 0394 * H3
@@ -1350,6 +1352,14 @@ content:url(/wp-content/uploads/105x75-zink.png);
 /* ====== COLOR CHANGES ENDE ====== */
 
 /* ====== HEADINGS & TEXTE ====== */
+
+sup {
+	bottom:0.5em;
+}
+
+.uvp{
+	font-size:14px;
+}
 
 h1, .et_pb_slide_content h1{
 	font-family: 'Source Sans Pro';
